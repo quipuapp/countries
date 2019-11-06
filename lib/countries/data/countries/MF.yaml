@@ -7,7 +7,7 @@ MF:
   international_prefix: ''
   ioc: 
   gec: RN
-  name: Saint Martin
+  name: Saint Martin (French part)
   national_destination_code_lengths: []
   national_number_lengths: []
   national_prefix: ''
@@ -15,12 +15,12 @@ MF:
   region: Americas
   subregion: Caribbean
   world_region: AMER
-  un_locode: 
+  un_locode: MF
   nationality: Saint Martin Islander
   postal_code: true
   unofficial_names:
   - Saint Martin
-  - "サン・マルタン（フランス領）"
+  - サン・マルタン（フランス領）
   - Saint-Martin
   languages_official:
   - en
@@ -35,15 +35,16 @@ MF:
     latitude_dec: '18.042224884033203'
     longitude: -63.05225100000001
     longitude_dec: "-63.06623458862305"
-    max_latitude: 18.1251674
-    max_longitude: -62.9705335
-    min_latitude: 18.0465858
-    min_longitude: -63.15359
+    max_latitude: 18.1356001
+    max_longitude: -62.9613001
+    min_latitude: 18.0462883
+    min_longitude: -63.1630001
     bounds:
       northeast:
-        lat: 18.1251674
-        lng: -62.9705335
+        lat: 18.1356001
+        lng: -62.9613001
       southwest:
-        lat: 18.0465858
-        lng: -63.15359
+        lat: 18.0462883
+        lng: -63.1630001
   currency_code: EUR
+  start_of_week: monday

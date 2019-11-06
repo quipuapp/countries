@@ -9,16 +9,16 @@ Gem::Specification.new do |gem|
   gem.homepage      = 'http://github.com/hexorx/countries'
 
   gem.files         = `git ls-files`.split($OUTPUT_RECORD_SEPARATOR)
-  gem.executables   = gem.files.grep(%r{^bin/}).map { |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = 'countries'
   gem.require_paths = ['lib']
-  gem.version       = Countries::VERSION
+  gem.version       = Countries::VERSION.dup
   gem.license       = 'MIT'
 
-  gem.add_dependency('i18n_data', '~> 0.7.0')
-  gem.add_dependency('money', '~> 6.0')
+  gem.add_dependency('i18n_data', '~> 0.10.0')
   gem.add_dependency('unicode_utils', '~> 1.4')
+  gem.add_dependency('sixarm_ruby_unaccent', '~> 1.1')
   gem.add_development_dependency('rspec', '>= 3')
   gem.add_development_dependency('activesupport', '>= 3')
+  gem.add_development_dependency('nokogiri', '>= 1.8')
 end

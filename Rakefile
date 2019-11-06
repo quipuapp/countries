@@ -3,12 +3,13 @@ require 'bundler/gem_tasks'
 
 require 'rake'
 require 'rspec/core/rake_task'
+
 ISO3166_ROOT_PATH = File.dirname(__FILE__)
 Dir.glob('lib/countries/tasks/*.rake').each { |r| load r }
 
 desc 'Run all examples'
 RSpec::Core::RakeTask.new(:spec) do |t|
-  t.rspec_opts = %w(--color --warnings)
+  t.rspec_opts = %w[--color --warnings]
 end
 
 task default: [:spec]
@@ -46,6 +47,13 @@ task :update_yaml_structure do
   end
 end
 
+desc 'Update CLDR subdivison data set'
+task :update_cldr_subdivison_data do
+  require_relative './lib/countries/sources'
+  Sources::CLDR::Downloader.subdivisions
+  Sources::CLDR::SubdivisionUpdater.new.call
+end
+
 desc 'Update Cache'
 task :update_cache do
   require 'yaml'
@@ -56,7 +64,8 @@ task :update_cache do
 
   corrections = YAML.load_file(File.join(File.dirname(__FILE__), 'lib', 'countries', 'data', 'translation_corrections.yaml')) || {}
 
-  I18nData.languages.keys.each do |locale|
+  language_keys = I18nData.languages.keys + ['zh_CN', 'zh_TW', 'zh_HK','bn_IN','pt_BR']
+  language_keys.each do |locale|
     locale = locale.downcase
     begin
       local_names = I18nData.countries(locale)
@@ -71,7 +80,7 @@ task :update_cache do
       end
     end
 
-    File.open(File.join(File.dirname(__FILE__), 'lib', 'countries', 'cache', 'locales', "#{locale}.json"), 'wb') { |f| f.write(local_names.to_json) }
+    File.open(File.join(File.dirname(__FILE__), 'lib', 'countries', 'cache', 'locales', "#{locale.gsub(/_/, '-')}.json"), 'wb') { |f| f.write(local_names.to_json) }
   end
 
   codes.each do |alpha2|

@@ -39,7 +39,7 @@ SE:
   - Schweden
   - Suède
   - Suecia
-  - "スウェーデン"
+  - スウェーデン
   - Zweden
   languages_official:
   - sv
@@ -62,3 +62,4 @@ SE:
         lat: 55.0059799
         lng: 10.5798
   currency_code: SEK
+  start_of_week: monday

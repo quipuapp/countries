@@ -12,7 +12,7 @@ MK:
   international_prefix: '00'
   ioc: MKD
   gec: MK
-  name: Macedonia, the Former Yugoslav Republic Of
+  name: North Macedonia
   national_destination_code_lengths:
   - 2
   national_number_lengths:
@@ -31,9 +31,10 @@ MK:
   - Mazedonien
   - Macédoine
   - F.Y.R.O.M (Macedonia)
-  - "マケドニア旧ユーゴスラビア共和国"
+  - マケドニア旧ユーゴスラビア共和国
   - Macedonië [FYROM]
   - Macedonia (The Former Yugoslav Republic of)
+  - North Macedonia
   languages_official:
   - mk
   languages_spoken:
@@ -43,8 +44,16 @@ MK:
     latitude_dec: '41.60045623779297'
     longitude: 21.745275
     longitude_dec: '21.700895309448242'
-    max_latitude: 42.3736459
-    max_longitude: 23.0340929
+    max_latitude: 42.373646
+    max_longitude: 23.034093
     min_latitude: 40.8537826
     min_longitude: 20.452423
+    bounds:
+      northeast:
+        lat: 42.373646
+        lng: 23.034093
+      southwest:
+        lat: 40.8537826
+        lng: 20.452423
   currency_code: MKD
+  start_of_week: monday

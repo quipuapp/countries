@@ -1,5 +1,10 @@
 require 'geocoder'
 require 'retryable'
+
+Geocoder.configure(
+  timeout: 10
+)
+
 # raise on geocoding errors such as query limit exceeded
 Geocoder.configure(always_raise: :all)
 # Try to geocode a given query, on exceptions it retries up to 3 times then gives up.
@@ -27,7 +32,7 @@ def country_codes
 end
 
 namespace :geocode do
-  desc 'Retrieve and store subdivisions coordinates'
+  desc 'Retrieve and store countries coordinates'
   task :fetch_countries do
     require 'countries'
     # Iterate over countries
@@ -36,8 +41,12 @@ namespace :geocode do
       # Load unmutated yaml file.
       data = load_country_yaml(country.alpha2)
 
-      next unless (result = geocode(country.name))
+      lookup = "#{country.alpha2} country"
+      # LU country lookup appears to match to Los Angeles
+      lookup = country.name if country.alpha2 == 'LU'
 
+      next unless (result = geocode(lookup))
+      puts 'WARNING:: Geocoder returned something that was not a country' unless result.types.include?('country')
       geometry = result.geometry
 
       # Extract center point data
@@ -61,12 +70,12 @@ namespace :geocode do
 
   desc 'Retrieve and store subdivisions coordinates'
   task :fetch_subdivisions do
-    require 'countries'
+    require_relative '../../countries'
     # Iterate all countries with subdivisions
     ISO3166::Country.all.select(&:subdivisions?).each do |c|
       # Iterate subdivisions
       state_data = c.subdivisions.dup
-      state_data.reject { |_, data| data['latitude'] }.each do |code, data|
+      state_data.reject { |_, data| data['geo'] }.each do |code, data|
         location = "#{data['name']}, #{c.name}"
 
         # Handle special geocoding cases where Google defaults to well known
@@ -78,6 +87,7 @@ namespace :geocode do
         next unless (result = geocode(location))
         geometry = result.geometry
         if geometry['location']
+          state_data[code]['geo'] ||= {}
           state_data[code]['geo']['latitude'] = geometry['location']['lat']
           state_data[code]['geo']['longitude'] = geometry['location']['lng']
         end

@@ -3,11 +3,12 @@ KN:
   continent: North America
   alpha2: KN
   alpha3: KNA
-  country_code: '1869'
+  country_code: '1'
+  nanp_prefix: '1869'
   international_prefix: '011'
   ioc: SKN
   gec: SC
-  name: Saint Kitts And Nevis
+  name: Saint Kitts and Nevis
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -25,7 +26,7 @@ KN:
   - Föderation St. Kitts und Nevis
   - Saint Kitts et Nevis
   - Saint Kitts y Nevis
-  - "セントクリストファー・ネイビス"
+  - セントクリストファー・ネイビス
   - Saint Kitts en Nevis
   - St. Kitts and Nevis
   - St Kitts and Nevis
@@ -38,15 +39,16 @@ KN:
     latitude_dec: '17.24447250366211'
     longitude: -62.782998
     longitude_dec: "-62.643184661865234"
-    max_latitude: 17.4180706
-    max_longitude: -62.5396309
-    min_latitude: 17.0941117
-    min_longitude: -62.8642646
+    max_latitude: 17.4205891
+    max_longitude: -62.52369989999999
+    min_latitude: 17.07861
+    min_longitude: -62.86949999999999
     bounds:
       northeast:
-        lat: 17.4180706
-        lng: -62.5396309
+        lat: 17.4205891
+        lng: -62.52369989999999
       southwest:
-        lat: 17.0941117
-        lng: -62.8642646
+        lat: 17.07861
+        lng: -62.86949999999999
   currency_code: XCD
+  start_of_week: monday

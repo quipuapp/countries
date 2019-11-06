@@ -5,7 +5,7 @@ SS:
   alpha3: SSD
   country_code: '211'
   international_prefix: '0'
-  ioc: 
+  ioc:
   gec: OD
   name: South Sudan
   national_destination_code_lengths:
@@ -17,12 +17,13 @@ SS:
   region: Africa
   subregion: Northern Africa
   world_region: EMEA
+  un_locode: SS
   nationality: South Sudanese
   postal_code: true
   unofficial_names:
   - South Sudan
   - Südsudan
-  - "南スーダン"
+  - 南スーダン
   - Zuid-Soedan
   languages_official:
   - ar
@@ -35,15 +36,16 @@ SS:
     latitude_dec: '7.303858280181885'
     longitude: 31.3069788
     longitude_dec: '30.280752182006836'
-    max_latitude: 12.2363889
-    max_longitude: 35.948997
+    max_latitude: 12.236389
+    max_longitude: 35.9489971
     min_latitude: 3.48898
-    min_longitude: 23.440849
+    min_longitude: 23.4408491
     bounds:
       northeast:
-        lat: 12.2363889
-        lng: 35.948997
+        lat: 12.236389
+        lng: 35.9489971
       southwest:
         lat: 3.48898
-        lng: 23.440849
+        lng: 23.4408491
   currency_code: SSP
+  start_of_week: sunday

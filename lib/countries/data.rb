@@ -2,19 +2,27 @@ module ISO3166
   ##
   # Handles building the in memory store of countries data
   class Data
+    @@cache_dir = [File.dirname(__FILE__), 'cache']
     @@cache = {}
     @@registered_data = {}
 
     def initialize(alpha2)
       @alpha2 = alpha2.to_s.upcase
-      self.class.update_cache
     end
 
     def call
-      @@cache[@alpha2]
+      self.class.update_cache[@alpha2]
     end
 
     class << self
+      def cache_dir
+        @@cache_dir
+      end
+
+      def cache_dir=(value)
+        @@cache_dir = value
+      end
+
       def register(data)
         alpha2 = data[:alpha2].upcase
         @@registered_data[alpha2] = \
@@ -52,8 +60,9 @@ module ISO3166
       end
 
       def load_data!
-        return @@cache unless @@cache.size == loaded_codes || @@cache.keys.empty?
-        @@cache = load_cache %w(cache countries.json)
+        return @@cache unless load_required?
+        @@cache = load_cache %w(countries.json)
+        @@_country_codes = @@cache.keys
         @@cache = @@cache.merge(@@registered_data)
         @@cache
       end
@@ -72,13 +81,17 @@ module ISO3166
 
       private
 
+      def load_required?
+        @@cache.empty?
+      end
+
       def loaded_codes
-        (@@cache.keys + @@registered_data.keys).uniq
+        @@cache.keys
       end
 
       # Codes that we have translations for in dataset
       def internal_codes
-        loaded_codes - @@registered_data.keys
+        @@_country_codes - @@registered_data.keys
       end
 
       def cache_flush_required?
@@ -102,7 +115,7 @@ module ISO3166
       end
 
       def load_translations(locale)
-        locale_names = load_cache(['cache', 'locales', "#{locale}.json"])
+        locale_names = load_cache(['locales', "#{locale}.json"])
         internal_codes.each do |alpha2|
           @@cache[alpha2]['translations'] ||= Translations.new
           @@cache[alpha2]['translations'][locale] = locale_names[alpha2].freeze
@@ -125,7 +138,7 @@ module ISO3166
       end
 
       def datafile_path(file_array)
-        File.join([File.dirname(__FILE__)] + file_array)
+        File.join([@@cache_dir] + file_array)
       end
     end
   end

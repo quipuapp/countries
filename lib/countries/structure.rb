@@ -35,6 +35,7 @@ module ISO3166
     'national_destination_code_lengths' => [],
     'national_number_lengths' => [],
     'national_prefix' => nil,
+    'nanp_prefix' => nil,
     'nationality' => nil,
     'number' => nil,
     'languages_official' => [],
@@ -43,6 +44,7 @@ module ISO3166
     'postal_code' => nil,
     'region' => nil,
     'unofficial_names' => [],
+    'start_of_week' => 'monday',
     'subregion' => nil,
     'un_locode' => nil,
     'vat_rates' => {

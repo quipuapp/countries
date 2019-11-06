@@ -3,11 +3,12 @@ SX:
   continent: North America
   alpha2: SX
   alpha3: SXM
-  country_code: '1721'
+  country_code: '1'
+  nanp_prefix: '1721'
   international_prefix: '011'
   ioc: 
   gec: NN
-  name: Sint Maarten
+  name: Sint Maarten (Dutch part)
   national_destination_code_lengths:
   - 3
   national_number_lengths:
@@ -22,7 +23,7 @@ SX:
   postal_code: true
   unofficial_names:
   - Sint Maarten
-  - "セント・マーチン島"
+  - セント・マーチン島
   languages_official:
   - nl
   - en
@@ -35,14 +36,15 @@ SX:
     longitude: -63.05483
     longitude_dec: "-63.06623458862305"
     max_latitude: 18.0641707
-    max_longitude: -62.99824479999999
-    min_latitude: 18.0050986
-    min_longitude: -63.13795810000001
+    max_longitude: -62.9784
+    min_latitude: 17.9941
+    min_longitude: -63.13979990000001
     bounds:
       northeast:
         lat: 18.0641707
-        lng: -62.99824479999999
+        lng: -62.9784
       southwest:
-        lat: 18.0050986
-        lng: -63.13795810000001
+        lat: 17.9941
+        lng: -63.13979990000001
   currency_code: ANG
+  start_of_week: monday
