@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 module ISO3166
   class Country
     def mongoize
@@ -7,7 +5,6 @@ module ISO3166
     end
 
     class << self
-      # Convert an +ISO3166::Country+ to the data that is stored by Mongoid.
       def mongoize(country)
         if country.is_a?(self) && !country.data.nil?
           country.alpha2
@@ -16,12 +13,10 @@ module ISO3166
         end
       end
 
-      # Get the object as it was stored with Mongoid, and instantiate an +ISO3166::Country+.
       def demongoize(alpha2)
         new(alpha2)
       end
 
-      # Convert an +ISO3166::Country+ to the data that is stored by Mongoid.
       def evolve(country)
         mongoize(country)
       end

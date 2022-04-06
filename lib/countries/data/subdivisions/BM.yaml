@@ -1,8 +1,8 @@
 ---
 DS:
-  name: Devonshire
-  code:
   unofficial_names: Devonshire
+  translations:
+    en: Devonshire
   geo:
     latitude: 32.30278
     longitude: -64.75583
@@ -10,13 +10,12 @@ DS:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: Devonshire
+  name: Devonshire
   comments:
 GC:
-  name: Saint George
-  code:
   unofficial_names: Saint George
+  translations:
+    en: Saint George
   geo:
     latitude: 32.38417
     longitude: -64.67639
@@ -24,13 +23,12 @@ GC:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: Saint George
+  name: Saint George
   comments:
 HA:
-  name: Hamilton
-  code:
   unofficial_names: Hamilton
+  translations:
+    en: Hamilton
   geo:
     latitude: 32.34222
     longitude: -64.72833
@@ -38,13 +36,12 @@ HA:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: Hamilton
+  name: Hamilton
   comments:
 HC:
-  name: Hamilton City
-  code:
   unofficial_names: Hamilton City
+  translations:
+    en: Hamilton City
   geo:
     latitude: 32.29326
     longitude: -64.78063
@@ -52,13 +49,12 @@ HC:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: Hamilton City
+  name: Hamilton City
   comments:
 PB:
-  name: Pembroke
-  code:
   unofficial_names: Pembroke
+  translations:
+    en: Pembroke
   geo:
     latitude: 32.29944
     longitude: -64.79278
@@ -66,13 +62,12 @@ PB:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: Pembroke
+  name: Pembroke
   comments:
 PG:
-  name: Paget
-  code:
   unofficial_names: Paget
+  translations:
+    en: Paget
   geo:
     latitude: 32.27833
     longitude: -64.78167
@@ -80,13 +75,12 @@ PG:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: Paget
+  name: Paget
   comments:
 SA:
-  name: Sandys
-  code:
   unofficial_names: Sandys
+  translations:
+    en: Sandys
   geo:
     latitude: 32.29345
     longitude: -64.86828
@@ -94,13 +88,12 @@ SA:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: Sandys
+  name: Sandys
   comments:
 SG:
-  name: Saint George's
-  code:
   unofficial_names: Saint George's
+  translations:
+    en: Saint George's
   geo:
     latitude: 32.3726
     longitude: -64.69437
@@ -108,13 +101,12 @@ SG:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: Saint George's
+  name: Saint George's
   comments:
 SH:
-  name: Southampton
-  code:
   unofficial_names: Southampton
+  translations:
+    en: Southampton
   geo:
     latitude: 32.25083
     longitude: -64.85639
@@ -122,13 +114,12 @@ SH:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: Southampton
+  name: Southampton
   comments:
 SM:
-  name: Smith's
-  code:
   unofficial_names: Smith's
+  translations:
+    en: Smith's
   geo:
     latitude: 32.31528
     longitude: -64.73528
@@ -136,13 +127,12 @@ SM:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: Smith's
+  name: Smith's
   comments:
 WA:
-  name: Warwick
-  code:
   unofficial_names: Warwick
+  translations:
+    en: Warwick
   geo:
     latitude: 32.26583
     longitude: -64.80722
@@ -150,6 +140,5 @@ WA:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: Warwick
+  name: Warwick
   comments:

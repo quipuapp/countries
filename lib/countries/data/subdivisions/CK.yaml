@@ -1,8 +1,8 @@
 ---
 AI:
-  name: Aitutaki
-  code:
   unofficial_names: Aitutaki
+  translations:
+    en: Aitutaki
   geo:
     latitude: -18.85593
     longitude: -159.78567
@@ -10,13 +10,12 @@ AI:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: Aitutaki
+  name: Aitutaki
   comments:
 AT:
-  name: Atiu
-  code:
   unofficial_names: Atiu
+  translations:
+    en: Atiu
   geo:
     latitude: -19.99569
     longitude: -158.10948
@@ -24,13 +23,12 @@ AT:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: Atiu
+  name: Atiu
   comments:
 MG:
-  name: Mangaia
-  code:
   unofficial_names: Mangaia
+  translations:
+    en: Mangaia
   geo:
     latitude: -21.92601
     longitude: -157.91851
@@ -38,13 +36,12 @@ MG:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: Mangaia
+  name: Mangaia
   comments:
 MK:
-  name: Manihiki
-  code:
   unofficial_names: Manihiki
+  translations:
+    en: Manihiki
   geo:
     latitude: -10.42603
     longitude: -160.97992
@@ -52,13 +49,12 @@ MK:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: Manihiki
+  name: Manihiki
   comments:
 MU:
-  name: Ma'uke
-  code:
   unofficial_names: Ma'uke
+  translations:
+    en: Ma'uke
   geo:
     latitude: -20.16732
     longitude: -157.33675
@@ -66,13 +62,12 @@ MU:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: Ma'uke
+  name: Ma'uke
   comments:
 MT:
-  name: Mitiaro
-  code:
   unofficial_names: Mitiaro
+  translations:
+    en: Mitiaro
   geo:
     latitude: -19.86861
     longitude: -157.709
@@ -80,13 +75,12 @@ MT:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: Mitiaro
+  name: Mitiaro
   comments:
 PA:
-  name: Palmerston
-  code:
   unofficial_names: Palmerston
+  translations:
+    en: Palmerston
   geo:
     latitude: -18.05856
     longitude: -163.18233
@@ -94,13 +88,12 @@ PA:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: Palmerston
+  name: Palmerston
   comments:
 PE:
-  name: Penrhyn
-  code:
   unofficial_names: Penrhyn
+  translations:
+    en: Penrhyn
   geo:
     latitude: -8.99479
     longitude: -157.96555
@@ -108,13 +101,12 @@ PE:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: Penrhyn
+  name: Penrhyn
   comments:
 PU:
-  name: Pukapuka
-  code:
   unofficial_names: Pukapuka
+  translations:
+    en: Pukapuka
   geo:
     latitude: -10.85371
     longitude: -165.84738
@@ -122,13 +114,12 @@ PU:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: Pukapuka
+  name: Pukapuka
   comments:
 RK:
-  name: Rakahanga
-  code:
   unofficial_names: Rakahanga
+  translations:
+    en: Rakahanga
   geo:
     latitude: -10.03174
     longitude: -161.09098
@@ -136,13 +127,12 @@ RK:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: Rakahanga
+  name: Rakahanga
   comments:
 RR:
-  name: Rarotonga
-  code:
   unofficial_names: Rarotonga
+  translations:
+    en: Rarotonga
   geo:
     latitude: -21.23274
     longitude: -159.77245
@@ -150,6 +140,5 @@ RR:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: Rarotonga
+  name: Rarotonga
   comments:

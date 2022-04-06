@@ -1,8 +1,8 @@
 ---
 BP:
-  name: Blowing Point
-  code:
   unofficial_names: Blowing Point
+  translations:
+    en: Blowing Point
   geo:
     latitude: 18.177
     longitude: -63.09161
@@ -10,13 +10,12 @@ BP:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: Blowing Point
+  name: Blowing Point
   comments:
 EE:
-  name: East End
-  code:
   unofficial_names: East End
+  translations:
+    en: East End
   geo:
     latitude: 18.234
     longitude: -62.99728
@@ -24,13 +23,12 @@ EE:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: East End
+  name: East End
   comments:
 GH:
-  name: George Hill
-  code:
   unofficial_names: George Hill
+  translations:
+    en: George Hill
   geo:
     latitude: 18.19943
     longitude: -63.06517
@@ -38,13 +36,12 @@ GH:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: George Hill
+  name: George Hill
   comments:
 IH:
-  name: Island Harbour
-  code:
   unofficial_names: Island Harbour
+  translations:
+    en: Island Harbour
   geo:
     latitude: 18.25617
     longitude: -63.00724
@@ -52,13 +49,12 @@ IH:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: Island Harbour
+  name: Island Harbour
   comments:
 NH:
-  name: North Hill
-  code:
   unofficial_names: North Hill
+  translations:
+    en: North Hill
   geo:
     latitude: 18.20603
     longitude: -63.07607
@@ -66,13 +62,12 @@ NH:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: North Hill
+  name: North Hill
   comments:
 NS:
-  name: North Side
-  code:
   unofficial_names: North Side
+  translations:
+    en: North Side
   geo:
     latitude: 18.22931
     longitude: -63.0468
@@ -80,13 +75,12 @@ NS:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: North Side
+  name: North Side
   comments:
 SG:
-  name: Sandy Ground
-  code:
   unofficial_names: Sandy Ground
+  translations:
+    en: Sandy Ground
   geo:
     latitude: 18.20399
     longitude: -63.08993
@@ -94,13 +88,12 @@ SG:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: Sandy Ground
+  name: Sandy Ground
   comments:
 SH:
-  name: Sandy Hill
-  code:
   unofficial_names: Sandy Hill
+  translations:
+    en: Sandy Hill
   geo:
     latitude: 18.22066
     longitude: -63.01178
@@ -108,13 +101,12 @@ SH:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: Sandy Hill
+  name: Sandy Hill
   comments:
 SO:
-  name: South Hill
-  code:
   unofficial_names: South Hill
+  translations:
+    en: South Hill
   geo:
     latitude: 18.19177
     longitude: -63.0898
@@ -122,13 +114,12 @@ SO:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: South Hill
+  name: South Hill
   comments:
 ST:
-  name: Stoney Ground
-  code:
   unofficial_names: Stoney Ground
+  translations:
+    en: Stoney Ground
   geo:
     latitude: 18.22112
     longitude: -63.04466
@@ -136,13 +127,12 @@ ST:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: Stoney Ground
+  name: Stoney Ground
   comments:
 TF:
-  name: The Farrington
-  code:
   unofficial_names: The Farrington
+  translations:
+    en: The Farrington
   geo:
     latitude: 18.21533
     longitude: -63.02123
@@ -150,13 +140,12 @@ TF:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: The Farrington
+  name: The Farrington
   comments:
 TQ:
-  name: The Quarter
-  code:
   unofficial_names: The Quarter
+  translations:
+    en: The Quarter
   geo:
     latitude: 18.21158
     longitude: -63.04504
@@ -164,13 +153,12 @@ TQ:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: The Quarter
+  name: The Quarter
   comments:
 TV:
-  name: The Valley
-  code:
   unofficial_names: The Valley
+  translations:
+    en: The Valley
   geo:
     latitude: 18.21475
     longitude: -63.05706
@@ -178,13 +166,12 @@ TV:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: The Valley
+  name: The Valley
   comments:
 WE:
-  name: West End
-  code:
   unofficial_names: West End
+  translations:
+    en: West End
   geo:
     latitude: 18.17138
     longitude: -63.15113
@@ -192,6 +179,5 @@ WE:
     min_longitude:
     max_latitude:
     max_longitude:
-  translations:
-    en: West End
-  comments:
+  name: West End
+  comments: 

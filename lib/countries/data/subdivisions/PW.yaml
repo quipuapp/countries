@@ -1,15 +1,6 @@
 ---
 '002':
-  name: Aimeliik
-  code:
   unofficial_names: Aimeliik
-  geo:
-    latitude: 7.445585899999998
-    longitude: 134.5030878
-    min_latitude: 7.393169
-    min_longitude: 134.4686879
-    max_latitude: 7.479571
-    max_longitude: 134.540505
   translations:
     en: Aimeliik
     ar: أيميليك
@@ -46,24 +37,16 @@
     ur: آئمیلیک
     vi: Aimeliik
     zh: 艾梅利克州
-    lv: Aimeliika
-    ceb: State of Aimeliik
-    ccp: "\U00011103\U0001112D\U0001111F\U0001112C\U00011123\U00011128\U00011107\U00011134"
-    ka: აიმელიიკი
-    uk: Аімеліік
-    'no': Aimeliik
-  comments:
-'004':
-  name: Airai
-  code:
-  unofficial_names: Airai
   geo:
-    latitude: 7.364184199999999
-    longitude: 134.5360667
-    min_latitude: 7.350336699999999
-    min_longitude: 134.5076989
-    max_latitude: 7.3903012
-    max_longitude: 134.5656967
+    latitude: 7.445585899999998
+    longitude: 134.5030878
+    min_latitude: 7.393169
+    min_longitude: 134.4686879
+    max_latitude: 7.479571
+    max_longitude: 134.540505
+  name: Aimeliik
+'004':
+  unofficial_names: Airai
   translations:
     en: Airai
     ar: ولاية أيراي
@@ -100,27 +83,16 @@
     tr: Airai
     ur: آئرائی
     vi: Airai
-    lv: Airai
-    ceb: State of Airai
-    sr_Latn: Airai
-    zh: 艾拉伊州
-    ccp: "\U00011103\U0001112D\U00011122\U0001112D"
-    ka: აირაი
-    uk: Аіраї
-    mk: Ајрај
-    'no': Airai
-  comments:
-'010':
-  name: Angaur
-  code:
-  unofficial_names: Angaur
   geo:
-    latitude: 6.909223
-    longitude: 134.1387934
-    min_latitude: 6.887742599999999
-    min_longitude: 134.121834
-    max_latitude: 6.925106299999999
-    max_longitude: 134.1539668
+    latitude: 7.364184199999999
+    longitude: 134.5360667
+    min_latitude: 7.350336699999999
+    min_longitude: 134.5076989
+    max_latitude: 7.3903012
+    max_longitude: 134.5656967
+  name: Airai
+'010':
+  unofficial_names: Angaur
   translations:
     en: Angaur
     ar: أنغاور
@@ -157,26 +129,16 @@
     tr: Angaur
     ur: انگاور
     vi: Angaur
-    lv: Angaura
-    ceb: Angaur
-    zh: 安加爾
-    ccp: "\U00011103\U0001111A\U00011134\U00011109\U00011127\U00011105\U0001112A\U00011122\U00011134"
-    uk: Ангаур
-    ca: Angaur
-    mk: Ангаур
-    'no': Angaur
-  comments:
-'050':
-  name: Hatobohei
-  code:
-  unofficial_names: Hatobohei
   geo:
-    latitude: 3.0048867
-    longitude: 131.1214186
-    min_latitude: 3.0008772
-    min_longitude: 131.1203134
-    max_latitude: 3.0074129
-    max_longitude: 131.124487
+    latitude: 6.909223
+    longitude: 134.1387934
+    min_latitude: 6.887742599999999
+    min_longitude: 134.121834
+    max_latitude: 6.925106299999999
+    max_longitude: 134.1539668
+  name: Angaur
+'050':
+  unofficial_names: Hatobohei
   translations:
     en: Hatohobei
     ar: ولاية هاتوهوبي
@@ -212,24 +174,16 @@
     tr: Hatohobei
     ur: ہاتوبوبئی
     vi: Hatohobei
-    lv: Hatohobei
-    zh: 哈托博海伊州
-    ccp: "\U00011126\U00011111\U0001112E\U00011126\U0001112E\U0001111D\U0001112C\U0001112D"
-    uk: Хатохобей
-    mk: Хатохобеј
-    'no': Hatohobei
-  comments:
-'100':
-  name: Kayangel
-  code:
-  unofficial_names: Kayangel
   geo:
-    latitude: 8.0889471
-    longitude: 134.709999
-    min_latitude: 8.0378983
-    min_longitude: 134.6807957
-    max_latitude: 8.1035034
-    max_longitude: 134.7238827
+    latitude: 3.0048867
+    longitude: 131.1214186
+    min_latitude: 3.0008772
+    min_longitude: 131.1203134
+    max_latitude: 3.0074129
+    max_longitude: 131.124487
+  name: Hatobohei
+'100':
+  unofficial_names: Kayangel
   translations:
     en: Kayangel
     ar: كايانغيل
@@ -263,24 +217,16 @@
     tr: Kayangel
     ur: کایانگیل
     vi: Kayangel
-    lv: Kajanela
-    ceb: State of Kayangel
-    zh: 卡揚埃爾
-    ccp: "\U00011107\U0001112C\U00011120\U0001111A\U00011134\U00011109\U0001112C\U00011123\U00011134"
-    uk: Каянгел
-    'no': Kayangel
-  comments:
-'150':
-  name: Koror
-  code:
-  unofficial_names: Koror
   geo:
-    latitude: 7.3419444
-    longitude: 134.4791667
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
+    latitude: 8.0889471
+    longitude: 134.709999
+    min_latitude: 8.0378983
+    min_longitude: 134.6807957
+    max_latitude: 8.1035034
+    max_longitude: 134.7238827
+  name: Kayangel
+'150':
+  unofficial_names: Koror
   translations:
     en: Koror
     am: ኮሮር
@@ -326,26 +272,16 @@
     uk: Корор
     ur: کورور
     vi: Koror
-    lv: Korora
-    ceb: State of Koror
-    sr_Latn: Koror
-    zh: 科羅爾州
-    ccp: "\U00011107\U00011122\U0001112E\U00011122\U00011134"
-    uz: Koror
-    mk: Корор
-    'no': Koror
-  comments:
-'212':
-  name: Melekeok
-  code:
-  unofficial_names: Melekeok
   geo:
-    latitude: 7.4951158
-    longitude: 134.6336896
-    min_latitude: 7.491069
-    min_longitude: 134.6302414
-    max_latitude: 7.4995374
-    max_longitude: 134.6382129
+    latitude: 7.3419444
+    longitude: 134.4791667
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
+  name: Koror
+'212':
+  unofficial_names: Melekeok
   translations:
     en: Melekeok
     ar: ولاية ميلكيوك
@@ -383,27 +319,16 @@
     uk: Мелекеок
     ur: میلیکئوک
     vi: Melekeok
-    lv: Melegeoka
-    ceb: State of Melekeok
-    sr_Latn: Melekeok
-    lt: Melekokas
-    zh: 梅莱凯奥克州
-    ccp: "\U0001111F\U0001112C\U00011123\U0001112C\U00011107\U0001112C\U00011103\U0001112E\U00011107\U00011134"
-    ka: მელეკეოკი
-    kk: Мелекеок
-    'no': Melekeok
-  comments:
-'214':
-  name: Ngaraard
-  code:
-  unofficial_names: Ngaraard
   geo:
-    latitude: 7.607939999999999
-    longitude: 134.6348645
-    min_latitude: 7.5722982
-    min_longitude: 134.593708
-    max_latitude: 7.686935300000001
-    max_longitude: 134.6466028
+    latitude: 7.4951158
+    longitude: 134.6336896
+    min_latitude: 7.491069
+    min_longitude: 134.6302414
+    max_latitude: 7.4995374
+    max_longitude: 134.6382129
+  name: Melekeok
+'214':
+  unofficial_names: Ngaraard
   translations:
     en: Ngaraard
     ar: نغارأرد
@@ -437,26 +362,17 @@
     tr: Ngaraard
     ur: نگارآرد
     vi: Ngaraard
-    lv: Narārta
-    ceb: State of Ngaraard
-    zh: 雅拉爾德州
-    ccp: "\U00011109\U00011122\U00011133\U00011103\U00011116\U00011134"
-    uk: Нгарард
-    mk: Нгарард
-    'no': Ngaraard
-  comments:
+  geo:
+    latitude: 7.607939999999999
+    longitude: 134.6348645
+    min_latitude: 7.5722982
+    min_longitude: 134.593708
+    max_latitude: 7.686935300000001
+    max_longitude: 134.6466028
+  name: Ngaraard
 '218':
-  name: Ngarchelong
-  code:
   unofficial_names:
   - Ngarchelong
-  geo:
-    latitude: 7.7105469
-    longitude: 134.6301646
-    min_latitude: 7.686335100000001
-    min_longitude: 134.609328
-    max_latitude: 7.731662800000001
-    max_longitude: 134.6457489
   translations:
     en: Ngarchelong
     ar: ولاية نغارتشيلونغ
@@ -490,24 +406,16 @@
     tr: Ngarchelong
     ur: نگارچیلونگ
     vi: Ngarchelong
-    lv: Narelona
-    ceb: State of Ngarchelong
-    zh: 雅切隆州
-    ccp: "\U00011109\U00011122\U00011134\U00011125\U0001112C\U00011123\U00011127\U00011101"
-    uk: Нгарчелонг
-    'no': Ngarchelong
-  comments:
-'222':
-  name: Ngardmau
-  code:
-  unofficial_names: Ngardmau
   geo:
-    latitude: 7.585048599999999
-    longitude: 134.5596089
-    min_latitude: 7.555898
-    min_longitude: 134.5350928
-    max_latitude: 7.6205105
-    max_longitude: 134.6022465
+    latitude: 7.7105469
+    longitude: 134.6301646
+    min_latitude: 7.686335100000001
+    min_longitude: 134.609328
+    max_latitude: 7.731662800000001
+    max_longitude: 134.6457489
+  name: Ngarchelong
+'222':
+  unofficial_names: Ngardmau
   translations:
     en: Ngardmau
     ar: نغاردماو
@@ -541,24 +449,16 @@
     tr: Ngardmau
     ur: نگاردماو
     vi: Ngardmau
-    lv: Nardmau
-    ceb: State of Ngardmau
-    zh: 雅德馬烏州
-    ccp: "\U00011109\U00011122\U00011134\U00011113\U00011134\U0001111F\U00011127\U00011105\U0001112A"
-    uk: Нгардмау
-    'no': Ngardmau
-  comments:
-'224':
-  name: Ngatpang
-  code:
-  unofficial_names: Ngatpang
   geo:
-    latitude: 7.4710994
-    longitude: 134.5266466
-    min_latitude: 7.417311
-    min_longitude: 134.484237
-    max_latitude: 7.5069398
-    max_longitude: 134.560673
+    latitude: 7.585048599999999
+    longitude: 134.5596089
+    min_latitude: 7.555898
+    min_longitude: 134.5350928
+    max_latitude: 7.6205105
+    max_longitude: 134.6022465
+  name: Ngardmau
+'224':
+  unofficial_names: Ngatpang
   translations:
     en: Ngatpang
     ar: ولاية نغاتبانغ
@@ -593,25 +493,16 @@
     tr: Ngatpang
     ur: نگاتپانگ
     vi: Ngatpang
-    lv: Natpana
-    ceb: State of Ngatpang
-    zh: 雅龐
-    ccp: "\U00011109\U00011116\U00011134\U0001111B\U00011127\U00011101"
-    ka: ნგატპანგი
-    uk: Нгатпанг
-    'no': Ngatpang
-  comments:
-'226':
-  name: Ngchesar
-  code:
-  unofficial_names: Ngchesar
   geo:
-    latitude: 7.452328
-    longitude: 134.5784342
-    min_latitude: 7.411645499999999
-    min_longitude: 134.549198
-    max_latitude: 7.502810999999999
-    max_longitude: 134.6229831
+    latitude: 7.4710994
+    longitude: 134.5266466
+    min_latitude: 7.417311
+    min_longitude: 134.484237
+    max_latitude: 7.5069398
+    max_longitude: 134.560673
+  name: Ngatpang
+'226':
+  unofficial_names: Ngchesar
   translations:
     en: Ngchesar
     ar: نيغتشيسار
@@ -645,25 +536,17 @@
     tr: Ngchesar
     ur: نگچیسار
     vi: Ngchesar
-    lv: Nesara
-    ceb: State of Ngchesar
-    zh: 恩切薩爾州
-    ccp: "\U0001110C\U0001112C\U00011125\U00011122\U00011134"
-    uk: Нгчесар
-    'no': Ngchesar
-  comments:
+  geo:
+    latitude: 7.452328
+    longitude: 134.5784342
+    min_latitude: 7.411645499999999
+    min_longitude: 134.549198
+    max_latitude: 7.502810999999999
+    max_longitude: 134.6229831
+  name: Ngchesar
 '227':
-  name: Ngeremlengui
-  code:
   unofficial_names:
   - Ngeremlengui
-  geo:
-    latitude: 7.5198397
-    longitude: 134.5596089
-    min_latitude: 7.464199000000001
-    min_longitude: 134.49916
-    max_latitude: 7.5774421
-    max_longitude: 134.599446
   translations:
     en: Ngeremlengui
     ar: نغاريملينغوي
@@ -697,25 +580,16 @@
     tr: Ngeremlengui
     ur: نگیریملینگوئی
     vi: Ngaremlengui
-    lv: Neremlenui
-    ceb: State of Ngeremlengui
-    zh: 埃雷姆倫維州
-    ccp: "\U00011109\U0001112C\U00011122\U0001112C\U0001111F\U00011134\U00011123\U0001112C\U00011101\U00011109\U0001112D\U0001112A"
-    ka: ნგარემლენგი
-    uk: Нгеремленгі
-    'no': Ngeremlengui
-  comments:
-'228':
-  name: Ngiwal
-  code:
-  unofficial_names: Ngiwal
   geo:
-    latitude: 7.561476399999999
-    longitude: 134.6160619
-    min_latitude: 7.532054899999999
-    min_longitude: 134.594404
-    max_latitude: 7.5800329
-    max_longitude: 134.6382236
+    latitude: 7.5198397
+    longitude: 134.5596089
+    min_latitude: 7.464199000000001
+    min_longitude: 134.49916
+    max_latitude: 7.5774421
+    max_longitude: 134.599446
+  name: Ngeremlengui
+'228':
+  unofficial_names: Ngiwal
   translations:
     en: Ngiwal
     ar: نغيوال
@@ -749,24 +623,16 @@
     tr: Ngiwal
     ur: نگیوال
     vi: Ngiwal
-    lv: Nivalas štats
-    ceb: State of Ngiwal
-    zh: 宜瓦尔州
-    ccp: "\U00011109\U0001112D\U00011124\U00011123\U00011134"
-    uk: Нгівал
-    'no': Ngiwal
-  comments:
-'350':
-  name: Peleliu
-  code:
-  unofficial_names: Peleliu
   geo:
-    latitude: 7.002290599999999
-    longitude: 134.2431628
-    min_latitude: 6.973421999999999
-    min_longitude: 134.2217079
-    max_latitude: 7.049378000000001
-    max_longitude: 134.2706156
+    latitude: 7.561476399999999
+    longitude: 134.6160619
+    min_latitude: 7.532054899999999
+    min_longitude: 134.594404
+    max_latitude: 7.5800329
+    max_longitude: 134.6382236
+  name: Ngiwal
+'350':
+  unofficial_names: Peleliu
   translations:
     en: Peleliu
     ar: بيليليو
@@ -804,24 +670,16 @@
     uk: Пелеліу
     ur: پیلیلیو
     vi: Peleliu
-    lv: Peleliu
-    ceb: Peleliu (pulo sa Palau)
-    zh: 貝里琉州
-    ccp: "\U0001111B\U0001112C\U00011123\U0001112C\U00011123\U00011128\U00011105\U0001112A"
-    ka: პელელიუს შტატი
-    'no': Peleliu
-  comments:
-'370':
-  name: Sonsorol
-  code:
-  unofficial_names: Sonsorol
   geo:
-    latitude: 4.319971799999999
-    longitude: 132.3126369
-    min_latitude: 4.3124723
-    min_longitude: 131.947925
-    max_latitude: 4.6583571
-    max_longitude: 132.3141002
+    latitude: 7.002290599999999
+    longitude: 134.2431628
+    min_latitude: 6.973421999999999
+    min_longitude: 134.2217079
+    max_latitude: 7.049378000000001
+    max_longitude: 134.2706156
+  name: Peleliu
+'370':
+  unofficial_names: Sonsorol
   translations:
     en: Sonsorol
     ar: سونسورول
@@ -858,10 +716,11 @@
     tr: Sonsorol
     ur: سونسورول
     vi: Sonsorol
-    lv: Sonsorola
-    ceb: State of Sonsorol
-    zh: 松索羅爾
-    ccp: "\U00011125\U00011127\U0001111A\U00011134\U00011125\U0001112E\U00011122\U0001112E\U00011123\U00011134"
-    uk: Сонсорол
-    'no': Sonsoral
-  comments:
+  geo:
+    latitude: 4.319971799999999
+    longitude: 132.3126369
+    min_latitude: 4.3124723
+    min_longitude: 131.947925
+    max_latitude: 4.6583571
+    max_longitude: 132.3141002
+  name: Sonsorol

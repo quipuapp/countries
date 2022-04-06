@@ -1,12 +1,7 @@
-# frozen_string_literal: true
-
 module Sources
-  # Support code to allow updating subdivision data from the Unicode CLDR repository
   module Local
-    # Loader for locally-cached data, to allow merging Unicode CLDR data with existing local data
     class CachedLoader
       attr_reader :klass
-
       def initialize(klass)
         @klass = klass
         @loaded_countries = {}

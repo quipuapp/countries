@@ -1,11 +1,10 @@
-# frozen_string_literal: true
-
+require 'unicode_utils/downcase'
 require 'sixarm_ruby_unaccent'
 
 module ISO3166
   UNSEARCHABLE_METHODS = [:translations].freeze
 
-  def self.Country(country_data_or_country)
+  def self::Country(country_data_or_country)
     case country_data_or_country
     when ISO3166::Country
       country_data_or_country
@@ -17,6 +16,9 @@ module ISO3166
   end
 
   module CountryClassMethods
+    FIND_BY_REGEX = /^find_(all_)?(country_|countries_)?by_(.+)/
+    SEARCH_TERM_FILTER_REGEX = /\(|\)|\[\]|,/
+
     def new(country_data)
       super if country_data.is_a?(Hash) || codes.include?(country_data.to_s.upcase)
     end
@@ -32,33 +34,59 @@ module ISO3166
 
     alias countries all
 
-    def all_names_with_codes(locale = 'en')
-      Country.all.map do |c|
-        lc = (c.translation(locale) || c.iso_short_name)
-        [lc.respond_to?('html_safe') ? lc.html_safe : lc, c.alpha2]
-      end.sort
-    end
-
-    def pluck(*attributes)
-      all.map do |country|
-        attributes.map { |attribute| country.data.fetch(attribute.to_s) }
-      end
-    end
-
     def all_translated(locale = 'en')
       translations(locale).values
     end
 
+    def all_names_with_codes(locale = 'en')
+      Country.all.map do |c|
+        lc = (c.translation(locale) || c.name)
+        [lc.respond_to?('html_safe') ? lc.html_safe : lc, c.alpha2]
+      end.sort
+    end
+
     def translations(locale = 'en')
-      i18n_data_countries = I18nData.countries(locale.upcase)
+      I18nData.countries(locale.upcase)
+    end
 
-      custom_countries = (ISO3166::Data.codes - i18n_data_countries.keys).map do |code|
-        country = ISO3166::Country[code]
-        translation = country.translations[locale] || country.iso_short_name
-        [code, translation]
-      end.to_h
+    def search(query)
+      country = new(query.to_s.upcase)
+      country && country.valid? ? country : nil
+    end
 
-      i18n_data_countries.merge(custom_countries)
+    def [](query)
+      search(query)
+    end
+
+    def method_missing(method_name, *arguments)
+      matches = method_name.to_s.match(FIND_BY_REGEX)
+      return_all = matches[1]
+      super unless matches
+
+      countries = find_by(matches[3], arguments[0], matches[2])
+      return_all ? countries : countries.last
+    end
+
+    def respond_to_missing?(method_name, include_private = false)
+      matches = method_name.to_s.match(FIND_BY_REGEX)
+      if matches && matches[3]
+        matches[3].all? { |a| instance_methods.include?(a.to_sym) }
+      else
+        super
+      end
+    end
+
+    def find_all_by(attribute, val)
+      attributes, lookup_value = parse_attributes(attribute, val)
+
+      ISO3166::Data.cache.select do |_, v|
+        country = Country.new(v)
+        attributes.any? do |attr|
+          Array(country.send(attr)).any? do |n|
+            lookup_value === cached(n) { parse_value(n) }
+          end
+        end
+      end
     end
 
     def subdivisions(alpha2)
@@ -68,19 +96,50 @@ module ISO3166
 
     def create_subdivisions(subdivision_data)
       subdivision_data.each_with_object({}) do |(k, v), hash|
-        data = v.merge('code' => k.to_s)
-        hash[k] = Subdivision.new(data)
+        hash[k] = Subdivision.new(v)
       end
     end
 
     protected
 
-    def strip_accents(string)
-      if string.is_a?(Regexp)
-        Regexp.new(string.source.unaccent, 'i')
+    def strip_accents(v)
+      if v.is_a?(Regexp)
+        Regexp.new(v.source.unaccent, 'i')
       else
-        string.to_s.unaccent.downcase
+        UnicodeUtils.downcase(v.to_s.unaccent)
       end
+    end
+
+    def parse_attributes(attribute, val)
+      raise "Invalid attribute name '#{attribute}'" unless searchable_attribute?(attribute.to_sym)
+
+      attributes = Array(attribute.to_s)
+      if attributes == ['name']
+        attributes << 'unofficial_names'
+        # TODO: Revisit when better data from i18n_data
+        # attributes << 'translated_names'
+      end
+
+      [attributes, parse_value(val)]
+    end
+
+    def searchable_attribute?(attribute)
+      searchable_attributes.include?(attribute.to_sym)
+    end
+
+    def searchable_attributes
+      instance_methods - UNSEARCHABLE_METHODS
+    end
+
+    def find_by(attribute, value, obj = nil)
+      find_all_by(attribute.downcase, value).map do |country|
+        obj.nil? ? country : new(country.last)
+      end
+    end
+
+    def parse_value(value)
+      value = value.gsub(SEARCH_TERM_FILTER_REGEX, '') if value.respond_to?(:gsub)
+      strip_accents(value)
     end
 
     def subdivision_data(alpha2)
@@ -104,7 +163,6 @@ module ISO3166
     def cached(value)
       @_parsed_values_cache ||= {}
       return @_parsed_values_cache[value] if @_parsed_values_cache[value]
-
       @_parsed_values_cache[value] = yield
     end
   end

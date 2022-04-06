@@ -1,12 +1,8 @@
-# frozen_string_literal: true
-
 require 'geocoder'
 require 'retryable'
 
 Geocoder.configure(
-  lookup: :google,
-  timeout: 10,
-  api_key: GOOGLE_API_KEY
+  timeout: 10
 )
 
 # raise on geocoding errors such as query limit exceeded
@@ -14,11 +10,11 @@ Geocoder.configure(always_raise: :all)
 # Try to geocode a given query, on exceptions it retries up to 3 times then gives up.
 # @param [String] query string to geocode
 # @return [Hash] first valid result or nil
-def geocode(query, params)
+def geocode(query)
   Retryable.retryable(tries: 3, sleep: ->(n) { 2**n }) do
-    Geocoder.search(query, params: params).first
+    Geocoder.search(query).first
   end
-rescue Geocoder::Error, Geocoder::LookupTimeout => e
+rescue => e
   warn "Attempts exceeded for query #{query}, last error was #{e.message}"
   nil
 end
@@ -28,7 +24,7 @@ def load_country_yaml(alpha2)
 end
 
 def save_country_yaml(alpha2, data)
-  File.write(File.join(ISO3166_ROOT_PATH, 'lib', 'countries', 'data', 'countries', "#{alpha2}.yaml"), data.to_yaml)
+  File.open(File.join(ISO3166_ROOT_PATH, 'lib', 'countries', 'data', 'countries', "#{alpha2}.yaml"), 'w+') { |f| f.write data.to_yaml }
 end
 
 def country_codes
@@ -45,11 +41,12 @@ namespace :geocode do
       # Load unmutated yaml file.
       data = load_country_yaml(country.alpha2)
 
-      next unless (result = geocode(country.iso_short_name, {region: country.alpha2}))
+      lookup = "#{country.alpha2} country"
+      # LU country lookup appears to match to Los Angeles
+      lookup = country.name if country.alpha2 == 'LU'
 
-      unless result.types.include?('country')
-        puts "WARNING:: Geocoder returned something that was not a country for #{country.alpha2}"
-      end
+      next unless (result = geocode(lookup))
+      puts 'WARNING:: Geocoder returned something that was not a country' unless result.types.include?('country')
       geometry = result.geometry
 
       # Extract center point data
@@ -60,7 +57,6 @@ namespace :geocode do
 
       # Extract bounding box data
       next unless geometry['bounds']
-
       data[code]['geo']['bounds'] = geometry['bounds']
       data[code]['geo']['min_latitude'] = geometry['bounds']['southwest']['lat']
       data[code]['geo']['min_longitude'] = geometry['bounds']['southwest']['lng']
@@ -79,28 +75,30 @@ namespace :geocode do
     ISO3166::Country.all.select(&:subdivisions?).each do |c|
       # Iterate subdivisions
       state_data = c.subdivisions.dup
-      state_data.reject { |_, data| data['geo'] }.each do |code, _|
-        location = "#{c.alpha2}-#{code}"
+      state_data.reject { |_, data| data['geo'] }.each do |code, data|
+        location = "#{data['name']}, #{c.name}"
 
-        next unless (result = geocode(location, { region: c.alpha2 }))
+        # Handle special geocoding cases where Google defaults to well known
+        # cities, instead of the states.
+        if c.alpha2 == 'US' && %w(NY WA OK).include?(code)
+          location = "#{data['name']} State, United States"
+        end
 
+        next unless (result = geocode(location))
         geometry = result.geometry
         if geometry['location']
           state_data[code]['geo'] ||= {}
           state_data[code]['geo']['latitude'] = geometry['location']['lat']
           state_data[code]['geo']['longitude'] = geometry['location']['lng']
         end
-
         next unless geometry['bounds']
-
         state_data[code]['geo']['min_latitude'] = geometry['bounds']['southwest']['lat']
         state_data[code]['geo']['min_longitude'] = geometry['bounds']['southwest']['lng']
         state_data[code]['geo']['max_latitude'] = geometry['bounds']['northeast']['lat']
         state_data[code]['geo']['max_longitude'] = geometry['bounds']['northeast']['lng']
       end
       # Write updated YAML for current country
-      out = File.join(ISO3166_ROOT_PATH, 'lib', 'countries', 'data', 'subdivisions', "#{c.alpha2}.yaml")
-      File.write(out, state_data.to_yaml)
+      File.open(File.join(ISO3166_ROOT_PATH, 'lib', 'countries', 'data', 'subdivisions', "#{c.alpha2}.yaml"), 'w+') { |f| f.write state_data.to_yaml }
     end
   end
 end

@@ -1,15 +1,5 @@
 ---
 KU:
-  name: Kujalleq
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: كوياليك
     be: Куялек
@@ -53,25 +43,7 @@ KU:
     ur: کوجالیق
     vi: Kujalleq
     zh: 库雅雷哥
-    lv: Kujaleka
-    ceb: Kujalleq (munisipyo)
-    sr_Latn: Kujalek
-    lt: Kujalekas
-    ccp: "\U00011107\U0001112A\U0001110E\U00011123\U0001112C\U00011107\U00011134"
-    mk: Кујалек
-    'no': Kujalleq
-  comments:
 QA:
-  name: Qaasuitsup
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: كاسويتسوب
     bn: কুয়াসুইটসুপ
@@ -114,24 +86,7 @@ QA:
     uk: Каасуїтсуп
     ur: قاسویتسوپ
     vi: Qaasuitsup
-    lv: Kasuitsupa
-    sr_Latn: Kasuitsup
-    lt: Kaasuitsupas
-    zh: 卡苏伊特萨普
-    ccp: "\U00011107\U00011125\U0001112D\U0001112A\U00011116\U00011134\U00011125\U0001111B\U00011134"
-    'no': Qaasuitsoq
-  comments:
 QE:
-  name: Qeqqata
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: كيكاتا
     bn: কুয়েকাটা
@@ -173,26 +128,7 @@ QE:
     uk: Кекката
     ur: قیقاتا
     vi: Qeqqata
-    lv: Kekata
-    ceb: Qeqqata
-    sr_Latn: Kekata
-    lt: Kekata
-    zh: 凯克卡塔
-    ccp: "\U00011107\U0001112C\U00011107\U00011111"
-    mk: Кеката
-    'no': Qeqqata
-  comments:
 SM:
-  name: Sermersooq
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: سيرمرسوك
     bn: সার্মারসুক
@@ -235,28 +171,3 @@ SM:
     uk: Сермерсоок
     ur: سیرمیرسوق
     vi: Sermersooq
-    lv: Sermersooka
-    ceb: Sermersooq (munisipyo)
-    sr_Latn: Sermersok
-    lt: Semersukas
-    zh: 瑟莫蘇克
-    ccp: "\U00011125\U00011122\U00011134\U0001111F\U00011122\U00011134\U00011125\U0001112A\U00011107\U00011134"
-    mk: Сермерсок
-    'no': Sermersooq
-  comments:
-AV:
-  name: Avannaata Kommunia
-  code:
-  unofficial_names:
-  geo:
-  translations:
-    en: Avannaata Kommunia
-  comments:
-QT:
-  name: Kommune Qeqertalik
-  code:
-  unofficial_names:
-  geo:
-  translations:
-    en: Kommune Qeqertalik
-  comments:

@@ -1,15 +1,6 @@
 ---
 '101':
-  name: Kalangala
-  code:
   unofficial_names: Kalangala
-  geo:
-    latitude: -0.3208374
-    longitude: 32.2937428
-    min_latitude: -0.3332787
-    min_longitude: 32.2802353
-    max_latitude: -0.3073312
-    max_longitude: 32.3186016
   translations:
     en: Kalangala
     ar: مقاطعة كالانغالا
@@ -48,25 +39,16 @@
     ur: کالاگالا ضلع
     vi: Kalangala
     zh: 卡蘭加拉區
-    lv: Kalangalas distrikts
-    ceb: Kalangala District
-    sr_Latn: Kalangala
-    lt: Kalangalos apskritis
-    ccp: "\U00011107\U00011123\U0001111A\U00011134\U00011109\U00011123"
-    uk: Район Калангала
-    'no': Kalangala
-  comments:
-'102':
-  name: Kampala
-  code:
-  unofficial_names: Kampala
   geo:
-    latitude: 0.313611
-    longitude: 32.581111
-    min_latitude: 0.2144788
-    min_longitude: 32.5089713
-    max_latitude: 0.413199
-    max_longitude: 32.6892796
+    latitude: -0.3208374
+    longitude: 32.2937428
+    min_latitude: -0.3332787
+    min_longitude: 32.2802353
+    max_latitude: -0.3073312
+    max_longitude: 32.3186016
+  name: Kalangala
+'102':
+  unofficial_names: Kampala
   translations:
     en: Kampala
     ar: مقاطعة كمبالا
@@ -102,26 +84,16 @@
     tr: Kampala ili
     ur: کمپالا ضلع
     vi: Quận Kampala
-    lv: Kampalas reģions
-    ceb: Kampala District
-    lt: Kampalos apskritis
-    zh: 坎帕拉區
-    ccp: "\U00011107\U0001111F\U00011134\U0001111B\U00011123"
-    uk: Кампала
-    ca: districte de Kampala
-    'no': Kampala
-  comments:
-'103':
-  name: Kiboga
-  code:
-  unofficial_names: Kiboga
   geo:
-    latitude: 0.92
-    longitude: 31.76
-    min_latitude: 0.8917448
-    min_longitude: 31.7495441
-    max_latitude: 0.9379159
-    max_longitude: 31.7912579
+    latitude: 0.313611
+    longitude: 32.581111
+    min_latitude: 0.2144788
+    min_longitude: 32.5089713
+    max_latitude: 0.413199
+    max_longitude: 32.6892796
+  name: Kampala
+'103':
+  unofficial_names: Kiboga
   translations:
     en: Kiboga
     ar: مقاطعة كيبوغا
@@ -157,25 +129,16 @@
     tr: Kiboga District
     ur: کیبوگا ضلع
     vi: Quận Kiboga
-    lv: Kibogas distrikts
-    ceb: Kiboga District
-    lt: Kibogos apskritis
-    zh: 基博加區
-    ccp: "\U00011107\U00011128\U0001111D\U0001112E\U00011109"
-    uk: Район Кібога
-    'no': Kiboga
-  comments:
-'104':
-  name: Luwero
-  code:
-  unofficial_names: Luwero
   geo:
-    latitude: 0.833056
-    longitude: 32.499444
-    min_latitude: 0.8201451
-    min_longitude: 32.4716377
-    max_latitude: 0.8670285
-    max_longitude: 32.5168967
+    latitude: 0.92
+    longitude: 31.76
+    min_latitude: 0.8917448
+    min_longitude: 31.7495441
+    max_latitude: 0.9379159
+    max_longitude: 31.7912579
+  name: Kiboga
+'104':
+  unofficial_names: Luwero
   translations:
     en: Luwero
     ar: مقاطعة لويرو
@@ -211,25 +174,16 @@
     tr: Luwero District
     ur: لوویرو ضلع
     vi: Quận Luwero
-    lv: Luvēro reģions
-    ceb: Luwero District
-    lt: Luvero apskritis
-    zh: 盧韋羅區
-    ccp: "\U00011123\U0001112A\U00011103\U00011128\U00011120\U0001112C\U00011122\U0001112E"
-    uk: Район Луверо
-    'no': Luweero
-  comments:
-'105':
-  name: Masaka
-  code:
-  unofficial_names: Masaka
   geo:
-    latitude: -0.34
-    longitude: 31.74
-    min_latitude: -0.3747893
-    min_longitude: 31.71462159999999
-    max_latitude: -0.3013382
-    max_longitude: 31.791172
+    latitude: 0.833056
+    longitude: 32.499444
+    min_latitude: 0.8201451
+    min_longitude: 32.4716377
+    max_latitude: 0.8670285
+    max_longitude: 32.5168967
+  name: Luwero
+'105':
+  unofficial_names: Masaka
   translations:
     en: Masaka
     ar: مقاطعة ماساكا
@@ -265,25 +219,16 @@
     tr: Masaka District
     ur: ماساکا ضلع
     vi: Quận Masaka
-    lv: Masakas distrikts
-    ceb: Masaka District
-    lt: Masakos apskritis
-    zh: 馬薩卡區
-    ccp: "\U0001111F\U00011125\U00011107"
-    uk: Район Масака
-    'no': Masaka
-  comments:
-'106':
-  name: Mpigi
-  code:
-  unofficial_names: Mpigi
   geo:
-    latitude: 0.233333
-    longitude: 32.333333
-    min_latitude: 0.212645
-    min_longitude: 32.314911
-    max_latitude: 0.2413123
-    max_longitude: 32.3413467
+    latitude: -0.34
+    longitude: 31.74
+    min_latitude: -0.3747893
+    min_longitude: 31.71462159999999
+    max_latitude: -0.3013382
+    max_longitude: 31.791172
+  name: Masaka
+'106':
+  unofficial_names: Mpigi
   translations:
     en: Mpigi
     ar: ضاحية مبيجي
@@ -319,25 +264,16 @@
     tr: Mpigi District
     ur: مپیگی ضلع
     vi: Quận Mpigi
-    lv: Mpigi distrikts
-    ceb: Mpigi District
-    lt: Mpigio apskritis
-    zh: 姆皮吉區
-    ccp: "\U0001111B\U00011128\U00011109\U00011128"
-    uk: Район Мпігі
-    'no': Mpigi
-  comments:
-'107':
-  name: Mubende
-  code:
-  unofficial_names: Mubende
   geo:
-    latitude: 0.5575
-    longitude: 31.395
-    min_latitude: 0.5415835999999999
-    min_longitude: 31.363821
-    max_latitude: 0.5817504
-    max_longitude: 31.41111369999999
+    latitude: 0.233333
+    longitude: 32.333333
+    min_latitude: 0.212645
+    min_longitude: 32.314911
+    max_latitude: 0.2413123
+    max_longitude: 32.3413467
+  name: Mpigi
+'107':
+  unofficial_names: Mubende
   translations:
     en: Mubende
     ar: مقاطعة موبندي
@@ -373,25 +309,16 @@
     tr: Mubende District
     ur: موبیندے ضلع
     vi: Quận Mubende
-    lv: Mubendes distrikts
-    ceb: Mubende District
-    lt: Mubendės apskritis
-    zh: 穆本德區
-    ccp: "\U0001111F\U0001112A\U0001111D\U0001112C\U0001111A\U00011134\U00011113\U00011128"
-    uk: Район Мубенде
-    'no': Mubende
-  comments:
-'108':
-  name: Mukono
-  code:
-  unofficial_names: Mukono
   geo:
-    latitude: 0.353333
-    longitude: 32.755278
-    min_latitude: 0.3381098
-    min_longitude: 32.7301923
-    max_latitude: 0.3836455
-    max_longitude: 32.7797699
+    latitude: 0.5575
+    longitude: 31.395
+    min_latitude: 0.5415835999999999
+    min_longitude: 31.363821
+    max_latitude: 0.5817504
+    max_longitude: 31.41111369999999
+  name: Mubende
+'108':
+  unofficial_names: Mukono
   translations:
     en: Mukono
     ar: مقاطعة موكونو
@@ -429,25 +356,16 @@
     tr: Mukona District
     ur: موکونو ضلع
     vi: Quận Mukono
-    lv: Mukono distrikts
-    ceb: Mukono District
-    lt: Mukono apskritis
-    zh: 穆科諾區
-    ccp: "\U0001111F\U0001112A\U00011107\U0001112E\U0001111A\U0001112E"
-    uk: Район Муконо
-    'no': Mukono
-  comments:
-'109':
-  name: Nakasongola
-  code:
-  unofficial_names: Nakasongola
   geo:
-    latitude: 1.315
-    longitude: 32.465
-    min_latitude: 1.304857
-    min_longitude: 32.4460602
-    max_latitude: 1.3266522
-    max_longitude: 32.4732686
+    latitude: 0.353333
+    longitude: 32.755278
+    min_latitude: 0.3381098
+    min_longitude: 32.7301923
+    max_latitude: 0.3836455
+    max_longitude: 32.7797699
+  name: Mukono
+'109':
+  unofficial_names: Nakasongola
   translations:
     en: Nakasongola
     ar: مقاطعة ناكاسونغولا
@@ -483,25 +401,16 @@
     tr: Nakasongola District
     ur: ناکاسونگولا ضلع
     vi: Quận Nakasongola
-    lv: Nakasongolas distrikts
-    ceb: Nakasongola District
-    lt: Nakasongolos apskritis
-    zh: 納卡松戈拉區
-    ccp: "\U0001111A\U00011107\U00011134\U00011125\U0001112E\U0001111A\U00011134\U00011109\U0001112E\U00011123"
-    uk: Район Накасонгола
-    'no': Nakasongola
-  comments:
-'110':
-  name: Rakai
-  code:
-  unofficial_names: Rakai
   geo:
-    latitude: -0.70294
-    longitude: 31.40991
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
+    latitude: 1.315
+    longitude: 32.465
+    min_latitude: 1.304857
+    min_longitude: 32.4460602
+    max_latitude: 1.3266522
+    max_longitude: 32.4732686
+  name: Nakasongola
+'110':
+  unofficial_names: Rakai
   translations:
     en: Rakai
     ar: مقاطعة راكاي
@@ -537,25 +446,16 @@
     tr: Rakai District
     ur: راکائی ضلع
     vi: Quận Rakai
-    lv: Rakai distrikts
-    ceb: Rakai District
-    lt: Rakajaus apskritis
-    zh: 拉卡伊區
-    ccp: "\U00011122\U00011107\U0001112D"
-    uk: Район Ракай
-    'no': Rakai
-  comments:
-'111':
-  name: Sembabule
-  code:
-  unofficial_names: Sembabule
   geo:
-    latitude: -0.08
-    longitude: 31.46
-    min_latitude: -0.08720390000000001
-    min_longitude: 31.4558314
-    max_latitude: -0.07656099999999999
-    max_longitude: 31.4668179
+    latitude: -0.70294
+    longitude: 31.40991
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
+  name: Rakai
+'111':
+  unofficial_names: Sembabule
   translations:
     en: Sembabule
     ar: مقاطعة سيمبابول
@@ -591,25 +491,16 @@
     tr: Sembabule District
     ur: سیمبابولے ضلع
     vi: Quận Sembabule
-    lv: Sembabules distrikts
-    ceb: Sembabule District
-    lt: Sembabulės apskritis
-    zh: 森巴布萊區
-    ccp: "\U00011125\U0001112C\U0001111F\U00011134\U0001111D\U00011127\U0001111D\U0001112A\U00011123\U0001112C"
-    uk: Район Сембабуле
-    'no': Sembabule
-  comments:
-'112':
-  name: Kayunga
-  code:
-  unofficial_names: Kayunga
   geo:
-    latitude: 0.7013707
-    longitude: 32.9029088
-    min_latitude: 0.6945249
-    min_longitude: 32.8980446
-    max_latitude: 0.7074843
-    max_longitude: 32.9095459
+    latitude: -0.08
+    longitude: 31.46
+    min_latitude: -0.08720390000000001
+    min_longitude: 31.4558314
+    max_latitude: -0.07656099999999999
+    max_longitude: 31.4668179
+  name: Sembabule
+'112':
+  unofficial_names: Kayunga
   translations:
     en: Kayunga
     ar: مقاطعة كايونغا
@@ -646,25 +537,16 @@
     tr: Kayunga District
     ur: کائونگا ضلع
     vi: Quận Kayunga
-    lv: Kajungas distrikts
-    ceb: Kayunga District
-    lt: Kajungos apskritis
-    zh: 卡永加區
-    ccp: "\U00011107\U0001112C\U00011120\U0001112A\U00011101\U00011109"
-    uk: Район Кайунга
-    'no': Kayunga
-  comments:
-'113':
-  name: Wakiso
-  code:
-  unofficial_names: Wakiso
   geo:
-    latitude: 0.398056
-    longitude: 32.478056
-    min_latitude: 0.3950514
-    min_longitude: 32.4742611
-    max_latitude: 0.4039581
-    max_longitude: 32.4863777
+    latitude: 0.7013707
+    longitude: 32.9029088
+    min_latitude: 0.6945249
+    min_longitude: 32.8980446
+    max_latitude: 0.7074843
+    max_longitude: 32.9095459
+  name: Kayunga
+'113':
+  unofficial_names: Wakiso
   translations:
     en: Wakiso
     ar: مقاطعة واكيسو
@@ -701,27 +583,16 @@
     tr: Wakiso District
     ur: واکیسو ضلع
     vi: Quận Wakiso
-    lv: Vakiso distrikts
-    ceb: Wakiso District
-    sr_Latn: Vakiso
-    lt: Vakiso apskritis
-    zh: 瓦基索區
-    ccp: "\U00011124\U00011107\U00011128\U00011125\U0001112E"
-    uk: Район Вакісо
-    be: акруга Вакісо
-    'no': Wakiso
-  comments:
-'114':
-  name: Mityana
-  code:
-  unofficial_names: Mityana
   geo:
-    latitude: 0.4016398
-    longitude: 32.043969
-    min_latitude: 0.3833989
-    min_longitude: 32.0198165
-    max_latitude: 0.4203956
-    max_longitude: 32.0710365
+    latitude: 0.398056
+    longitude: 32.478056
+    min_latitude: 0.3950514
+    min_longitude: 32.4742611
+    max_latitude: 0.4039581
+    max_longitude: 32.4863777
+  name: Wakiso
+'114':
+  unofficial_names: Mityana
   translations:
     en: Lyantonde
     ar: مقاطعة ليانتوند
@@ -757,25 +628,16 @@
     tr: Lyantonde District
     ur: لیانتوندے ضلع
     vi: Quận Lyantonde
-    lv: Ļantondes distrikts
-    ceb: Lyantonde District
-    lt: Lijantodės apskritis
-    zh: 利安通德區
-    ccp: "\U00011123\U00011128\U00011120\U0001111A\U00011134\U00011111\U0001112E\U0001111A\U00011134\U00011113\U0001112C"
-    uk: Район Лайантонд
-    'no': Lyantonde
-  comments:
-'115':
-  name: Nakaseke
-  code:
-  unofficial_names: Nakaseke
   geo:
-    latitude: 1.0922742
-    longitude: 32.0837445
-    min_latitude: 0.5353182
-    min_longitude: 31.8218994
-    max_latitude: 1.4669437
-    max_longitude: 32.501335
+    latitude: 0.4016398
+    longitude: 32.043969
+    min_latitude: 0.3833989
+    min_longitude: 32.0198165
+    max_latitude: 0.4203956
+    max_longitude: 32.0710365
+  name: Mityana
+'115':
+  unofficial_names: Nakaseke
   translations:
     en: Mityana
     ar: ميتيانا
@@ -811,25 +673,16 @@
     tr: Mityana District
     ur: میتیانا ضلع
     vi: Quận Mityana
-    lv: Mitjanas distrikts
-    ceb: Mityana District
-    lt: Mitjanos apskritis
-    zh: 米特亞納區
-    ccp: "\U0001111F\U00011128\U00011111\U0001112D\U00011120\U0001111A\U00011134"
-    uk: Мітьана
-    'no': Mityana
-  comments:
-'116':
-  name: Lyantonde
-  code:
-  unofficial_names: Lyantonde
   geo:
-    latitude: -0.406944
-    longitude: 31.1575
-    min_latitude: -0.4140758
-    min_longitude: 31.1474097
-    max_latitude: -0.4017166
-    max_longitude: 31.1623442
+    latitude: 1.0922742
+    longitude: 32.0837445
+    min_latitude: 0.5353182
+    min_longitude: 31.8218994
+    max_latitude: 1.4669437
+    max_longitude: 32.501335
+  name: Nakaseke
+'116':
+  unofficial_names: Lyantonde
   translations:
     en: Nakaseke
     ar: مقاطعة ليانتوند²
@@ -865,25 +718,16 @@
     tr: Lyantonde District²
     ur: لیانتوندے ضلع²
     vi: Quận Lyantonde²
-    lv: Nakasekes distrikts
-    ceb: Nakaseke District
-    lt: Nakasekės apskritis
-    zh: 利安通德區²
-    ccp: "\U0001111A\U00011107\U00011134\U00011125\U0001112C\U00011107\U00011134"
-    uk: Район Накасеке
-    'no': Lyantonde²
-  comments:
-'201':
-  name: Bugiri
-  code:
-  unofficial_names: Bugiri
   geo:
-    latitude: 0.569444
-    longitude: 33.748611
-    min_latitude: 0.5541143
-    min_longitude: 33.7357521
-    max_latitude: 0.5827803
-    max_longitude: 33.7664796
+    latitude: -0.406944
+    longitude: 31.1575
+    min_latitude: -0.4140758
+    min_longitude: 31.1474097
+    max_latitude: -0.4017166
+    max_longitude: 31.1623442
+  name: Lyantonde
+'201':
+  unofficial_names: Bugiri
   translations:
     en: Bugiri
     de: Distrikt Bugiri
@@ -900,22 +744,16 @@
     ru: Бугири
     sw: Wilaya ya Bugiri
     ur: بوگیری ضلع
-    ceb: Bugiri District
-    zh: 布吉里區
-    ccp: "\U0001111D\U0001112A\U00011109\U00011128\U00011122\U00011128"
-    'no': Bugiri
-  comments:
-'202':
-  name: Busia
-  code:
-  unofficial_names: Busia
   geo:
-    latitude: 0.4706692
-    longitude: 34.0919803
-    min_latitude: 0.4560136
-    min_longitude: 34.0731525
-    max_latitude: 0.4804745999999999
-    max_longitude: 34.1007899
+    latitude: 0.569444
+    longitude: 33.748611
+    min_latitude: 0.5541143
+    min_longitude: 33.7357521
+    max_latitude: 0.5827803
+    max_longitude: 33.7664796
+  name: Bugiri
+'202':
+  unofficial_names: Busia
   translations:
     en: Busia
     ar: مقاطعة بوسيا
@@ -951,25 +789,16 @@
     tr: Busia District
     ur: بوسیا ضلع
     vi: Quận Busia
-    lv: Busijas distrikts
-    ceb: Busia District
-    lt: Busijos apskritis
-    zh: 布西亞區
-    ccp: "\U0001111D\U0001112A\U00011125\U00011128\U00011120"
-    uk: Район Бусіа
-    'no': Busia
-  comments:
-'203':
-  name: Iganga
-  code:
-  unofficial_names: Iganga
   geo:
-    latitude: 0.615
-    longitude: 33.485
-    min_latitude: 0.5867283
-    min_longitude: 33.4485625
-    max_latitude: 0.633675
-    max_longitude: 33.4971428
+    latitude: 0.4706692
+    longitude: 34.0919803
+    min_latitude: 0.4560136
+    min_longitude: 34.0731525
+    max_latitude: 0.4804745999999999
+    max_longitude: 34.1007899
+  name: Busia
+'203':
+  unofficial_names: Iganga
   translations:
     en: Iganga
     ar: مقاطعة إيغانغا
@@ -1005,26 +834,16 @@
     tr: Iganga district
     ur: اگانگا ضلع
     vi: Quận Iganga
-    lv: Igangas distrikts
-    ceb: Iganga District
-    lt: Igangos apskritis
-    zh: 伊甘加區
-    ccp: "\U00011103\U00011109\U0001111A\U00011134\U00011109"
-    hy: Իգանգա
-    uk: Район Іганга
-    'no': Iganga
-  comments:
-'204':
-  name: Jinja
-  code:
-  unofficial_names: Jinja
   geo:
-    latitude: 0.424444
-    longitude: 33.204167
-    min_latitude: 0.4114044
-    min_longitude: 33.1757498
-    max_latitude: 0.4795304
-    max_longitude: 33.2535861
+    latitude: 0.615
+    longitude: 33.485
+    min_latitude: 0.5867283
+    min_longitude: 33.4485625
+    max_latitude: 0.633675
+    max_longitude: 33.4971428
+  name: Iganga
+'204':
+  unofficial_names: Jinja
   translations:
     en: Jinja
     ar: ضاحية جينجا
@@ -1060,26 +879,16 @@
     tr: Jinja District
     ur: جنجا ضلع
     vi: Quận Jinja
-    lv: Džindžas distrikts
-    ceb: Jinja District
-    lt: Džindžos rajonas
-    zh: 金賈區
-    ccp: "\U0001110E\U00011128\U0001111A\U00011134\U0001110E"
-    he: ג׳ינג׳ה
-    uk: Район Джинджа
-    'no': Jinja
-  comments:
-'205':
-  name: Kamuli
-  code:
-  unofficial_names: Kamuli
   geo:
-    latitude: 0.9450000000000001
-    longitude: 33.125
-    min_latitude: 0.9370790999999999
-    min_longitude: 33.116076
-    max_latitude: 0.9535992999999999
-    max_longitude: 33.1316112
+    latitude: 0.424444
+    longitude: 33.204167
+    min_latitude: 0.4114044
+    min_longitude: 33.1757498
+    max_latitude: 0.4795304
+    max_longitude: 33.2535861
+  name: Jinja
+'205':
+  unofficial_names: Kamuli
   translations:
     en: Kamuli
     ar: مقاطعة كامولي
@@ -1115,25 +924,16 @@
     tr: Kamuli District
     ur: کامولی ضلع
     vi: Quận Kamuli
-    lv: Kamuli distrikts
-    ceb: Kamuli District
-    lt: Kamulio apskritis
-    zh: 卡穆利區
-    ccp: "\U00011107\U0001111F\U0001112A\U00011123\U00011128"
-    uk: Район Камулі
-    'no': Kamuli
-  comments:
-'206':
-  name: Kapchorwa
-  code:
-  unofficial_names: Kapchorwa
   geo:
-    latitude: 1.4
-    longitude: 34.45
-    min_latitude: 1.3889478
-    min_longitude: 34.439199
-    max_latitude: 1.4056369
-    max_longitude: 34.4549704
+    latitude: 0.9450000000000001
+    longitude: 33.125
+    min_latitude: 0.9370790999999999
+    min_longitude: 33.116076
+    max_latitude: 0.9535992999999999
+    max_longitude: 33.1316112
+  name: Kamuli
+'206':
+  unofficial_names: Kapchorwa
   translations:
     en: Kapchorwa
     ar: مقاطعة كابشوروا
@@ -1169,25 +969,16 @@
     tr: Kapshorwa District
     ur: کاپچوروا ضلع
     vi: Quận Kapchorwa
-    lv: Kapčorvas distrikts
-    ceb: Kapchorwa District
-    lt: Kapčorvos apskritis
-    zh: 卡普喬魯瓦區
-    ccp: "\U00011107\U0001111B\U00011134\U0001110C\U0001112E\U00011122\U00011134\U00011124"
-    uk: Район Капчорва
-    'no': Kapchorwa
-  comments:
-'207':
-  name: Katakwi
-  code:
-  unofficial_names: Katakwi
   geo:
-    latitude: 1.915
-    longitude: 33.955
-    min_latitude: 1.9058622
-    min_longitude: 33.9466382
-    max_latitude: 1.9234477
-    max_longitude: 33.967924
+    latitude: 1.4
+    longitude: 34.45
+    min_latitude: 1.3889478
+    min_longitude: 34.439199
+    max_latitude: 1.4056369
+    max_longitude: 34.4549704
+  name: Kapchorwa
+'207':
+  unofficial_names: Katakwi
   translations:
     en: Katakwi
     ar: مقاطعة كاتاكوي
@@ -1223,25 +1014,16 @@
     tr: Katakwi District
     ur: کاتاکوی ضلع
     vi: Quận Katakwi
-    lv: Katakvi distrikts
-    ceb: Katakwi District
-    lt: Katakvio apskritis
-    zh: 卡塔奎區
-    ccp: "\U00011107\U00011111\U00011107\U00011134\U00011103\U00011128"
-    uk: Район Катакві
-    'no': Katakwi
-  comments:
-'208':
-  name: Kumi
-  code:
-  unofficial_names: Kumi
   geo:
-    latitude: 1.49
-    longitude: 33.935
-    min_latitude: 1.4751163
-    min_longitude: 33.9199877
-    max_latitude: 1.4952798
-    max_longitude: 33.9476252
+    latitude: 1.915
+    longitude: 33.955
+    min_latitude: 1.9058622
+    min_longitude: 33.9466382
+    max_latitude: 1.9234477
+    max_longitude: 33.967924
+  name: Katakwi
+'208':
+  unofficial_names: Kumi
   translations:
     en: Kumi
     ar: مقاطعة كومي
@@ -1277,25 +1059,16 @@
     tr: Kumi District
     ur: کومی ضلع
     vi: Quận Kumi
-    lv: Kumi distrikts
-    ceb: Kumi District
-    lt: Kumio apskritis
-    zh: 庫米區
-    ccp: "\U00011107\U0001112A\U0001111F\U00011128"
-    uk: Район Кумі
-    'no': Kumi
-  comments:
-'209':
-  name: Mbale
-  code:
-  unofficial_names: Mbale
   geo:
-    latitude: 1.080556
-    longitude: 34.175
-    min_latitude: 1.0560868
-    min_longitude: 34.1436195
-    max_latitude: 1.1036286
-    max_longitude: 34.2084217
+    latitude: 1.49
+    longitude: 33.935
+    min_latitude: 1.4751163
+    min_longitude: 33.9199877
+    max_latitude: 1.4952798
+    max_longitude: 33.9476252
+  name: Kumi
+'209':
+  unofficial_names: Mbale
   translations:
     en: Mbale
     ar: مقاطعة مبالي
@@ -1331,25 +1104,16 @@
     tr: Mbale District
     ur: مبالے ضلع
     vi: Quận Mbale
-    lv: Mbales distrikts
-    ceb: Mbale District
-    lt: Mbalės apskritis
-    zh: 姆巴萊區
-    ccp: "\U0001111D\U00011123\U0001112C"
-    uk: Район Мбале
-    'no': Mbale
-  comments:
-'210':
-  name: Pallisa
-  code:
-  unofficial_names: Pallisa
   geo:
-    latitude: 1.1675
-    longitude: 33.71
-    min_latitude: 1.1583564
-    min_longitude: 33.7033511
-    max_latitude: 1.179402
-    max_longitude: 33.7169123
+    latitude: 1.080556
+    longitude: 34.175
+    min_latitude: 1.0560868
+    min_longitude: 34.1436195
+    max_latitude: 1.1036286
+    max_longitude: 34.2084217
+  name: Mbale
+'210':
+  unofficial_names: Pallisa
   translations:
     en: Pallisa
     ar: مقاطعة باليسا
@@ -1385,25 +1149,16 @@
     tr: Pallisa District
     ur: پالیسا ضلع
     vi: Quận Pallisa
-    lv: Pallisas distrikts
-    ceb: Pallisa District
-    lt: Palisos apskritis
-    zh: 帕利薩區
-    ccp: "\U0001111B\U00011123\U00011133\U00011126\U00011128\U00011125"
-    uk: Район Палліса
-    'no': Pallisa
-  comments:
-'211':
-  name: Soroti
-  code:
-  unofficial_names: Soroti
   geo:
-    latitude: 1.715
-    longitude: 33.611111
-    min_latitude: 1.6942225
-    min_longitude: 33.5904408
-    max_latitude: 1.7504162
-    max_longitude: 33.6426258
+    latitude: 1.1675
+    longitude: 33.71
+    min_latitude: 1.1583564
+    min_longitude: 33.7033511
+    max_latitude: 1.179402
+    max_longitude: 33.7169123
+  name: Pallisa
+'211':
+  unofficial_names: Soroti
   translations:
     en: Soroti
     ar: مقاطعة سوروتي
@@ -1439,25 +1194,16 @@
     tr: Soroti District
     ur: سوروتی ضلع
     vi: Quận Soroti
-    lv: Soroti distrikts
-    ceb: Soroti District
-    lt: Soročio apskritis
-    zh: 索羅提區
-    ccp: "\U00011125\U0001112E\U00011122\U0001112E\U00011111\U00011128"
-    uk: Район Сороті
-    'no': Soroti
-  comments:
-'212':
-  name: Tororo
-  code:
-  unofficial_names: Tororo
   geo:
-    latitude: 0.692778
-    longitude: 34.181111
-    min_latitude: 0.6541015
-    min_longitude: 34.1529751
-    max_latitude: 0.7098015999999999
-    max_longitude: 34.2079068
+    latitude: 1.715
+    longitude: 33.611111
+    min_latitude: 1.6942225
+    min_longitude: 33.5904408
+    max_latitude: 1.7504162
+    max_longitude: 33.6426258
+  name: Soroti
+'212':
+  unofficial_names: Tororo
   translations:
     en: Tororo
     ar: مقاطعة تورورو
@@ -1494,26 +1240,16 @@
     tr: Tororo District
     ur: تورورو ضلع
     vi: Quận Tororo
-    lv: Tororo distrikts
-    ceb: Tororo District
-    lt: Tororo sritis
-    zh: 托羅羅區
-    ccp: "\U00011111\U0001112E\U00011122\U0001112E\U00011122\U0001112E"
-    uk: Район Тороро
-    ca: Districte de Tororo
-    'no': Tororo
-  comments:
-'213':
-  name: Kaberamaido
-  code:
-  unofficial_names: Kaberamaido
   geo:
-    latitude: 1.766667
-    longitude: 33.152222
-    min_latitude: 1.7596816
-    min_longitude: 33.1466532
-    max_latitude: 1.7682606
-    max_longitude: 33.1565666
+    latitude: 0.692778
+    longitude: 34.181111
+    min_latitude: 0.6541015
+    min_longitude: 34.1529751
+    max_latitude: 0.7098015999999999
+    max_longitude: 34.2079068
+  name: Tororo
+'213':
+  unofficial_names: Kaberamaido
   translations:
     en: Kaberamaido
     ar: مقاطعة كابيرامايدو
@@ -1549,25 +1285,16 @@
     tr: Kaberamaid District
     ur: کابیرامایدو ضلع
     vi: Quận Kaberamaido
-    lv: Kaberamaido distrikts
-    ceb: Kaberamaido District
-    lt: Kaberamaido apskritis
-    zh: 卡貝拉馬伊多區
-    ccp: "\U00011107\U0001111D\U0001112C\U00011122\U0001111F\U0001112D\U00011113\U0001112E"
-    uk: Район Каберамайдо
-    'no': Kaberamaido
-  comments:
-'214':
-  name: Mayuge
-  code:
-  unofficial_names: Mayuge
   geo:
-    latitude: 0.2532134
-    longitude: 33.5508661
-    min_latitude: -0.046986
-    min_longitude: 33.4011293
-    max_latitude: 0.46483
-    max_longitude: 33.7006029
+    latitude: 1.766667
+    longitude: 33.152222
+    min_latitude: 1.7596816
+    min_longitude: 33.1466532
+    max_latitude: 1.7682606
+    max_longitude: 33.1565666
+  name: Kaberamaido
+'214':
+  unofficial_names: Mayuge
   translations:
     en: Mayuge
     ar: مقاطعة مايوج
@@ -1603,25 +1330,16 @@
     tr: Mayugebdistrict
     ur: مائوگی ضلع
     vi: Quận Mayuge
-    lv: Majuges distrikts
-    ceb: Mayuge District
-    lt: Majugės apskritis
-    zh: 馬尤蓋區
-    ccp: "\U0001111F\U0001112C\U00011120\U0001112A\U00011109\U0001112C"
-    uk: Район Маюге
-    'no': Mayuge
-  comments:
-'215':
-  name: Sironko
-  code:
-  unofficial_names: Sironko
   geo:
-    latitude: 1.233333
-    longitude: 34.25
-    min_latitude: 1.2243245
-    min_longitude: 34.2446638
-    max_latitude: 1.2361664
-    max_longitude: 34.252839
+    latitude: 0.2532134
+    longitude: 33.5508661
+    min_latitude: -0.046986
+    min_longitude: 33.4011293
+    max_latitude: 0.46483
+    max_longitude: 33.7006029
+  name: Mayuge
+'215':
+  unofficial_names: Sironko
   translations:
     en: Sironko
     ar: مقاطعة سيرونكو
@@ -1657,25 +1375,16 @@
     tr: Sironko District
     ur: سیرونکو ضلع
     vi: Quận Sironko
-    lv: Sironko distrikts
-    ceb: Sironko District
-    lt: Sironko apskritis
-    zh: 錫龍科區
-    ccp: "\U00011125\U00011128\U00011122\U0001112E\U0001111A\U00011134\U00011107\U0001112E"
-    uk: Район Сіронко
-    'no': Sironko
-  comments:
-'216':
-  name: Amuria
-  code:
-  unofficial_names: Amuria
   geo:
-    latitude: 2.03017
-    longitude: 33.6427533
-    min_latitude: 2.0231453
-    min_longitude: 33.6368751
-    max_latitude: 2.0345965
-    max_longitude: 33.6482048
+    latitude: 1.233333
+    longitude: 34.25
+    min_latitude: 1.2243245
+    min_longitude: 34.2446638
+    max_latitude: 1.2361664
+    max_longitude: 34.252839
+  name: Sironko
+'216':
+  unofficial_names: Amuria
   translations:
     en: Amuria
     ar: مقاطعة أموريا
@@ -1712,26 +1421,16 @@
     tr: Amuria District
     ur: اموریا ضلع
     vi: Quận Amuria
-    lv: Amurijas distrikts
-    ceb: Amuria District
-    lt: Amurijos apskritis
-    zh: 阿穆里亞區
-    ccp: "\U00011103\U0001111F\U0001112A\U00011122\U00011128\U00011120"
-    ml: അമുറിയ ജില്ല
-    uk: Район Амурія
-    'no': Amuria
-  comments:
-'217':
-  name: Budaka
-  code:
-  unofficial_names: Budaka
   geo:
-    latitude: 1.016667
-    longitude: 33.945
-    min_latitude: 1.0106683
-    min_longitude: 33.939128
-    max_latitude: 1.02043
-    max_longitude: 33.959062
+    latitude: 2.03017
+    longitude: 33.6427533
+    min_latitude: 2.0231453
+    min_longitude: 33.6368751
+    max_latitude: 2.0345965
+    max_longitude: 33.6482048
+  name: Amuria
+'217':
+  unofficial_names: Budaka
   translations:
     en: Budaka
     ar: مقاطعة بوداكا
@@ -1768,26 +1467,16 @@
     tr: Budaka District
     ur: بوداکا ضلع
     vi: Quận Budaka
-    lv: Budakas disrikts
-    ceb: Budaka District
-    sr_Latn: Budaka
-    lt: Budakos apskritis
-    zh: 布達卡區
-    ccp: "\U0001111D\U0001112A\U00011118\U00011107"
-    uk: Район Будака
-    'no': Budaka
-  comments:
-'218':
-  name: Bukwa
-  code:
-  unofficial_names: Bukwa
   geo:
-    latitude: 1.2938
-    longitude: 34.7396699
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
+    latitude: 1.016667
+    longitude: 33.945
+    min_latitude: 1.0106683
+    min_longitude: 33.939128
+    max_latitude: 1.02043
+    max_longitude: 33.959062
+  name: Budaka
+'218':
+  unofficial_names: Bukwa
   translations:
     en: Bududa
     ar: مقاطعة بودودا
@@ -1823,27 +1512,16 @@
     tr: Bududa District
     ur: بودودا ضلع
     vi: Quận Bududa
-    lv: Bududas distrikts
-    ceb: Bududa District
-    lt: Bududos apskritis
-    zh: 布杜達區
-    ccp: "\U0001111D\U0001112A\U00011118\U0001112A\U00011118"
-    ml: ബുഡുഡ ജില്ല
-    uk: Район Будуда
-    ca: districte de Bududa
-    'no': Bududa
-  comments:
-'219':
-  name: Butaleja
-  code:
-  unofficial_names: Butaleja
   geo:
-    latitude: 0.9252009999999999
-    longitude: 33.945702
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
+    latitude: 1.2938
+    longitude: 34.7396699
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
+  name: Bukwa
+'219':
+  unofficial_names: Butaleja
   translations:
     en: Bukedea
     ar: ضاحية بوتليجا
@@ -1879,26 +1557,16 @@
     tr: Butaleja District
     ur: بوتالیجا ضلع
     vi: Quận Butaleja
-    lv: Bukedea distrikts
-    ceb: Bukedea District
-    lt: Bukedėjos apskritis
-    zh: 布塔萊賈區
-    ccp: "\U0001111D\U0001112A\U00011107\U0001112C\U00011113\U00011128\U00011120"
-    ml: ബുകെഡിയ
-    uk: Район Букудеа
-    'no': Butaleja
-  comments:
-'220':
-  name: Kaliro
-  code:
-  unofficial_names: Kaliro
   geo:
-    latitude: 0.8927499
-    longitude: 33.5028005
-    min_latitude: 0.8857374
-    min_longitude: 33.4992672
-    max_latitude: 0.9000693999999999
-    max_longitude: 33.5104035
+    latitude: 0.9252009999999999
+    longitude: 33.945702
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
+  name: Butaleja
+'220':
+  unofficial_names: Kaliro
   translations:
     en: Bukwa
     ar: مقاطعة كاليرو
@@ -1934,25 +1602,16 @@
     tr: Kaliro District
     ur: کالیرو ضلع
     vi: Quận Bukwo
-    lv: Bukvo distrikts
-    ceb: Bukwa District
-    lt: Bukvo apskritis
-    zh: 布克瓦區
-    ccp: "\U0001111D\U0001112A\U00011107\U00011134\U00011124"
-    uk: Район Букво
-    'no': Kaliro
-  comments:
-'221':
-  name: Manafwa
-  code:
-  unofficial_names: Manafwa
   geo:
-    latitude: 0.9063599
-    longitude: 34.28660910000001
-    min_latitude: 0.7461110000000001
-    min_longitude: 34.165519
-    max_latitude: 1.0062541
-    max_longitude: 34.484844
+    latitude: 0.8927499
+    longitude: 33.5028005
+    min_latitude: 0.8857374
+    min_longitude: 33.4992672
+    max_latitude: 0.9000693999999999
+    max_longitude: 33.5104035
+  name: Kaliro
+'221':
+  unofficial_names: Manafwa
   translations:
     en: Butaleja
     ar: ضاحية منفوا
@@ -1988,25 +1647,16 @@
     tr: Manafwa District
     ur: مانافوا ضلع
     vi: Quận Manafwa
-    lv: Butaledžas distrikts
-    ceb: Butaleja District
-    lt: Butalėjos apskritis
-    zh: 馬納富阿區
-    ccp: "\U0001111D\U0001112A\U00011111\U00011123\U0001112C\U0001110E"
-    uk: Район Буталеджа
-    'no': Manafwa
-  comments:
-'222':
-  name: Namutumba
-  code:
-  unofficial_names: Namutumba
   geo:
-    latitude: 0.8360898
-    longitude: 33.6860965
-    min_latitude: 0.8321851
-    min_longitude: 33.6810781
-    max_latitude: 0.8400807
-    max_longitude: 33.6882877
+    latitude: 0.9063599
+    longitude: 34.28660910000001
+    min_latitude: 0.7461110000000001
+    min_longitude: 34.165519
+    max_latitude: 1.0062541
+    max_longitude: 34.484844
+  name: Manafwa
+'222':
+  unofficial_names: Namutumba
   translations:
     en: Kaliro
     ar: مقاطعة كاليرو²
@@ -2042,25 +1692,16 @@
     tr: Kaliro District²
     ur: ناموتومبا ضلع
     vi: Quận Namutumba
-    lv: Kaliro distrikts
-    ceb: Kaliro District
-    lt: Kaliro apskritis
-    zh: 納穆通巴區
-    ccp: "\U00011107\U00011123\U00011128\U0001111B\U0001112E"
-    uk: Район Каліро
-    'no': Kaliro²
-  comments:
-'223':
-  name: Bududa
-  code:
-  unofficial_names: Bududa
   geo:
-    latitude: 1.0029693
-    longitude: 34.3338123
-    min_latitude: 0.9976026
-    min_longitude: 34.3259883
-    max_latitude: 1.011033
-    max_longitude: 34.3380904
+    latitude: 0.8360898
+    longitude: 33.6860965
+    min_latitude: 0.8321851
+    min_longitude: 33.6810781
+    max_latitude: 0.8400807
+    max_longitude: 33.6882877
+  name: Namutumba
+'223':
+  unofficial_names: Bududa
   translations:
     en: Manafwa
     ar: ضاحية منفوا²
@@ -2096,25 +1737,16 @@
     tr: Manafwa District²
     ur: مانافوا ضلع²
     vi: Quận Manafwa²
-    lv: Manafvas distrikts
-    ceb: Manafwa District
-    lt: Manafvos apskritis
-    zh: 馬納富阿區²
-    ccp: "\U0001111F\U0001111A\U0001111B\U00011134\U00011124"
-    uk: Район Манафва
-    'no': Manafwa²
-  comments:
-'224':
-  name: Bukedea
-  code:
-  unofficial_names: Bukedea
   geo:
-    latitude: 1.3475
-    longitude: 34.044444
-    min_latitude: 1.344586
-    min_longitude: 34.0401077
-    max_latitude: 1.3518796
-    max_longitude: 34.0469742
+    latitude: 1.0029693
+    longitude: 34.3338123
+    min_latitude: 0.9976026
+    min_longitude: 34.3259883
+    max_latitude: 1.011033
+    max_longitude: 34.3380904
+  name: Bududa
+'224':
+  unofficial_names: Bukedea
   translations:
     en: Namutumba
     ar: مقاطعة بوكيدا
@@ -2150,25 +1782,16 @@
     tr: Buedea District
     ur: بوکیدیا ضلع
     vi: Quận Bukedea
-    lv: Namutumbas distrikts
-    ceb: Namutumba District
-    lt: Namutumbos apskritis
-    zh: 布凱德阿區
-    ccp: "\U0001111A\U0001111F\U0001112A\U00011111\U0001112A\U0001111F\U00011134\U0001111D"
-    uk: Район Намутумба
-    'no': Bukedea
-  comments:
-'301':
-  name: Adjumani
-  code:
-  unofficial_names: Adjumani
   geo:
-    latitude: 3.384444
-    longitude: 31.781944
-    min_latitude: 3.3578541
-    min_longitude: 31.763835
-    max_latitude: 3.3905632
-    max_longitude: 31.8085957
+    latitude: 1.3475
+    longitude: 34.044444
+    min_latitude: 1.344586
+    min_longitude: 34.0401077
+    max_latitude: 1.3518796
+    max_longitude: 34.0469742
+  name: Bukedea
+'301':
+  unofficial_names: Adjumani
   translations:
     en: Adjumani
     ar: مقاطعة أديوماني
@@ -2204,25 +1827,16 @@
     tr: Adjumani District
     ur: ادجومانی ضلع
     vi: Quận Adjumani
-    lv: Adžumani distrikts
-    ceb: Adjumani District
-    lt: Adžumanio apskritis
-    zh: 阿朱馬尼區
-    ccp: "\U00011103\U0001110C\U00011134\U0001110E\U0001112A\U0001111F\U0001111A\U00011128"
-    uk: Район Аджумані
-    'no': Adjumani
-  comments:
-'302':
-  name: Apac
-  code:
-  unofficial_names: Apac
   geo:
-    latitude: 1.983333
-    longitude: 32.533333
-    min_latitude: 1.9798057
-    min_longitude: 32.5274278
-    max_latitude: 1.9909571
-    max_longitude: 32.5391007
+    latitude: 3.384444
+    longitude: 31.781944
+    min_latitude: 3.3578541
+    min_longitude: 31.763835
+    max_latitude: 3.3905632
+    max_longitude: 31.8085957
+  name: Adjumani
+'302':
+  unofficial_names: Apac
   translations:
     en: Apac
     ar: إقليم أباك
@@ -2257,25 +1871,16 @@
     tr: Apac District
     ur: اپاک ضلع
     vi: Quận Apac
-    lv: Apaka distrikts
-    ceb: Apac District
-    lt: Apako apskritis
-    zh: 阿帕克區
-    ccp: "\U00011103\U0001112C\U0001111B\U00011107\U00011134"
-    uk: Район Апак
-    'no': Apac
-  comments:
-'303':
-  name: Arua
-  code:
-  unofficial_names: Arua
   geo:
-    latitude: 3.038333
-    longitude: 30.910833
-    min_latitude: 2.980156
-    min_longitude: 30.8827865
-    max_latitude: 3.0597949
-    max_longitude: 30.9381553
+    latitude: 1.983333
+    longitude: 32.533333
+    min_latitude: 1.9798057
+    min_longitude: 32.5274278
+    max_latitude: 1.9909571
+    max_longitude: 32.5391007
+  name: Apac
+'303':
+  unofficial_names: Arua
   translations:
     en: Arua
     ar: مقاطعة أروا
@@ -2310,25 +1915,16 @@
     tr: Arua District
     ur: اروا ضلع
     vi: Quận Arua
-    lv: Arua distikts
-    ceb: Arua District
-    lt: Arua apskritis
-    zh: 阿魯阿區
-    ccp: "\U00011103\U00011122\U0001112A\U00011120"
-    uk: Район Аруа
-    'no': Arua
-  comments:
-'304':
-  name: Gulu
-  code:
-  unofficial_names: Gulu
   geo:
-    latitude: 2.78
-    longitude: 32.3
-    min_latitude: 2.7299274
-    min_longitude: 32.2442722
-    max_latitude: 2.8207154
-    max_longitude: 32.33164790000001
+    latitude: 3.038333
+    longitude: 30.910833
+    min_latitude: 2.980156
+    min_longitude: 30.8827865
+    max_latitude: 3.0597949
+    max_longitude: 30.9381553
+  name: Arua
+'304':
+  unofficial_names: Gulu
   translations:
     en: Gulu
     ar: ضاحية غولو
@@ -2363,25 +1959,16 @@
     tr: Gulu District
     ur: گولو ضلع
     vi: Quận Gulu
-    lv: Gulu distrikts
-    ceb: Gulu District
-    lt: Gulu apskritis
-    zh: 古盧區
-    ccp: "\U00011109\U0001112A\U00011123\U0001112A"
-    uk: Гулу
-    'no': Gulu
-  comments:
-'305':
-  name: Kitgum
-  code:
-  unofficial_names: Kitgum
   geo:
-    latitude: 3.2884847
-    longitude: 32.8789499
-    min_latitude: 3.271503
-    min_longitude: 32.8665876
-    max_latitude: 3.311252
-    max_longitude: 32.8989887
+    latitude: 2.78
+    longitude: 32.3
+    min_latitude: 2.7299274
+    min_longitude: 32.2442722
+    max_latitude: 2.8207154
+    max_longitude: 32.33164790000001
+  name: Gulu
+'305':
+  unofficial_names: Kitgum
   translations:
     en: Kitgum
     ar: مقاطعة كيتجوم
@@ -2416,25 +2003,16 @@
     tr: Kitgum District
     ur: کتگوم ضلع
     vi: Quận Kitgum
-    lv: Kitgumas distrikts
-    ceb: Kitgum District
-    lt: Kitgumo apskritis
-    zh: 基特古姆區
-    ccp: "\U00011107\U00011128\U00011116\U00011134\U00011109\U0001111F\U00011134"
-    uk: Район Кітгум
-    'no': Kitgum
-  comments:
-'306':
-  name: Kotido
-  code:
-  unofficial_names: Kotido
   geo:
-    latitude: 3.006111
-    longitude: 34.1125
-    min_latitude: 2.9930987
-    min_longitude: 34.101026
-    max_latitude: 3.0211803
-    max_longitude: 34.1233742
+    latitude: 3.2884847
+    longitude: 32.8789499
+    min_latitude: 3.271503
+    min_longitude: 32.8665876
+    max_latitude: 3.311252
+    max_longitude: 32.8989887
+  name: Kitgum
+'306':
+  unofficial_names: Kotido
   translations:
     en: Kotido
     ar: مقاطعة كوتيدو
@@ -2469,25 +2047,16 @@
     tr: Kotido District
     ur: کوتیدو ضلع
     vi: Quận Kotido
-    lv: Kotido distrikts
-    ceb: Kotido District
-    lt: Kotido apskritis
-    zh: 科蒂多區
-    ccp: "\U00011107\U0001112E\U00011111\U00011128\U00011113\U0001112E"
-    uk: Район Котідо
-    'no': Kotido
-  comments:
-'307':
-  name: Lira
-  code:
-  unofficial_names: Lira
   geo:
-    latitude: 2.247222
-    longitude: 32.9
-    min_latitude: 2.2199915
-    min_longitude: 32.8629635
-    max_latitude: 2.2770474
-    max_longitude: 32.9197788
+    latitude: 3.006111
+    longitude: 34.1125
+    min_latitude: 2.9930987
+    min_longitude: 34.101026
+    max_latitude: 3.0211803
+    max_longitude: 34.1233742
+  name: Kotido
+'307':
+  unofficial_names: Lira
   translations:
     en: Lira
     ar: مقاطعة ليرا
@@ -2522,26 +2091,16 @@
     tr: Lira District
     ur: لیرا ضلع
     vi: Quận Lira
-    lv: Liras distrikts
-    ceb: Lira District
-    lt: Liros apskritis
-    zh: 利拉區
-    ccp: "\U00011123\U00011128\U00011122"
-    ml: ലിറ ജില്ല
-    uk: Район Ліра
-    'no': Lira
-  comments:
-'308':
-  name: Moroto
-  code:
-  unofficial_names: Moroto
   geo:
-    latitude: 2.53
-    longitude: 34.67
-    min_latitude: 2.518148
-    min_longitude: 34.6501924
-    max_latitude: 2.5395847
-    max_longitude: 34.6737099
+    latitude: 2.247222
+    longitude: 32.9
+    min_latitude: 2.2199915
+    min_longitude: 32.8629635
+    max_latitude: 2.2770474
+    max_longitude: 32.9197788
+  name: Lira
+'308':
+  unofficial_names: Moroto
   translations:
     en: Moroto
     ar: مقاطعة موروتو
@@ -2578,25 +2137,16 @@
     tr: Morota District
     ur: موروتو ضلع
     vi: Quận Moroto
-    lv: Moroto distrikts
-    ceb: Moroto District
-    lt: Moroto apskritis
-    zh: 莫羅托區
-    ccp: "\U0001111F\U0001112E\U00011122\U0001112E\U00011111\U0001112E"
-    uk: Район Морото
-    'no': Moroto
-  comments:
-'309':
-  name: Moyo
-  code:
-  unofficial_names: Moyo
   geo:
-    latitude: 3.655
-    longitude: 31.72
-    min_latitude: 3.6419376
-    min_longitude: 31.7107917
-    max_latitude: 3.6649148
-    max_longitude: 31.7376995
+    latitude: 2.53
+    longitude: 34.67
+    min_latitude: 2.518148
+    min_longitude: 34.6501924
+    max_latitude: 2.5395847
+    max_longitude: 34.6737099
+  name: Moroto
+'309':
+  unofficial_names: Moyo
   translations:
     en: Moyo
     ar: مقامويو
@@ -2632,25 +2182,16 @@
     tr: Moyo District
     ur: مویو ضلع
     vi: Quận Moyo
-    lv: Mojo distrikts
-    ceb: Moyo District
-    lt: Mojo apskritis
-    zh: 莫約區
-    ccp: "\U0001111F\U0001112E\U00011120\U0001112E"
-    uk: Район Мойо
-    'no': Moyo
-  comments:
-'310':
-  name: Nebbi
-  code:
-  unofficial_names: Nebbi
   geo:
-    latitude: 2.479167
-    longitude: 31.09
-    min_latitude: 2.4683704
-    min_longitude: 31.07337
-    max_latitude: 2.4935382
-    max_longitude: 31.1025953
+    latitude: 3.655
+    longitude: 31.72
+    min_latitude: 3.6419376
+    min_longitude: 31.7107917
+    max_latitude: 3.6649148
+    max_longitude: 31.7376995
+  name: Moyo
+'310':
+  unofficial_names: Nebbi
   translations:
     en: Nebbi
     ar: مقاطعة نيبي
@@ -2686,25 +2227,16 @@
     tr: Nebbi District
     ur: نیبی ضلع
     vi: Quận Nebbi
-    lv: Nebi distrikts
-    ceb: Nebbi District
-    lt: Nebio apskritis
-    zh: 內比區
-    ccp: "\U0001111A\U0001112C\U0001111D\U00011133\U00011126\U00011128"
-    uk: Район Неббі
-    'no': Nebbi
-  comments:
-'311':
-  name: Nakapiripirit
-  code:
-  unofficial_names: Nakapiripirit
   geo:
-    latitude: 1.8502515
-    longitude: 34.7215859
-    min_latitude: 1.8424673
-    min_longitude: 34.7171401
-    max_latitude: 1.8577372
-    max_longitude: 34.7301005
+    latitude: 2.479167
+    longitude: 31.09
+    min_latitude: 2.4683704
+    min_longitude: 31.07337
+    max_latitude: 2.4935382
+    max_longitude: 31.1025953
+  name: Nebbi
+'311':
+  unofficial_names: Nakapiripirit
   translations:
     en: Nakapiripirit
     ar: مقاطعة ناكابيريبيريت
@@ -2741,25 +2273,16 @@
     tr: Nakapiripirit District
     ur: ناکاپیریپیریت ضلع
     vi: Quận Nakapiripirit
-    lv: Nakapiripiritas distrikts
-    ceb: Nakapiripirit District
-    lt: Nakapiripirito apskritis
-    zh: 納卡皮里皮里特區
-    ccp: "\U0001111A\U00011107\U0001111B\U00011128\U00011122\U00011128\U0001111B\U00011128\U00011122\U00011128\U00011116\U00011134"
-    uk: Район Накапіріпіріт
-    'no': Nakapiripirit
-  comments:
-'312':
-  name: Pader
-  code:
-  unofficial_names: Pader
   geo:
-    latitude: 2.881111
-    longitude: 33.086389
-    min_latitude: 2.8723218
-    min_longitude: 33.0796623
-    max_latitude: 2.8881804
-    max_longitude: 33.0921077
+    latitude: 1.8502515
+    longitude: 34.7215859
+    min_latitude: 1.8424673
+    min_longitude: 34.7171401
+    max_latitude: 1.8577372
+    max_longitude: 34.7301005
+  name: Nakapiripirit
+'312':
+  unofficial_names: Pader
   translations:
     en: Pader
     de: Distrikt Pader
@@ -2776,22 +2299,16 @@
     sv: Pader (distrikt)
     sw: Wilaya ya Pader
     ur: پادیر ضلع
-    ceb: Pader District
-    zh: 帕德爾區
-    ccp: "\U0001111B\U00011113\U0001112C\U00011122\U00011134"
-    'no': Pader
-  comments:
-'313':
-  name: Yumbe
-  code:
-  unofficial_names: Yumbe
   geo:
-    latitude: 3.466667
-    longitude: 31.25
-    min_latitude: 3.4607329
-    min_longitude: 31.238594
-    max_latitude: 3.4764325
-    max_longitude: 31.2558459
+    latitude: 2.881111
+    longitude: 33.086389
+    min_latitude: 2.8723218
+    min_longitude: 33.0796623
+    max_latitude: 2.8881804
+    max_longitude: 33.0921077
+  name: Pader
+'313':
+  unofficial_names: Yumbe
   translations:
     en: Yumbe
     ar: مقاطعة يومبي
@@ -2827,25 +2344,16 @@
     tr: Yumbe district
     ur: یومبے ضلع
     vi: Quận Yumbe
-    lv: Jumbes distrikts
-    ceb: Yumbe District
-    lt: Jumbės apskritis
-    zh: 永貝區
-    ccp: "\U00011103\U00011128\U00011120\U0001112E\U0001111F\U00011134\U0001111D\U0001112C"
-    uk: Район Юмбе
-    'no': Yumbe
-  comments:
-'314':
-  name: Amolatar
-  code:
-  unofficial_names: Amolatar
   geo:
-    latitude: 1.6329923
-    longitude: 32.8183226
-    min_latitude: 1.6298765
-    min_longitude: 32.8126432
-    max_latitude: 1.6377698
-    max_longitude: 32.8252603
+    latitude: 3.466667
+    longitude: 31.25
+    min_latitude: 3.4607329
+    min_longitude: 31.238594
+    max_latitude: 3.4764325
+    max_longitude: 31.2558459
+  name: Yumbe
+'314':
+  unofficial_names: Amolatar
   translations:
     en: Abim
     ar: مقاطعة أبيم
@@ -2883,26 +2391,16 @@
     tr: Abim District
     ur: ابیم ضلع
     vi: Quận Abim
-    lv: Abimas distrikts
-    ceb: Abim District
-    lt: Abimo apskritis
-    zh: 阿比姆區
-    ccp: "\U00011103\U0001111D\U00011128\U0001111F\U00011134"
-    ml: അബിം ജില്ല
-    uk: Район Абім
-    'no': Abim
-  comments:
-'315':
-  name: Kaabong
-  code:
-  unofficial_names: Kaabong
   geo:
-    latitude: 3.5124436
-    longitude: 34.1337219
-    min_latitude: 3.5059357
-    min_longitude: 34.1279876
-    max_latitude: 3.5195678
-    max_longitude: 34.1406263
+    latitude: 1.6329923
+    longitude: 32.8183226
+    min_latitude: 1.6298765
+    min_longitude: 32.8126432
+    max_latitude: 1.6377698
+    max_longitude: 32.8252603
+  name: Amolatar
+'315':
+  unofficial_names: Kaabong
   translations:
     en: Amolatar
     ar: مقاطعة أمولاتار
@@ -2938,25 +2436,16 @@
     tr: Kaabong Distrisct
     ur: کآبونگ ضلع
     vi: Quận Kaabong
-    lv: Amolataras distrikts
-    ceb: Amolatar District
-    lt: Amolataro apskritis
-    zh: 卡邦區
-    ccp: "\U00011103\U0001111F\U0001112E\U00011123\U00011111\U00011122\U00011134"
-    uk: Амолатар
-    'no': Amolatar
-  comments:
-'316':
-  name: Koboko
-  code:
-  unofficial_names: Koboko
   geo:
-    latitude: 3.41
-    longitude: 30.95999999999999
-    min_latitude: 3.3891923
-    min_longitude: 30.938208
-    max_latitude: 3.4341307
-    max_longitude: 30.98374129999999
+    latitude: 3.5124436
+    longitude: 34.1337219
+    min_latitude: 3.5059357
+    min_longitude: 34.1279876
+    max_latitude: 3.5195678
+    max_longitude: 34.1406263
+  name: Kaabong
+'316':
+  unofficial_names: Koboko
   translations:
     en: Amuru
     ar: مقاطعة أمورو
@@ -2993,25 +2482,16 @@
     tr: Amuru District
     ur: امورو ضلع
     vi: Quận Amuru
-    lv: Amuru distrikts
-    ceb: Amuru District
-    lt: Amuro apskritis
-    zh: 阿穆魯區
-    ccp: "\U00011103\U0001111F\U0001112A\U00011122\U0001112A"
-    uk: Район Амуру
-    'no': Amuru
-  comments:
-'317':
-  name: Abim
-  code:
-  unofficial_names: Abim
   geo:
-    latitude: 2.706698
-    longitude: 33.6595337
-    min_latitude: 2.6962337
-    min_longitude: 33.65344049999999
-    max_latitude: 2.7221257
-    max_longitude: 33.6679459
+    latitude: 3.41
+    longitude: 30.95999999999999
+    min_latitude: 3.3891923
+    min_longitude: 30.938208
+    max_latitude: 3.4341307
+    max_longitude: 30.98374129999999
+  name: Koboko
+'317':
+  unofficial_names: Abim
   translations:
     en: Dokolo
     ar: مقاطعة أبيم²
@@ -3049,25 +2529,16 @@
     tr: Abim District²
     ur: ابیم ضلع²
     vi: Quận Abim²
-    lv: Dokolo distrikts
-    ceb: Dokolo District
-    lt: Dokolo apskritis
-    zh: 阿比姆區²
-    ccp: "\U00011113\U0001112E\U00011107\U0001112E\U00011123\U0001112E"
-    uk: Район Доколо
-    'no': Abim²
-  comments:
-'318':
-  name: Dokolo
-  code:
-  unofficial_names: Dokolo
   geo:
-    latitude: 1.916667
-    longitude: 33.166667
-    min_latitude: 1.9062268
-    min_longitude: 33.164935
-    max_latitude: 1.9208743
-    max_longitude: 33.1776167
+    latitude: 2.706698
+    longitude: 33.6595337
+    min_latitude: 2.6962337
+    min_longitude: 33.65344049999999
+    max_latitude: 2.7221257
+    max_longitude: 33.6679459
+  name: Abim
+'318':
+  unofficial_names: Dokolo
   translations:
     en: Kaabong
     ar: مقاطعة دوكولو
@@ -3102,25 +2573,16 @@
     tr: Kaabong Distrisct²
     ur: کآبونگ ضلع²
     vi: Quận Kaabong²
-    lv: Kaabongas distrikts
-    ceb: Kaabong District
-    lt: Kaabongo apskritis
-    zh: 卡邦區²
-    ccp: "\U00011107\U00011133\U00011103\U0001111D\U00011127\U00011101"
-    uk: Район Каабонг
-    'no': Dokolo
-  comments:
-'319':
-  name: Amuru
-  code:
-  unofficial_names: Amuru
   geo:
-    latitude: 2.9667878
-    longitude: 32.0837445
-    min_latitude: 2.529905
-    min_longitude: 31.344368
-    max_latitude: 3.584319
-    max_longitude: 32.388592
+    latitude: 1.916667
+    longitude: 33.166667
+    min_latitude: 1.9062268
+    min_longitude: 33.164935
+    max_latitude: 1.9208743
+    max_longitude: 33.1776167
+  name: Dokolo
+'319':
+  unofficial_names: Amuru
   translations:
     en: Koboko
     ar: مقاطعة أمورو²
@@ -3157,25 +2619,16 @@
     tr: Amuru District²
     ur: امورو ضلع²
     vi: Quận Amuru²
-    lv: Koboko distrikts
-    ceb: Koboko District
-    lt: Koboko apskritis
-    zh: 阿穆魯區²
-    ccp: "\U00011107\U0001112E\U0001111D\U0001112E\U00011107\U0001112E"
-    uk: Район Кобоко
-    'no': Amuru²
-  comments:
-'320':
-  name: Maracha
-  code:
-  unofficial_names: Maracha
   geo:
-    latitude: 3.2873127
-    longitude: 30.9403023
-    min_latitude: 3.2831701
-    min_longitude: 30.9346805
-    max_latitude: 3.2919098
-    max_longitude: 30.9473842
+    latitude: 2.9667878
+    longitude: 32.0837445
+    min_latitude: 2.529905
+    min_longitude: 31.344368
+    max_latitude: 3.584319
+    max_longitude: 32.388592
+  name: Amuru
+'320':
+  unofficial_names: Maracha
   translations:
     en: Maracha
     ar: مقاطعة مارشا
@@ -3208,24 +2661,16 @@
     tr: Maracha District
     ur: مراچا ضلع
     vi: Quận Maracha
-    lv: Maračas-Terego distrikts
-    ceb: Maracha District
-    lt: Maračos apskritis
-    ccp: "\U0001111F\U00011122\U0001110C"
-    uk: Район Марача
-    'no': Maracha
-  comments:
-'321':
-  name: Oyam
-  code:
-  unofficial_names: Oyam
   geo:
-    latitude: 2.2776281
-    longitude: 32.4467238
-    min_latitude: 2.0733884
-    min_longitude: 32.2280412
-    max_latitude: 2.622433
-    max_longitude: 32.8245309
+    latitude: 3.2873127
+    longitude: 30.9403023
+    min_latitude: 3.2831701
+    min_longitude: 30.9346805
+    max_latitude: 3.2919098
+    max_longitude: 30.9473842
+  name: Maracha
+'321':
+  unofficial_names: Oyam
   translations:
     en: Oyam
     ar: مقاطعة أويام
@@ -3261,25 +2706,16 @@
     tr: Oyam District
     ur: اویام ضلع
     vi: Quận Oyam
-    lv: Ojamas distrikts
-    ceb: Oyam District
-    lt: Ojamo apskritis
-    zh: 奧揚區
-    ccp: "\U00011103\U0001112E\U00011120\U0001111F\U00011134"
-    uk: Район Ойам
-    'no': Oyam
-  comments:
-'401':
-  name: Bundibugyo
-  code:
-  unofficial_names: Bundibugyo
   geo:
-    latitude: 0.7125
-    longitude: 30.06
-    min_latitude: 0.7008759
-    min_longitude: 30.0584221
-    max_latitude: 0.7167534
-    max_longitude: 30.0672626
+    latitude: 2.2776281
+    longitude: 32.4467238
+    min_latitude: 2.0733884
+    min_longitude: 32.2280412
+    max_latitude: 2.622433
+    max_longitude: 32.8245309
+  name: Oyam
+'401':
+  unofficial_names: Bundibugyo
   translations:
     en: Bundibugyo
     ar: مقاطعة بونديبوجيو
@@ -3315,25 +2751,16 @@
     tr: Bundibugyo District
     ur: بوندیبوگیو ضلع
     vi: Quận Bundibugyo
-    lv: Bundibugo distrikts
-    ceb: Bundibugyo District
-    lt: Bundibugo apskritis
-    zh: 本迪布焦區
-    ccp: "\U0001111D\U0001112A\U0001111A\U00011134\U00011113\U00011128\U0001111D\U00011107\U00011134\U00011109\U0001112E"
-    uk: Район Бундібугіо
-    'no': Bundibugyo
-  comments:
-'402':
-  name: Bushenyi
-  code:
-  unofficial_names: Bushenyi
   geo:
-    latitude: -0.541667
-    longitude: 30.185
-    min_latitude: -0.5504344999999999
-    min_longitude: 30.1815355
-    max_latitude: -0.5361228
-    max_longitude: 30.2082825
+    latitude: 0.7125
+    longitude: 30.06
+    min_latitude: 0.7008759
+    min_longitude: 30.0584221
+    max_latitude: 0.7167534
+    max_longitude: 30.0672626
+  name: Bundibugyo
+'402':
+  unofficial_names: Bushenyi
   translations:
     en: Bushenyi
     ar: مقاطعة بوشيني
@@ -3368,25 +2795,16 @@
     tr: Bushenyi Districnt
     ur: بوشینئی ضلع
     vi: Quận Bushenyi
-    lv: Bušeņi distrikts
-    ceb: Bushenyi District
-    lt: Bušenjo apskritis
-    zh: 布謝尼區
-    ccp: "\U0001111D\U0001112A\U00011125\U0001112C\U0001111A\U00011128\U00011120\U0001112D"
-    uk: Район Бушеній
-    'no': Bushenyi
-  comments:
-'403':
-  name: Hoima
-  code:
-  unofficial_names: Hoima
   geo:
-    latitude: 1.431944
-    longitude: 31.3525
-    min_latitude: 1.4163196
-    min_longitude: 31.3272573
-    max_latitude: 1.4481528
-    max_longitude: 31.375494
+    latitude: -0.541667
+    longitude: 30.185
+    min_latitude: -0.5504344999999999
+    min_longitude: 30.1815355
+    max_latitude: -0.5361228
+    max_longitude: 30.2082825
+  name: Bushenyi
+'403':
+  unofficial_names: Hoima
   translations:
     en: Hoima
     ar: مقاطعة هويما
@@ -3421,25 +2839,16 @@
     tr: Hoima District
     ur: ہویما ضلع
     vi: Quận Hoima
-    lv: Hoimas distrikts
-    ceb: Hoima District
-    lt: Hoimos apskritis
-    zh: 霍伊馬區
-    ccp: "\U00011126\U00011130\U0001111F"
-    uk: Район Гойма
-    'no': Hoima
-  comments:
-'404':
-  name: Kabale
-  code:
-  unofficial_names: Kabale
   geo:
-    latitude: -1.25
-    longitude: 29.99
-    min_latitude: -1.2719921
-    min_longitude: 29.9646521
-    max_latitude: -1.2280573
-    max_longitude: 30.01499179999999
+    latitude: 1.431944
+    longitude: 31.3525
+    min_latitude: 1.4163196
+    min_longitude: 31.3272573
+    max_latitude: 1.4481528
+    max_longitude: 31.375494
+  name: Hoima
+'404':
+  unofficial_names: Kabale
   translations:
     en: Kabale
     ar: مقاطعة كابالي
@@ -3474,25 +2883,16 @@
     tr: Kabale District
     ur: کابالے ضلع
     vi: Quận Kabale
-    lv: Kabales distrikts
-    ceb: Kabale District
-    lt: Kabalės apskritis
-    zh: 卡巴萊區
-    ccp: "\U00011107\U0001111D\U00011123\U00011134"
-    uk: Район Кабале
-    'no': Kabale
-  comments:
-'405':
-  name: Kabarole
-  code:
-  unofficial_names: Kabarole
   geo:
-    latitude: 0.5896682
-    longitude: 30.2548787
-    min_latitude: 0.5870078
-    min_longitude: 30.2527723
-    max_latitude: 0.5914896
-    max_longitude: 30.2577274
+    latitude: -1.25
+    longitude: 29.99
+    min_latitude: -1.2719921
+    min_longitude: 29.9646521
+    max_latitude: -1.2280573
+    max_longitude: 30.01499179999999
+  name: Kabale
+'405':
+  unofficial_names: Kabarole
   translations:
     en: Kabarole
     ar: مقاطعة كابارول
@@ -3527,25 +2927,16 @@
     tr: Kabarole District
     ur: کابارولے ضلع
     vi: Quận Kabarole
-    lv: Kabaroles distrikts
-    ceb: Kabarole District
-    lt: Karabolės apskritis
-    zh: 卡巴羅萊區
-    ccp: "\U00011107\U0001111D\U00011122\U0001112E\U00011123\U00011134"
-    uk: Район Кабароле
-    'no': Kabarole
-  comments:
-'406':
-  name: Kasese
-  code:
-  unofficial_names: Kasese
   geo:
-    latitude: 0.186667
-    longitude: 30.08805599999999
-    min_latitude: 0.1502894
-    min_longitude: 30.0615886
-    max_latitude: 0.1932903
-    max_longitude: 30.1070882
+    latitude: 0.5896682
+    longitude: 30.2548787
+    min_latitude: 0.5870078
+    min_longitude: 30.2527723
+    max_latitude: 0.5914896
+    max_longitude: 30.2577274
+  name: Kabarole
+'406':
+  unofficial_names: Kasese
   translations:
     en: Kasese
     ar: مقاطعة كاسيس
@@ -3580,25 +2971,16 @@
     tr: Kasese District
     ur: کاسیسے ضلع
     vi: Quận Kasese
-    lv: Kaseses distrikts
-    ceb: Kasese District
-    lt: Kasesės apskritis
-    zh: 卡塞塞區
-    ccp: "\U00011107\U00011125\U0001112C\U0001110C\U00011134"
-    uk: Район Касесе
-    'no': Kasese
-  comments:
-'407':
-  name: Kibaale
-  code:
-  unofficial_names: Kibaale
   geo:
-    latitude: 0.7682547
-    longitude: 31.0776593
-    min_latitude: 0.7634414
-    min_longitude: 31.0700227
-    max_latitude: 0.7959682
-    max_longitude: 31.0847855
+    latitude: 0.186667
+    longitude: 30.08805599999999
+    min_latitude: 0.1502894
+    min_longitude: 30.0615886
+    max_latitude: 0.1932903
+    max_longitude: 30.1070882
+  name: Kasese
+'407':
+  unofficial_names: Kibaale
   translations:
     en: Kibaale
     ar: مقاطعة كيبالي
@@ -3633,25 +3015,16 @@
     tr: Kibaale District
     ur: کیبآلے ضلع
     vi: Quận Kibaale
-    lv: Kibaales distrikts
-    ceb: Kibale District
-    lt: Kibalės apskritis
-    zh: 基巴萊區
-    ccp: "\U00011107\U00011128\U0001111D\U00011133\U00011103\U00011123\U00011134"
-    uk: Район Кібаале
-    'no': Kibaale
-  comments:
-'408':
-  name: Kisoro
-  code:
-  unofficial_names: Kisoro
   geo:
-    latitude: -1.285
-    longitude: 29.685
-    min_latitude: -1.2916639
-    min_longitude: 29.6779346
-    max_latitude: -1.2734509
-    max_longitude: 29.70327619999999
+    latitude: 0.7682547
+    longitude: 31.0776593
+    min_latitude: 0.7634414
+    min_longitude: 31.0700227
+    max_latitude: 0.7959682
+    max_longitude: 31.0847855
+  name: Kibaale
+'408':
+  unofficial_names: Kisoro
   translations:
     en: Kisoro
     es: Distrito de Kisoro
@@ -3665,22 +3038,16 @@
     ru: Кисоро
     sw: Wilaya ya Kisoro
     ur: کیسورو ضلع
-    ceb: Kisoro District
-    zh: 基索羅區
-    ccp: "\U00011107\U00011128\U00011125\U0001112E\U00011122\U0001112E"
-    'no': Kisoro
-  comments:
-'409':
-  name: Masindi
-  code:
-  unofficial_names: Masindi
   geo:
-    latitude: 1.683333
-    longitude: 31.733333
-    min_latitude: 1.6642805
-    min_longitude: 31.6970158
-    max_latitude: 1.7076062
-    max_longitude: 31.7424202
+    latitude: -1.285
+    longitude: 29.685
+    min_latitude: -1.2916639
+    min_longitude: 29.6779346
+    max_latitude: -1.2734509
+    max_longitude: 29.70327619999999
+  name: Kisoro
+'409':
+  unofficial_names: Masindi
   translations:
     en: Masindi
     ar: مقاطعة ماسيندي
@@ -3716,25 +3083,16 @@
     tr: Masindi District
     ur: ماسیندی ضلع
     vi: Quận Masindi
-    lv: Masindi distrikts
-    ceb: Masindi District
-    lt: Masindžio apskritis
-    zh: 馬辛迪區
-    ccp: "\U0001111F\U00011125\U00011128\U0001111A\U00011134\U00011113\U00011128"
-    uk: Район Масінді
-    'no': Masindi
-  comments:
-'410':
-  name: Mbarara
-  code:
-  unofficial_names: Mbarara
   geo:
-    latitude: -0.613333
-    longitude: 30.658333
-    min_latitude: -0.659326
-    min_longitude: 30.6038331
-    max_latitude: -0.563716
-    max_longitude: 30.70477
+    latitude: 1.683333
+    longitude: 31.733333
+    min_latitude: 1.6642805
+    min_longitude: 31.6970158
+    max_latitude: 1.7076062
+    max_longitude: 31.7424202
+  name: Masindi
+'410':
+  unofficial_names: Mbarara
   translations:
     en: Mbarara
     ar: مقاطعة مبارارا
@@ -3769,25 +3127,16 @@
     tr: Mbarara District
     ur: مبارارا ضلع
     vi: Quận Mbarara
-    lv: Mbararas distrikts
-    ceb: Mbarara District
-    lt: Mbararos sritis
-    zh: 姆巴拉拉區
-    ccp: "\U0001111D\U00011122\U00011122"
-    uk: Район Мбарара
-    'no': Mbarara
-  comments:
-'411':
-  name: Ntungamo
-  code:
-  unofficial_names: Ntungamo
   geo:
-    latitude: -0.881944
-    longitude: 30.265278
-    min_latitude: -0.8855658
-    min_longitude: 30.2594376
-    max_latitude: -0.8652263
-    max_longitude: 30.2731704
+    latitude: -0.613333
+    longitude: 30.658333
+    min_latitude: -0.659326
+    min_longitude: 30.6038331
+    max_latitude: -0.563716
+    max_longitude: 30.70477
+  name: Mbarara
+'411':
+  unofficial_names: Ntungamo
   translations:
     en: Ntungamo
     ar: مقاطعة نتونغامو
@@ -3822,25 +3171,16 @@
     tr: Ntungamo District
     ur: نتونگامو ضلع
     vi: Quận Ntungamo
-    lv: Ntungamo distrikts
-    ceb: Ntungamo District
-    lt: Ntungamo apskritis
-    zh: 恩通加莫区
-    ccp: "\U00011111\U0001112A\U0001111A\U00011134\U00011109\U0001111F\U0001112E"
-    uk: Район Нтунгамо
-    'no': Ntungamo
-  comments:
-'412':
-  name: Rukungiri
-  code:
-  unofficial_names: Rukungiri
   geo:
-    latitude: -0.7899999999999999
-    longitude: 29.925
-    min_latitude: -0.7959682
-    min_longitude: 29.9177456
-    max_latitude: -0.7836099
-    max_longitude: 29.9323367
+    latitude: -0.881944
+    longitude: 30.265278
+    min_latitude: -0.8855658
+    min_longitude: 30.2594376
+    max_latitude: -0.8652263
+    max_longitude: 30.2731704
+  name: Ntungamo
+'412':
+  unofficial_names: Rukungiri
   translations:
     en: Rukungiri
     ar: مقاطعة روكونجيري
@@ -3875,25 +3215,16 @@
     tr: Rukungiri district
     ur: روکونگیری ضلع
     vi: Quận Rukungiri
-    lv: Rukungiri distrikts
-    ceb: Rukungiri District
-    lt: Rukungirio apskritis
-    zh: 魯昆吉里區
-    ccp: "\U00011122\U0001112A\U00011107\U0001112A\U0001111A\U00011134\U00011109\U00011128\U00011122\U00011128"
-    uk: Район Рукунгірі
-    'no': Rukungiri
-  comments:
-'413':
-  name: Kamwenge
-  code:
-  unofficial_names: Kamwenge
   geo:
-    latitude: 0.186066
-    longitude: 30.4512086
-    min_latitude: 0.1808451
-    min_longitude: 30.4474068
-    max_latitude: 0.1904579
-    max_longitude: 30.4590797
+    latitude: -0.7899999999999999
+    longitude: 29.925
+    min_latitude: -0.7959682
+    min_longitude: 29.9177456
+    max_latitude: -0.7836099
+    max_longitude: 29.9323367
+  name: Rukungiri
+'413':
+  unofficial_names: Kamwenge
   translations:
     en: Kamwenge
     ar: مقاطعة كامونج
@@ -3928,25 +3259,16 @@
     tr: Kamwenge District
     ur: کاموینگے ضلع
     vi: Quận Kamwenge
-    lv: Kamvenges distrikts
-    ceb: Kamwenge District
-    lt: Kamvengės apskritis
-    zh: 卡姆文蓋區
-    ccp: "\U00011107\U0001111F\U00011134\U00011103\U00011128\U00011120\U0001112C\U0001111A\U00011134\U00011109\U00011128"
-    uk: Район Камвенге
-    'no': Kamwenge
-  comments:
-'414':
-  name: Kanungu
-  code:
-  unofficial_names: Kanungu
   geo:
-    latitude: -0.896944
-    longitude: 29.775556
-    min_latitude: -0.9059051999999999
-    min_longitude: 29.7632074
-    max_latitude: -0.8688307
-    max_longitude: 29.7992992
+    latitude: 0.186066
+    longitude: 30.4512086
+    min_latitude: 0.1808451
+    min_longitude: 30.4474068
+    max_latitude: 0.1904579
+    max_longitude: 30.4590797
+  name: Kamwenge
+'414':
+  unofficial_names: Kanungu
   translations:
     en: Kanungu
     ar: مقاطعة كانونغو
@@ -3981,25 +3303,16 @@
     tr: Kanungu District
     ur: کانونگو ضلع
     vi: Quận Kanungu
-    lv: Kanungu distrikts
-    ceb: Kanungu District
-    lt: Kanungo apskritis
-    zh: 卡農古區
-    ccp: "\U00011107\U0001111A\U0001112A\U0001111A\U00011134\U00011109\U0001112A"
-    uk: Район Канунгу
-    'no': Kanungu
-  comments:
-'415':
-  name: Kyenjojo
-  code:
-  unofficial_names: Kyenjojo
   geo:
-    latitude: 0.61
-    longitude: 30.644167
-    min_latitude: 0.5959977
-    min_longitude: 30.6322003
-    max_latitude: 0.6239767
-    max_longitude: 30.6506539
+    latitude: -0.896944
+    longitude: 29.775556
+    min_latitude: -0.9059051999999999
+    min_longitude: 29.7632074
+    max_latitude: -0.8688307
+    max_longitude: 29.7992992
+  name: Kanungu
+'415':
+  unofficial_names: Kyenjojo
   translations:
     en: Kyenjojo
     ar: ضاحية كينجوجو
@@ -4034,25 +3347,16 @@
     tr: Kyenjojo district
     ur: کئینجوجو ضلع
     vi: Quận Kyenjojo
-    lv: Kjendžodžo distrikts
-    ceb: Kyenjojo District
-    lt: Kjendžodžo apskritis
-    zh: 基恩喬喬區
-    ccp: "\U00011107\U00011128\U00011120\U0001112C\U0001111A\U00011134\U0001110E\U0001112E\U0001110E\U0001112E"
-    uk: Район Кьенжожо
-    'no': Kyenjojo
-  comments:
-'416':
-  name: Ibanda
-  code:
-  unofficial_names: Ibanda
   geo:
-    latitude: -0.12
-    longitude: 30.5
-    min_latitude: -0.1435945
-    min_longitude: 30.4829407
-    max_latitude: -0.0857448
-    max_longitude: 30.51486959999999
+    latitude: 0.61
+    longitude: 30.644167
+    min_latitude: 0.5959977
+    min_longitude: 30.6322003
+    max_latitude: 0.6239767
+    max_longitude: 30.6506539
+  name: Kyenjojo
+'416':
+  unofficial_names: Ibanda
   translations:
     en: Buliisa
     ar: مقاطعة بوليسا
@@ -4088,25 +3392,16 @@
     tr: Ibanda District
     ur: اباندا ضلع
     vi: Quận Ibanda
-    lv: Bulisas distrikts
-    ceb: Bulisa District
-    lt: Bulisos apskritis
-    zh: 伊班達區
-    ccp: "\U0001111D\U0001112A\U00011123\U00011129\U00011125"
-    uk: Район Буліса
-    'no': Ibanda
-  comments:
-'417':
-  name: Isingiro
-  code:
-  unofficial_names: Isingiro
   geo:
-    latitude: -0.7454997
-    longitude: 30.75798339999999
-    min_latitude: -1.0761676
-    min_longitude: 30.4783058
-    max_latitude: -0.6023487
-    max_longitude: 30.9170723
+    latitude: -0.12
+    longitude: 30.5
+    min_latitude: -0.1435945
+    min_longitude: 30.4829407
+    max_latitude: -0.0857448
+    max_longitude: 30.51486959999999
+  name: Ibanda
+'417':
+  unofficial_names: Isingiro
   translations:
     en: Ibanda
     ar: مقاطعة إيسينجيرو
@@ -4141,25 +3436,16 @@
     tr: Isingiro District
     ur: اسینگیرو ضلع
     vi: Quận Isingiro
-    lv: Ibandas distrikts
-    ceb: Ibanda District
-    lt: Ibandos apskritis
-    zh: 伊辛吉羅區
-    ccp: "\U00011103\U00011128\U0001111D\U0001111A\U00011134\U00011113"
-    uk: Район Ібанда
-    'no': Isingiro
-  comments:
-'418':
-  name: Kiruhura
-  code:
-  unofficial_names: Kiruhura
   geo:
-    latitude: -0.196398
-    longitude: 30.84425
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
+    latitude: -0.7454997
+    longitude: 30.75798339999999
+    min_latitude: -1.0761676
+    min_longitude: 30.4783058
+    max_latitude: -0.6023487
+    max_longitude: 30.9170723
+  name: Isingiro
+'418':
+  unofficial_names: Kiruhura
   translations:
     en: Isingiro
     ar: مقاطعة إيسينجيرو²
@@ -4194,25 +3480,16 @@
     tr: Isingiro District²
     ur: اسینگیرو ضلع²
     vi: Quận Isingiro²
-    lv: Isingiro distrikts
-    ceb: Isingiro District
-    lt: Isingiro apskritis
-    zh: 伊辛吉羅區²
-    ccp: "\U00011103\U00011128\U00011125\U00011128\U0001111A\U00011134\U00011109\U00011128\U00011122\U0001112E"
-    uk: Район Ісінгіро
-    'no': Isingiro²
-  comments:
-'419':
-  name: Buliisa
-  code:
-  unofficial_names: Buliisa
   geo:
-    latitude: 2.0299607
-    longitude: 31.5370003
-    min_latitude: 1.666287
-    min_longitude: 31.3198184
-    max_latitude: 2.323078
-    max_longitude: 31.7638859
+    latitude: -0.196398
+    longitude: 30.84425
+    min_latitude: 
+    min_longitude: 
+    max_latitude: 
+    max_longitude: 
+  name: Kiruhura
+'419':
+  unofficial_names: Buliisa
   translations:
     en: Kiruhura
     ar: مقاطعة بوليسا²
@@ -4248,22 +3525,15 @@
     tr: Buliisa District
     ur: کیروہورا ضلع
     vi: Quận Buliisa
-    ceb: Kiruhura District
-    zh: 基魯胡拉區
-    ccp: "\U00011107\U00011128\U00011122\U0001112E\U00011126\U0001112A\U00011122"
-    'no': Kiruhura
-  comments:
-'117':
-  name: Buikwe
-  code:
-  unofficial_names:
   geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
+    latitude: 2.0299607
+    longitude: 31.5370003
+    min_latitude: 1.666287
+    min_longitude: 31.3198184
+    max_latitude: 2.323078
+    max_longitude: 31.7638859
+  name: Buliisa
+'117':
   translations:
     ar: مقاطعة بويكوي
     bn: বুইকওয়ে জেলা
@@ -4297,25 +3567,7 @@
     tr: Buikwe District
     ur: بویکوے ضلع
     vi: Quận Buikwe
-    lv: Buikves distrikts
-    ceb: Buikwe District
-    lt: Buikvės apskritis
-    zh: 布伊奎區
-    ccp: "\U0001111D\U0001112D\U0001112A\U00011103\U00011128\U00011107\U00011134"
-    uk: Район Буїкве
-    'no': Buikwe
-  comments:
 '118':
-  name: Bukomansibi
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة بوكومانسيمبي
     bn: বুকোমান্সিম্বি জেলা
@@ -4349,25 +3601,7 @@
     tr: Bukomansimbi District
     ur: بوکومانسیمبی ضلع
     vi: Quận Bukomansimbi
-    lv: Bukomansimbi distrikts
-    ceb: Bukomansimbi County
-    lt: Bukomansinbio apskritis
-    zh: 布科曼辛比區
-    ccp: "\U0001111D\U0001112A\U00011107\U0001112E\U0001111F\U0001111A\U00011134\U00011125\U00011128\U0001111D\U00011128"
-    uk: Район Букомансімбі
-    'no': Bukomansimbi
-  comments:
 '119':
-  name: Butambala
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة بوتمبالا
     bn: বোতামবালা জেলা
@@ -4401,25 +3635,7 @@
     tr: Butambala District
     ur: بوتامبالا ضلع
     vi: Quận Butambala
-    lv: Butambalas distrikts
-    ceb: Butambala District
-    lt: Butambalos apskritis
-    zh: 布坦巴拉區
-    ccp: "\U0001111D\U0001112A\U00011111\U0001111F\U00011134\U0001111D\U00011123"
-    uk: Район Бутамбала
-    'no': Butambala
-  comments:
 '120':
-  name: Buvuma
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة بوفوما
     bn: বুভুমা জেলা
@@ -4453,25 +3669,7 @@
     tr: Buvuma District
     ur: بووما ضلع
     vi: Quận Buvuma
-    lv: Buvumas distrikts
-    ceb: Buvuma District
-    lt: Buvumos apskritis
-    zh: 布武馬區
-    ccp: "\U0001111D\U0001112A\U0001111E\U0001112A\U0001111F"
-    uk: Район Бувума
-    'no': Buvuma
-  comments:
 '121':
-  name: Gomba
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة غومبا
     bn: গোম্বা জেলা
@@ -4505,26 +3703,7 @@
     tr: Gomba District
     ur: گومبا ضلع
     vi: Quận Gomba
-    lv: Gombas distrikts
-    ceb: Gomba District
-    lt: Gombos apskritis
-    zh: 貢巴區
-    ccp: "\U00011109\U0001112E\U0001111F\U00011134\U0001111D"
-    ml: ഗൊംബ ജില്ല
-    uk: Район Гомба
-    'no': Gomba
-  comments:
 '122':
-  name: Kalungu
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة كالونغو
     bn: কালোঙ্গো জেলা
@@ -4558,25 +3737,7 @@
     tr: Kalungu District
     ur: کالونگو ضلع
     vi: Quận Kalungu
-    lv: Kalungu distrikts
-    ceb: Kalungu District
-    lt: Kalungo apskritis
-    zh: 卡倫古區
-    ccp: "\U00011107\U00011123\U0001112A\U0001111A\U00011134\U00011109\U0001112A"
-    uk: Район Калунгу
-    'no': Kalungu
-  comments:
 '123':
-  name: Kyankwanzi
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة كيانكوانزي
     bn: কিয়ানকাঊয়ানজি জেলা
@@ -4610,25 +3771,7 @@
     tr: Kyankwanzi District
     ur: کیانکوانزی ضلع
     vi: Quận Kyankwanzi
-    lv: Kjankvanzi distrikts
-    ceb: Kyankwanzi District
-    lt: Kjankvanzio apskritis
-    zh: 克揚寬齊區
-    ccp: "\U00011107\U00011128\U00011120\U0001111A\U00011134\U00011107\U0001112E\U00011120\U0001111A\U00011134\U0001110E\U00011128"
-    uk: Район Кьянкванзі
-    'no': Kyankwanzi
-  comments:
 '124':
-  name: Lwengo
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة لوينغو
     bn: লেঙ্গো জেলা
@@ -4662,25 +3805,7 @@
     tr: Lwengo District
     ur: لوینگو ضلع
     vi: Quận Lwengo
-    lv: Lvengo distrikts
-    ceb: Lwengo District
-    lt: Lvengo apskritis
-    zh: 盧恩戈區
-    ccp: "\U00011123\U00011127\U00011120\U0001112C\U0001111A\U00011134\U00011109\U0001112E"
-    uk: Район Лвенго
-    'no': Lwengo
-  comments:
 '225':
-  name: Bulambuli
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة بولامبولي
     bn: বুলামবুলি জেলা
@@ -4714,25 +3839,7 @@
     tr: Bulambuli District
     ur: بولامبولی ضلع
     vi: Quận Bulambuli
-    lv: Bulambuli distrikts
-    ceb: Bulambuli District
-    lt: Bulambulio apskritis
-    zh: 布蘭布利區
-    ccp: "\U0001111D\U0001112A\U00011123\U0001111F\U00011134\U0001111D\U0001112A\U00011123\U00011128"
-    uk: Район Буламбулі
-    'no': Bulambuli
-  comments:
 '226':
-  name: Buyende
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة بويندي
     bn: বায়েন্ডি জেলা
@@ -4766,25 +3873,7 @@
     tr: Buyende District
     ur: بوئیندے ضلع
     vi: Quận Buyende
-    lv: Bujendes distrikts
-    ceb: Buyende District
-    lt: Bujendės apskritis
-    zh: 布延德區
-    ccp: "\U0001111D\U0001112A\U00011120\U0001112C\U0001111A\U00011134\U00011113\U00011128"
-    uk: Район Буйенде
-    'no': Buyende
-  comments:
 '227':
-  name: Kibuku
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة كيبوكو
     bn: কিবুকো জেলা
@@ -4818,25 +3907,7 @@
     tr: Kibuku District
     ur: کیبوکو ضلع
     vi: Quận Kibuku
-    lv: Kibuku distrikts
-    ceb: Kibuku District
-    lt: Kibuku apskritis
-    zh: 基布庫區
-    ccp: "\U00011107\U00011128\U0001111D\U0001112A\U00011107\U0001112A"
-    uk: Район Кібуку
-    'no': Kibuku
-  comments:
 '228':
-  name: Kween
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة كوين
     bn: কিন জেলা
@@ -4870,25 +3941,7 @@
     tr: Kween District
     ur: کوین ضلع
     vi: Quận Kween
-    lv: Kvenas distrikts
-    ceb: Kween District
-    lt: Kvino apskritis
-    zh: 奎恩區
-    ccp: "\U00011107\U00011128\U00011120\U0001112C\U0001111A\U00011134"
-    uk: Район Квін
-    'no': Kween
-  comments:
 '229':
-  name: Luuka
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: ضاحية لوكا
     bn: লুকা জেলা
@@ -4922,25 +3975,7 @@
     tr: Luuka District
     ur: کووکا ضلع
     vi: Quận Luuka
-    lv: Lukas distrikts
-    ceb: Luuka District
-    lt: Lukos apskritis
-    zh: 盧卡區
-    ccp: "\U00011123\U0001112B\U00011107"
-    uk: Район Луука
-    'no': Luuka
-  comments:
 '230':
-  name: Namayingo
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة نامايينغو
     bn: নামাইংগো জেলা
@@ -4974,25 +4009,7 @@
     tr: Namayingo District
     ur: نامائینگو ضلع
     vi: Quận Namayingo
-    lv: Namajingo distrikts
-    ceb: Namayingo District
-    lt: Namajingo apskritis
-    zh: 納馬因戈區
-    ccp: "\U0001111A\U0001111F\U00011128\U00011120\U00011128\U00011101\U00011109\U0001112E"
-    uk: Район Намеїнго
-    'no': Namayingo
-  comments:
 '231':
-  name: Ngora
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة نغورا
     bn: নাগোরা জেলা
@@ -5026,25 +4043,7 @@
     tr: Ngora District
     ur: نگورا ضلع
     vi: Quận Ngora
-    lv: Ngoras distrikts
-    ceb: Ngora District
-    lt: Ngoros apskritis
-    zh: 恩戈拉區
-    ccp: "\U00011109\U0001112E\U00011122"
-    uk: Район Нгора
-    'no': Ngora
-  comments:
 '232':
-  name: Serere
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة سيرير
     bn: সেরে জেলা
@@ -5078,25 +4077,7 @@
     tr: Serere District
     ur: سیریرے ضلع
     vi: Quận Serere
-    lv: Sereres distrikts
-    ceb: Serere District
-    lt: Sererės apskritis
-    zh: 塞雷雷區
-    ccp: "\U00011125\U0001112C\U00011122\U0001112C\U00011122\U00011134"
-    uk: Район Серере
-    'no': Serere
-  comments:
 '322':
-  name: Agago
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة أغاجو
     bn: আগাগো জেলা
@@ -5129,25 +4110,7 @@
     tr: Agago District
     ur: اگاگو ضلع
     vi: Quận Agago
-    lv: Agago distrikts
-    ceb: Agago District
-    lt: Agago apskritis
-    zh: 阿加戈區
-    ccp: "\U00011103\U00011109\U00011109\U0001112E"
-    uk: Район Агаго
-    'no': Agago
-  comments:
 '323':
-  name: Alebtong
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة ايبتونغ
     bn: আলেবটং জেলা
@@ -5181,25 +4144,7 @@
     tr: Alebtong District
     ur: الیبتونگ ضلع
     vi: Quận Alebtong
-    lv: Alebtongas distrikts
-    ceb: Alebtong District
-    lt: Alebtongo apskritis
-    zh: 阿萊布通區
-    ccp: "\U00011103\U00011123\U00011128\U0001111B\U00011134\U00011111\U00011127\U00011101"
-    uk: Район Алебтонг
-    'no': Alebtong
-  comments:
 '324':
-  name: Amudat
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة أمودات
     bn: আমুদাত জেলা
@@ -5233,25 +4178,7 @@
     tr: Amudat District
     ur: امودات ضلع
     vi: Quận Amudat
-    lv: Amudatas distrikts
-    ceb: Amudat District
-    lt: Amudato apskritis
-    zh: 阿穆達特區
-    ccp: "\U00011103\U0001111F\U0001112A\U00011113\U00011116\U00011134"
-    uk: Район Амудат
-    'no': Amudat
-  comments:
 '325':
-  name: Kole
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: ضاحية كول
     bn: কোলে জেলা
@@ -5284,25 +4211,7 @@
     tr: Kole District
     ur: کولے ضلع
     vi: Quận Kole
-    lv: Koles distrikts
-    ceb: Kole District
-    lt: Kolės apskritis
-    zh: 科萊區
-    ccp: "\U00011107\U0001112E\U00011123\U00011128"
-    uk: Район Коле
-    'no': Kole
-  comments:
 '326':
-  name: Lamwo
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة لامو
     bn: লামৌ জেলা
@@ -5335,25 +4244,7 @@
     tr: Lamwo District
     ur: لاموو ضلع
     vi: Quận Lamwo
-    lv: Lamvo distrikts
-    ceb: Lamwo District
-    lt: Lamvo apskritis
-    zh: 蘭沃區
-    ccp: "\U00011123\U0001111F\U00011134\U00011124\U0001112E"
-    uk: Район Ламво
-    'no': Lamwo
-  comments:
 '327':
-  name: Napak
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة ناباك
     bn: নাপাক জেলা
@@ -5387,25 +4278,7 @@
     tr: Napak District
     ur: ناپاک ضلع
     vi: Quận Napak
-    lv: Napakas distrikts
-    ceb: Napak District
-    lt: Napako apskritis
-    zh: 納帕克區
-    ccp: "\U0001111A\U0001111B\U00011107\U00011134"
-    uk: Район Напак
-    'no': Napak
-  comments:
 '328':
-  name: Nwoya
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة نويا
     bn: নৌইয়া জেলা
@@ -5439,25 +4312,7 @@
     tr: Nwoya District
     ur: نوویا ضلع
     vi: Quận Nwoya
-    lv: Nvojas distrikts
-    ceb: Nwoya District
-    lt: Nvojos apskritis
-    zh: 恩沃亞區
-    ccp: "\U0001111A\U00011131\U00011103\U00011128\U00011120"
-    uk: Район Нвойя
-    'no': Nwoya
-  comments:
 '329':
-  name: Otuke
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة أوتوك
     bn: ওতুকে জেলা
@@ -5491,25 +4346,7 @@
     tr: Otuke District
     ur: اوتوکے ضلع
     vi: Quận Otuke
-    lv: Otukes distrikts
-    ceb: Otuke District
-    lt: Otukės apskritis
-    zh: 奧圖凱區
-    ccp: "\U00011103\U0001112E\U00011111\U0001112A\U00011107\U00011134"
-    uk: Район Отуке
-    'no': Otuke
-  comments:
 '330':
-  name: Zombo²
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة زومبو
     bn: জোম্বো জেলা
@@ -5543,25 +4380,7 @@
     tr: Zombo District
     ur: زومبو ضلع
     vi: Quận Zombo
-    lv: Zombo distrikts
-    ceb: Zombo District
-    lt: Zombo apskritis
-    zh: 宗博區
-    ccp: "\U0001110E\U0001112E\U0001111F\U00011134\U0001111D\U0001112A"
-    uk: Район Зомбо
-    'no': Zombo
-  comments:
 '420':
-  name: Buhweju
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة بوهيويو
     bn: বুওয়েজু জেলা
@@ -5594,25 +4413,7 @@
     tr: Buhweju District
     ur: بوہویجو ضلع
     vi: Quận Buhweju
-    lv: Buhvedžu distirkts
-    ceb: Buhweju District
-    lt: Buvėjaus apskritis
-    zh: 布惠朱區
-    ccp: "\U0001111D\U0001112A\U00011126\U00011134\U00011103\U00011128\U00011120\U0001112E\U0001110E\U0001112A"
-    uk: Район Бувейу
-    'no': Buhweju
-  comments:
 '421':
-  name: Kiryandongo
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة كيرياندونغو
     bn: কিরিয়ান্দুং জেলা
@@ -5645,25 +4446,7 @@
     tr: Kiryandongo District
     ur: کیریاندونگو ضلع
     vi: Quận Kiryandongo
-    lv: Kirjandongo province
-    ceb: Kiryandongo District
-    lt: Kirjangdongo provincija
-    zh: 基爾揚東戈區
-    ccp: "\U00011107\U00011128\U00011122\U00011128\U00011120\U0001111A\U00011134\U00011113\U0001112E\U0001111A\U00011134\U00011109\U0001112E"
-    uk: Район Кірьяндонго
-    'no': Kiryandongo
-  comments:
 '422':
-  name: Kyegegwa
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة كيجيغوا
     bn: কিজেগউয়া জেলা
@@ -5696,25 +4479,7 @@
     tr: Kyegegwa District
     ur: کئیگیگوا ضلع
     vi: Quận Kyegegwa
-    lv: Ķegegvas distrikts
-    ceb: Kyegegwa District
-    lt: Kjegegvos apskritis
-    zh: 基埃蓋瓜區
-    ccp: "\U00011107\U00011128\U00011120\U0001112C\U00011109\U0001112C\U00011107\U00011134\U00011124"
-    uk: Район Кьєгегва
-    'no': Kyegegwa
-  comments:
 '423':
-  name: Mitooma
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: إقليم ميتووما
     bn: মিতোমা জেলা
@@ -5747,25 +4512,7 @@
     tr: Mitooma District
     ur: میتوما ضلع
     vi: Quận Mitooma
-    lv: Mitoomas distrikts
-    ceb: Mitoma District
-    lt: Mitumos apskritis
-    zh: 米托馬區
-    ccp: "\U0001111F\U00011128\U00011111\U0001112B\U0001111F"
-    uk: Район Мітоома
-    'no': Mitooma
-  comments:
 '424':
-  name: Ntoroko
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة نتوروكو
     bn: নুরোকু জেলা
@@ -5798,25 +4545,7 @@
     tr: Ntorolo District
     ur: نتوروکو ضلع
     vi: Quận Ntoroko
-    lv: Ntoroko distrikts
-    ceb: Ntoroko District
-    lt: Ntoroko apskritis
-    zh: 恩托羅科區
-    ccp: "\U00011111\U0001112E\U00011122\U0001112E\U00011107\U0001112E"
-    uk: Район Нтороко
-    'no': Ntoroko
-  comments:
 '425':
-  name: Rubirizi
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة روبيريزي
     bn: রুবিরজি জেলা
@@ -5849,25 +4578,7 @@
     tr: Rubirzi District
     ur: روبیریزی ضلع
     vi: Quận Rubirizi
-    lv: Rubirizi distrikts
-    ceb: Rubirizi District
-    lt: Rubirizio rajonas
-    zh: 魯比里齊區
-    ccp: "\U00011122\U0001112A\U0001111D\U00011128\U00011122\U00011128\U0001110E\U00011128"
-    uk: Район Рубірізі
-    'no': Rubirizi
-  comments:
 '426':
-  name: Sheema
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     ar: مقاطعة شيما
     bn: সিমা জেলা
@@ -5900,25 +4611,7 @@
     tr: Sheema District
     ur: شیما ضلع
     vi: Quận Sheema
-    lv: Šemas distrikts
-    ceb: Sheema District
-    lt: Šimos apskritis
-    zh: 謝馬區
-    ccp: "\U00011125\U00011129\U0001111F"
-    uk: Район Шеема
-    'no': Sheema
-  comments:
 C:
-  name: Central
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     de: Zentraluganda
     el: Κεντρική Ουγκάντα
@@ -5936,28 +4629,7 @@ C:
     tr: Merkez Bölgesi
     uk: Центральна область
     ur: وسطی علاقہ، یوگنڈا
-    ceb: Central Region
-    sr_Latn: Centralni region
-    zh: 中部區
-    fa: استان مرکزی، اوگاندا
-    sw: Mkoa wa Kati
-    ccp: "\U00011125\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122"
-    hy: Կենտրոնական շրջան
-    ca: Regió Central
-    be: Цэнтральная вобласць
-    'no': Central
-  comments:
 E:
-  name: Eastern
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     el: Ανατολική Ουγκάντα
     en: Eastern
@@ -5973,27 +4645,7 @@ E:
     tr: Doğu Bölgesi
     uk: Східна область
     ur: مشرقی علاقہ، یوگنڈا
-    ceb: Eastern Region
-    zh: 東部區
-    fa: استان شرقی، اوگاندا
-    sw: Mkoa wa Mashariki
-    ccp: "\U0001111B\U0001112A\U00011107\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
-    hy: Արևելյան շրջան
-    ro: Regiunea Estică
-    ca: Regió de l’Est d’Uganda
-    'no': Eastern
-  comments:
 N:
-  name: Northern
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     el: Βόρεια Ουγκάντα
     en: Northern
@@ -6009,24 +4661,7 @@ N:
     tr: Kuzey Bölgesi
     uk: Північна область
     ur: شمالی علاقہ، یوگنڈا
-    ceb: Northern Region
-    zh: 北部區
-    fa: استان شمالی، اوگاندا
-    sw: Mkoa wa Kaskazini
-    ccp: "\U00011105\U0001112A\U00011116\U00011133\U00011126\U00011127\U00011122\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
-    'no': Northern
-  comments:
 W:
-  name: Western
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     el: Δυτική Ουγκάντα
     en: Western
@@ -6042,270 +4677,6 @@ W:
     tr: Batı Bölgesi
     uk: Західна область
     ur: مغربی علاقہ، یوگنڈا
-    ceb: Western Region
-    zh: 西部區
-    fa: استان غربی، اوگاندا
-    sw: Mkoa wa Magharibi
-    ccp: "\U0001111B\U00011127\U0001110F\U00011128\U0001111F\U00011134\U0001111F\U0001112C\U00011107\U00011134\U00011108\U0001112C"
-    hy: Արեւմտյան մարզ
-    'no': Western
-  comments:
 '331':
-  name: Zombo
-  code:
-  unofficial_names:
-  geo:
-    latitude:
-    longitude:
-    min_latitude:
-    min_longitude:
-    max_latitude:
-    max_longitude:
   translations:
     en: Zombo
-    ja: オモロ県
-    ccp: "\U0001110E\U0001112E\U0001111F\U00011134\U0001111D\U0001112A"
-  comments:
-'125':
-  name: Kyotera
-  code:
-  unofficial_names:
-  geo:
-    latitude: 1.373333
-    longitude: 32.290275
-    min_latitude: -1.4823178
-    min_longitude: 29.573433
-    max_latitude: 4.218628
-    max_longitude: 35.0330489
-  translations:
-    ja: キョテラ県
-    en: Kyotera
-  comments:
-'233':
-  name: Butebo
-  code:
-  unofficial_names:
-  geo:
-    latitude: 1.373333
-    longitude: 32.290275
-    min_latitude: -1.4823178
-    min_longitude: 29.573433
-    max_latitude: 4.218628
-    max_longitude: 35.0330489
-  translations:
-    ja: ブテボ県
-    en: Butebo
-  comments:
-'234':
-  name: Namisindwa
-  code:
-  unofficial_names:
-  geo:
-    latitude: 1.373333
-    longitude: 32.290275
-    min_latitude: -1.4823178
-    min_longitude: 29.573433
-    max_latitude: 4.218628
-    max_longitude: 35.0330489
-  translations:
-    ja: ナミシンドワ県
-    en: Namisindwa
-  comments:
-'332':
-  name: Pakwach
-  code:
-  unofficial_names:
-  geo:
-    latitude: 1.373333
-    longitude: 32.290275
-    min_latitude: -1.4823178
-    min_longitude: 29.573433
-    max_latitude: 4.218628
-    max_longitude: 35.0330489
-  translations:
-    ja: パクワチ県
-    en: Pakwach
-  comments:
-'427':
-  name: Kagadi
-  code:
-  unofficial_names:
-  geo:
-    latitude: 1.373333
-    longitude: 32.290275
-    min_latitude: -1.4823178
-    min_longitude: 29.573433
-    max_latitude: 4.218628
-    max_longitude: 35.0330489
-  translations:
-    ja: カガディ県
-    en: Kagadi
-  comments:
-'428':
-  name: Kakumiro
-  code:
-  unofficial_names:
-  geo:
-    latitude: 1.373333
-    longitude: 32.290275
-    min_latitude: -1.4823178
-    min_longitude: 29.573433
-    max_latitude: 4.218628
-    max_longitude: 35.0330489
-  translations:
-    ja: カクミロ県
-    en: Kakumiro
-  comments:
-'429':
-  name: Rubanda
-  code:
-  unofficial_names:
-  geo:
-    latitude: 1.373333
-    longitude: 32.290275
-    min_latitude: -1.4823178
-    min_longitude: 29.573433
-    max_latitude: 4.218628
-    max_longitude: 35.0330489
-  translations:
-    ja: ルバンダ県
-    en: Rubanda
-  comments:
-'430':
-  name: Bunyangabu
-  code:
-  unofficial_names:
-  geo:
-    latitude: 1.373333
-    longitude: 32.290275
-    min_latitude: -1.4823178
-    min_longitude: 29.573433
-    max_latitude: 4.218628
-    max_longitude: 35.0330489
-  translations:
-    ja: ブニャンガブ県
-    en: Bunyangabu
-  comments:
-'431':
-  name: Rukiga
-  code:
-  unofficial_names:
-  geo:
-    latitude: 1.373333
-    longitude: 32.290275
-    min_latitude: -1.4823178
-    min_longitude: 29.573433
-    max_latitude: 4.218628
-    max_longitude: 35.0330489
-  translations:
-    ja: ルキガ県
-    en: Rukiga
-  comments:
-'126':
-  name: Kasanda
-  code:
-  unofficial_names:
-  geo:
-    latitude: 1.373333
-    longitude: 32.290275
-    min_latitude: -1.4823178
-    min_longitude: 29.573433
-    max_latitude: 4.218628
-    max_longitude: 35.0330489
-  translations:
-    en: Kasanda
-  comments:
-'235':
-  name: Bugweri
-  code:
-  unofficial_names:
-  geo:
-    latitude: 1.373333
-    longitude: 32.290275
-    min_latitude: -1.4823178
-    min_longitude: 29.573433
-    max_latitude: 4.218628
-    max_longitude: 35.0330489
-  translations:
-    en: Bugweri
-  comments:
-'236':
-  name: Kapelebyong
-  code:
-  unofficial_names:
-  geo:
-    latitude: 1.373333
-    longitude: 32.290275
-    min_latitude: -1.4823178
-    min_longitude: 29.573433
-    max_latitude: 4.218628
-    max_longitude: 35.0330489
-  translations:
-    en: Kapelebyong
-  comments:
-'333':
-  name: Kwania
-  code:
-  unofficial_names:
-  geo:
-    latitude: 1.373333
-    longitude: 32.290275
-    min_latitude: -1.4823178
-    min_longitude: 29.573433
-    max_latitude: 4.218628
-    max_longitude: 35.0330489
-  translations:
-    en: Kwania
-  comments:
-'334':
-  name: Nabilatuk
-  code:
-  unofficial_names:
-  geo:
-    latitude: 0.3179766
-    longitude: 32.574073
-  translations:
-    en: Nabilatuk
-  comments:
-'432':
-  name: Kikuube
-  code:
-  unofficial_names:
-  geo:
-    latitude: 1.373333
-    longitude: 32.290275
-    min_latitude: -1.4823178
-    min_longitude: 29.573433
-    max_latitude: 4.218628
-    max_longitude: 35.0330489
-  translations:
-    en: Kikuube
-  comments:
-'237':
-  translations:
-    en: Kalaki
-  name: Kalaki
-'335':
-  translations:
-    en: Karenga
-  name: Karenga
-'336':
-  translations:
-    en: Madi-Okollo
-  name: Madi-Okollo
-'337':
-  translations:
-    en: Obongi
-  name: Obongi
-'433':
-  translations:
-    en: Kazo
-  name: Kazo
-'434':
-  translations:
-    en: Kitagwenda
-  name: Kitagwenda
-'435':
-  translations:
-    en: Rwampara
-  name: Rwampara

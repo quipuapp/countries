@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 module ISO3166
   Subdivision = KwargStruct.new(
     :name,

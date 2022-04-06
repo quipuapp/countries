@@ -1,12 +1,11 @@
-# frozen_string_literal: true
-
 module ISO3166
+  ##
   # Handles building the in memory store of countries data
   class Data
-    @cache_dir = [File.dirname(__FILE__), 'cache']
-    @cache = {}
-    @registered_data = {}
-    @mutex = Mutex.new
+    @@cache_dir = [File.dirname(__FILE__), 'cache']
+    @@cache = {}
+    @@registered_data = {}
+    @@semaphore = Mutex.new
 
     def initialize(alpha2)
       @alpha2 = alpha2.to_s.upcase
@@ -17,33 +16,38 @@ module ISO3166
     end
 
     class << self
-
-      # Registers a new Country with custom data.
-      # If you are overriding an existing country, this does not perform a deep merge so you will need to __bring in all data you wish to be available__.
-      # Overriding an existing country will also remove it from the internal management of translations.
-      def register(data)
-        alpha2 = data[:alpha2].upcase
-        @registered_data[alpha2] = deep_stringify_keys(data)
-        @registered_data[alpha2]['translations'] = \
-          Translations.new.merge(data['translations'] || {})
-        @cache = cache.merge(@registered_data)
+      def cache_dir
+        @@cache_dir
       end
 
-      # Removes a country from the loaded data
+      def cache_dir=(value)
+        @@cache_dir = value
+      end
+
+      def register(data)
+        alpha2 = data[:alpha2].upcase
+        @@registered_data[alpha2] = \
+          data.each_with_object({}) { |(k, v), a| a[k.to_s] = v }
+        @@registered_data[alpha2]['translations'] = \
+          Translations.new.merge(data[:translations] || {})
+        @@cache = cache.merge(@@registered_data)
+      end
+
       def unregister(alpha2)
         alpha2 = alpha2.to_s.upcase
-        @cache.delete(alpha2)
-        @registered_data.delete(alpha2)
+        @@cache.delete(alpha2)
+        @@registered_data.delete(alpha2)
       end
 
       def cache
-        update_cache
+        @@semaphore.synchronize do
+          update_cache
+        end
       end
 
-      # Resets the loaded data and cache
       def reset
-        @cache = {}
-        @registered_data = {}
+        @@cache = {}
+        @@registered_data = {}
         ISO3166.configuration.loaded_locales = []
       end
 
@@ -55,20 +59,15 @@ module ISO3166
       def update_cache
         load_data!
         sync_translations!
-        @cache
+        @@cache
       end
 
-      private
-
       def load_data!
-        return @cache unless load_required?
-
-        synchronized do
-          @cache = load_cache %w[countries.json]
-          @_country_codes = @cache.keys
-          @cache = @cache.merge(@registered_data)
-          @cache
-        end
+        return @@cache unless load_required?
+        @@cache = load_cache %w(countries.json)
+        @@_country_codes = @@cache.keys
+        @@cache = @@cache.merge(@@registered_data)
+        @@cache
       end
 
       def sync_translations!
@@ -83,32 +82,19 @@ module ISO3166
         end
       end
 
-      def synchronized(&block)
-        if use_mutex?
-          @mutex.synchronize(&block)
-        else
-          block.call
-        end
-      end
-
-      def use_mutex?
-        # Stubbed in testing
-        true
-      end
+      private
 
       def load_required?
-        synchronized do
-          @cache.empty?
-        end
+        @@cache.empty?
       end
 
       def loaded_codes
-        @cache.keys
+        @@cache.keys
       end
 
       # Codes that we have translations for in dataset
       def internal_codes
-        @_country_codes - @registered_data.keys
+        @@_country_codes - @@registered_data.keys
       end
 
       def cache_flush_required?
@@ -132,25 +118,21 @@ module ISO3166
       end
 
       def load_translations(locale)
-        synchronized do
-          locale_names = load_cache(['locales', "#{locale}.json"])
-          internal_codes.each do |alpha2|
-            @cache[alpha2]['translations'] ||= Translations.new
-            @cache[alpha2]['translations'][locale] = locale_names[alpha2].freeze
-            @cache[alpha2]['translated_names'] = @cache[alpha2]['translations'].values.freeze
-          end
-          ISO3166.configuration.loaded_locales << locale
+        locale_names = load_cache(['locales', "#{locale}.json"])
+        internal_codes.each do |alpha2|
+          @@cache[alpha2]['translations'] ||= Translations.new
+          @@cache[alpha2]['translations'][locale] = locale_names[alpha2].freeze
+          @@cache[alpha2]['translated_names'] = @@cache[alpha2]['translations'].values.freeze
         end
+        ISO3166.configuration.loaded_locales << locale
       end
 
       def unload_translations(locale)
-        synchronized do
-          internal_codes.each do |alpha2|
-            @cache[alpha2]['translations'].delete(locale)
-            @cache[alpha2]['translated_names'] = @cache[alpha2]['translations'].values.freeze
-          end
-          ISO3166.configuration.loaded_locales.delete(locale)
+        internal_codes.each do |alpha2|
+          @@cache[alpha2]['translations'].delete(locale)
+          @@cache[alpha2]['translated_names'] = @@cache[alpha2]['translations'].values.freeze
         end
+        ISO3166.configuration.loaded_locales.delete(locale)
       end
 
       def load_cache(file_array)
@@ -159,16 +141,7 @@ module ISO3166
       end
 
       def datafile_path(file_array)
-        File.join([@cache_dir] + file_array)
-      end
-
-      def deep_stringify_keys(data)
-        data.transform_keys!(&:to_s)
-        data.transform_values! do |v|
-          v.is_a?(Hash) ? deep_stringify_keys(v) : v
-        end
-
-        data
+        File.join([@@cache_dir] + file_array)
       end
     end
   end

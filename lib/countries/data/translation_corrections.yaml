@@ -1,6 +1,6 @@
 # Contains fixes for upstream pkg-iso-codes
 # Any change here should have an upstream bug report
-# https://salsa.debian.org/iso-codes-team/iso-codes
+# https://alioth.debian.org/projects/pkg-iso-codes/
 #
 # These changes are applied during `rake update_cache`
 #
@@ -10,6 +10,8 @@
 #   alpha2: localized_name
 #
 ---
+oc:
+  US: USA
 ar:
   PS: "فلسطين"
   SA: "السعودية"
@@ -19,33 +21,18 @@ ar:
   SY: "سوريا"
   BQ: "بونير، سينت أوستاتيوس وسابا"
   CW: "كوراساو"
-da:
-  CZ: 'Tjekkiet'
+nn:
+  PT: Portugal
+zh:
+  KH: '柬埔寨'
+zh_cn:
+  KH: '柬埔寨'
 fa:
   IR: "ایران"
 he:
   PS: "פלסטין, מדינת"
   VI: "איי הבתולה (ארה)"
-jp:
-  ES: スペイン
-mk:
-  MK: "Северна Македонија"
-nn:
-  PT: Portugal
-oc:
-  US: Estats Units
-  UM: Islas perifericas Menores dels Estats Units
-  MK: Macedònia del Nòrd
-pt:
-  CZ: 'República Checa'
 sv:
   GB: "Storbritannien"
-  RU: "Ryssland"
-zh:
-  KH: '柬埔寨'
-zh_cn:
-  KH: '柬埔寨'
-nb:
-  US: USA
-nn:
-  US: USA
+pt:
+  CZ: 'República Checa'

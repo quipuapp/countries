@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-
+#
 module ISO3166
   DEFAULT_COUNTRY_HASH = {
     'address_format' => nil,
@@ -11,7 +11,9 @@ module ISO3166
     'gec' => nil,
     'geo' => {
       'latitude' => nil,
+      'latitude_dec' => nil,
       'longitude' => nil,
+      'longitude_dec' => nil,
       'max_latitude' => nil,
       'max_longitude' => nil,
       'min_latitude' => nil,
@@ -29,8 +31,7 @@ module ISO3166
     },
     'international_prefix' => nil,
     'ioc' => nil,
-    'iso_long_name' => nil,
-    'iso_short_name' => nil,
+    'name' => nil,
     'national_destination_code_lengths' => [],
     'national_number_lengths' => [],
     'national_prefix' => nil,
@@ -62,7 +63,9 @@ module ISO3166
     'translations' => {},
     'geo' => {
       'latitude' => nil,
+      'latitude_dec' => nil,
       'longitude' => nil,
+      'longitude_dec' => nil,
       'max_latitude' => nil,
       'max_longitude' => nil,
       'min_latitude' => nil,

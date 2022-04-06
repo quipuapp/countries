@@ -1,11 +1,7 @@
-# frozen_string_literal: true
-
 module Sources
   module Local
-    # Auxiliary Subdivision class to support loading the local subdivision data to be updated with Unicode CLDR data
     class Subdivision
       attr_reader :code
-
       def initialize(code)
         @code = code
       end
@@ -19,8 +15,8 @@ module Sources
       end
 
       def save(data)
-        File.write(file_path, data.to_yaml)
-      rescue StandardError
+        File.open(file_path, 'w') { |f| f.write data.to_yaml }
+      rescue
         puts "failed to read #{file}: #{$ERROR_INFO}"
       end
 

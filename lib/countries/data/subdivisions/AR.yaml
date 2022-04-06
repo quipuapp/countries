@@ -1,15 +1,6 @@
 ---
 A:
-  name: Salta
-  code:
   unofficial_names: Salta
-  geo:
-    latitude: -24.7829323
-    longitude: -65.4121552
-    min_latitude: -24.8724718
-    min_longitude: -65.4991155
-    max_latitude: -24.7101875
-    max_longitude: -65.35461169999999
   translations:
     en: Salta
     ar: سالتا
@@ -61,23 +52,16 @@ A:
     ur: صوبہ سالتا
     vi: Salta
     zh: 萨尔塔省
-    ceb: Provincia de Salta
-    sr_Latn: Salta
-    ccp: "\U00011125\U00011123\U00011134\U00011111"
-    mk: Салта
-    'no': Salta
-  comments:
-B:
-  name: Buenos Aires
-  code:
-  unofficial_names: Buenos Aires
   geo:
-    latitude: -34.6037232
-    longitude: -58.3815931
-    min_latitude: -34.7051589
-    min_longitude: -58.5314522
-    max_latitude: -34.5265464
-    max_longitude: -58.33518840000001
+    latitude: -24.7829323
+    longitude: -65.4121552
+    min_latitude: -24.8724718
+    min_longitude: -65.4991155
+    max_latitude: -24.7101875
+    max_longitude: -65.35461169999999
+  name: Salta
+B:
+  unofficial_names: Buenos Aires
   translations:
     en: Buenos Aires Province
     af: Buenos Aires
@@ -132,21 +116,6 @@ B:
     uk: Буенос-Айрес
     ur: صوبہ بیونس آئرس
     vi: Buenos Aires
-    cy: Talaith Buenos Aires
-    ceb: Provincia de Buenos Aires
-    sr_Latn: Buenos Ajres
-    zh: 布宜诺斯艾利斯省
-    yue_Hans: 布宜诺斯艾利斯省
-    ccp: "\U0001111D\U00011128\U00011105\U0001112A\U0001111A\U00011127\U0001110C\U00011134
-      \U00011103\U0001112C\U00011120\U00011122\U00011134\U00011125\U00011134 \U0001111B\U00011133\U00011122\U00011127\U0001112E\U0001111E\U00011128\U0001111A\U00011134\U00011125\U00011134"
-    yue: 布宜諾斯艾利斯省
-    mk: Буенос Аирес
-    'no': Buenos Aires
-  comments:
-C:
-  name: Capital federal
-  code:
-  unofficial_names: Capital federal
   geo:
     latitude: -34.6037232
     longitude: -58.3815931
@@ -154,6 +123,9 @@ C:
     min_longitude: -58.5314522
     max_latitude: -34.5265464
     max_longitude: -58.33518840000001
+  name: Buenos Aires
+C:
+  unofficial_names: Capital federal
   translations:
     en: Buenos Aires
     af: Buenos Aires²
@@ -216,44 +188,16 @@ C:
     uk: Буенос-Айрес²
     ur: بیونس آئرس
     vi: Buenos Aires²
-    cy: Buenos Aires
-    ceb: Buenos Aires
-    sr_Latn: Buenos Ajres²
-    zh: 布宜諾斯艾利斯
-    yue_Hans: 布宜诺斯艾利斯
-    jv: Buenos Aires
-    sq: Buenos Aires
-    ccp: "\U0001111D\U00011128\U00011105\U0001112A\U0001111A\U00011127\U0001110C\U00011134
-      \U00011103\U0001112C\U00011120\U00011122\U00011134\U00011125\U00011134"
-    ga: Buenos Aires
-    ps: بوئنوس آيرز
-    ky: Буэнос-Айрес
-    ha: Buenos Aires
-    so: Buenos Aires
-    pa: ਬੁਏਨਸ ਆਇਰਸ
-    kk: Буэнос-Айрес
-    yue: 布宜諾斯艾利斯
-    my: ဗျူနိုအေးရိစ်မြို့
-    yo: Buenos Aires
-    zu: Buenos Aires
-    uz: Buenos Ayres
-    bs: Buenos Aires
-    mk: Буенос Аирес²
-    ha_NE: Buenos Aires
-    'no': Buenos Aires²
-    yo_BJ: Buenos Aires
-  comments:
-D:
-  name: San Luis
-  code:
-  unofficial_names: San Luis
   geo:
-    latitude: -33.3022202
-    longitude: -66.3367976
-    min_latitude: -33.3412384
-    min_longitude: -66.38436519999999
-    max_latitude: -33.2583568
-    max_longitude: -66.2345254
+    latitude: -34.6037232
+    longitude: -58.3815931
+    min_latitude: -34.7051589
+    min_longitude: -58.5314522
+    max_latitude: -34.5265464
+    max_longitude: -58.33518840000001
+  name: Capital federal
+D:
+  unofficial_names: San Luis
   translations:
     en: San Luis
     ar: سان لويس
@@ -302,26 +246,16 @@ D:
     uk: Сан-Луїс
     ur: صوبہ سان لوئیس
     vi: San Luis
-    ceb: Provincia de San Luis
-    sr_Latn: San Luis
-    zh: 圣路易省
-    jv: Provinsi San Luis
-    ccp: "\U00011125\U0001111A\U00011134 \U00011123\U0001112A\U00011103\U00011128\U0001110C\U00011134"
-    hy: Սան Լուիս
-    mk: Сан Луис
-    'no': San Luis
-  comments:
-E:
-  name: Entre Ríos
-  code:
-  unofficial_names: Entre Ríos
   geo:
-    latitude: -32.5175643
-    longitude: -59.1041758
-    min_latitude: -34.0391276
-    min_longitude: -60.7680611
-    max_latitude: -30.1576867
-    max_longitude: -57.80086299999999
+    latitude: -33.3022202
+    longitude: -66.3367976
+    min_latitude: -33.3412384
+    min_longitude: -66.38436519999999
+    max_latitude: -33.2583568
+    max_longitude: -66.2345254
+  name: San Luis
+E:
+  unofficial_names: Entre Ríos
   translations:
     en: Entre Ríos
     ar: إنتري ريوس
@@ -372,28 +306,16 @@ E:
     uk: Ентре-Ріос
     ur: صوبہ انترے ریوس
     vi: Entre Ríos
-    cy: Entre Ríos
-    ceb: Provincia de Entre Ríos
-    sr_Latn: Entre Rios
-    zh: 恩特雷里奥斯省
-    ccp: "\U00011103\U0001112C\U0001111A\U00011134\U00011111\U00011133\U00011122\U00011128
-      \U00011122\U00011128\U00011120\U0001112E\U0001110C\U00011134"
-    hy: Էնտրե Ռիոս
-    az: Entre-Rios
-    mk: Ентре Риос
-    'no': Entre Ríos
-  comments:
-F:
-  name: La Rioja
-  code:
-  unofficial_names: La Rioja
   geo:
-    latitude: -29.4128001
-    longitude: -66.8559803
-    min_latitude: -29.4568857
-    min_longitude: -66.9253657
-    max_latitude: -29.3799026
-    max_longitude: -66.7890698
+    latitude: -32.5175643
+    longitude: -59.1041758
+    min_latitude: -34.0391276
+    min_longitude: -60.7680611
+    max_latitude: -30.1576867
+    max_longitude: -57.80086299999999
+  name: Entre Ríos
+F:
+  unofficial_names: La Rioja
   translations:
     en: La Rioja
     ar: لا ريوخا
@@ -444,24 +366,16 @@ F:
     uk: Ла-Ріоха
     ur: لا ریوجا صوبہ، ارجنٹین
     vi: La Rioja
-    ceb: Provincia de La Rioja (lalawigan)
-    sr_Latn: Rioha
-    zh: 拉里奥哈省
-    ccp: "\U00011123 \U00011122\U00011128\U00011103\U0001112E\U0001110E"
-    mk: Ла Риоха
-    'no': La Rioja
-  comments:
-G:
-  name: Santiago del Estero
-  code:
-  unofficial_names: Santiago del Estero
   geo:
-    latitude: -27.78442
-    longitude: -64.26728059999999
-    min_latitude: -27.8551652
-    min_longitude: -64.3114394
-    max_latitude: -27.7426275
-    max_longitude: -64.2216859
+    latitude: -29.4128001
+    longitude: -66.8559803
+    min_latitude: -29.4568857
+    min_longitude: -66.9253657
+    max_latitude: -29.3799026
+    max_longitude: -66.7890698
+  name: La Rioja
+G:
+  unofficial_names: Santiago del Estero
   translations:
     en: Santiago del Estero
     ar: محافظة سانتياغو ديل استيرو
@@ -510,26 +424,16 @@ G:
     uk: Сантьяго-дель-Естеро
     ur: صوبہ سانتیاگو دل استرو
     vi: Santiago del Estero
-    cy: Talaith Santiago del Estero
-    ceb: Provincia de Santiago del Estero
-    sr_Latn: Santijago del Estero
-    zh: 圣地亚哥－德尔埃斯特罗省
-    ccp: "\U00011125\U0001111A\U00011134\U00011111\U00011128\U00011120\U00011109\U0001112E
-      \U00011113\U0001112C\U00011123\U00011134 \U00011103\U0001112C\U0001110C\U00011134\U00011111\U00011122\U0001112E"
-    mk: Сантјаго дел Естеро
-    'no': Santiago del Estero
-  comments:
-H:
-  name: Chaco
-  code:
-  unofficial_names: Chaco
   geo:
-    latitude: -26.5857656
-    longitude: -60.9540073
-    min_latitude: -27.9955354
-    min_longitude: -63.42735869999999
-    max_latitude: -24.087868
-    max_longitude: -58.36362680000001
+    latitude: -27.78442
+    longitude: -64.26728059999999
+    min_latitude: -27.8551652
+    min_longitude: -64.3114394
+    max_latitude: -27.7426275
+    max_longitude: -64.2216859
+  name: Santiago del Estero
+H:
+  unofficial_names: Chaco
   translations:
     en: Chaco
     ar: شاكو
@@ -583,27 +487,16 @@ H:
     uk: Чако
     ur: صوبہ چاکو
     vi: Chaco
-    cy: Talaith Chaco
-    ceb: Provincia del Chaco
-    sr_Latn: Čako
-    zh: 查科省
-    yue_Hans: 查哥省
-    ccp: "\U0001110D\U00011107\U0001112E"
-    yue: 查哥省
-    mk: Чако
-    'no': Chaco
-  comments:
-J:
-  name: San Juan
-  code:
-  unofficial_names: San Juan
   geo:
-    latitude: -31.5272732
-    longitude: -68.5214081
-    min_latitude: -31.6017076
-    min_longitude: -68.644147
-    max_latitude: -31.4894698
-    max_longitude: -68.4631344
+    latitude: -26.5857656
+    longitude: -60.9540073
+    min_latitude: -27.9955354
+    min_longitude: -63.42735869999999
+    max_latitude: -24.087868
+    max_longitude: -58.36362680000001
+  name: Chaco
+J:
+  unofficial_names: San Juan
   translations:
     en: San Juan
     ar: سان خوان
@@ -652,26 +545,16 @@ J:
     uk: Сан-Хуан
     ur: صوبہ سان خوآن، ارجنٹائن
     vi: San Juan
-    cy: Talaith San Juan
-    ceb: Provincia de San Juan
-    sr_Latn: San Huan
-    zh: 圣胡安省
-    ccp: "\U00011125\U0001111A\U00011134 \U0001110E\U0001112A\U00011120\U0001111A\U00011134"
-    hu: San Juan tartomány
-    mk: Сан Хуан
-    'no': San Juan
-  comments:
-K:
-  name: Catamarca
-  code:
-  unofficial_names: Catamarca
   geo:
-    latitude: -28.4689906
-    longitude: -65.77897159999999
-    min_latitude: -28.5101532
-    min_longitude: -65.8248732
-    max_latitude: -28.4203217
-    max_longitude: -65.7289342
+    latitude: -31.5272732
+    longitude: -68.5214081
+    min_latitude: -31.6017076
+    min_longitude: -68.644147
+    max_latitude: -31.4894698
+    max_longitude: -68.4631344
+  name: San Juan
+K:
+  unofficial_names: Catamarca
   translations:
     en: Catamarca
     ar: كاتاماركا
@@ -722,30 +605,17 @@ K:
     uk: Катамарка
     ur: صوبہ کاتامارکا
     vi: Catamarca
-    cy: Talaith Catamarca
-    ceb: Provincia de Catamarca
-    sr_Latn: Katamarka
-    zh: 卡塔马卡省
-    yue_Hans: 卡塔马卡省
-    ccp: "\U00011107\U00011133\U00011120\U00011111\U0001111F\U00011122\U00011134\U00011107"
-    hy: Կատամարկա
-    yue: 卡塔馬卡省
-    bs: Catamarca
-    mk: Катамарка
-    'no': Catamarca
-  comments:
+  geo:
+    latitude: -28.4689906
+    longitude: -65.77897159999999
+    min_latitude: -28.5101532
+    min_longitude: -65.8248732
+    max_latitude: -28.4203217
+    max_longitude: -65.7289342
+  name: Catamarca
 L:
-  name: La Pampa
-  code:
   unofficial_names:
   - Pampa
-  geo:
-    latitude: -37.8956594
-    longitude: -65.0957792
-    min_latitude: -39.3161456
-    min_longitude: -68.29545
-    max_latitude: -34.9923158
-    max_longitude: -63.38682430000001
   translations:
     en: La Pampa
     ar: لا بامبا
@@ -794,25 +664,16 @@ L:
     uk: Ла-Пампа
     ur: لا پامپا صوبہ
     vi: La Pampa
-    cy: La Pampa
-    ceb: Provincia de La Pampa
-    sr_Latn: Pampa
-    zh: 拉潘帕省
-    ccp: "\U00011123 \U0001111B\U0001111F\U00011134\U0001111B"
-    mk: Ла Пампа
-    'no': La Pampa
-  comments:
-M:
-  name: Mendoza
-  code:
-  unofficial_names: Mendoza
   geo:
-    latitude: -32.890183
-    longitude: -68.8440498
-    min_latitude: -33.0437567
-    min_longitude: -68.900637
-    max_latitude: -32.8091398
-    max_longitude: -68.7269211
+    latitude: -37.8956594
+    longitude: -65.0957792
+    min_latitude: -39.3161456
+    min_longitude: -68.29545
+    max_latitude: -34.9923158
+    max_longitude: -63.38682430000001
+  name: La Pampa
+M:
+  unofficial_names: Mendoza
   translations:
     en: Mendoza
     ar: مندوسا
@@ -864,28 +725,16 @@ M:
     uk: Мендоса
     ur: صوبہ مندوسا
     vi: Mendoza
-    cy: Talaith Mendoza
-    ceb: Provincia de Mendoza
-    sr_Latn: Mendoza
-    zh: 门多萨省
-    yue_Hans: 曼度莎省
-    jv: Provinsi Mendoza
-    ccp: "\U0001111F\U0001112C\U0001111A\U00011134\U00011118\U0001112E\U0001110E"
-    yue: 曼度莎省
-    mk: Мендоза
-    'no': Mendoza
-  comments:
-N:
-  name: Misiones
-  code:
-  unofficial_names: Misiones
   geo:
-    latitude: -26.9377146
-    longitude: -54.4342138
-    min_latitude: -28.1633594
-    min_longitude: -56.0595043
-    max_latitude: -25.4954899
-    max_longitude: -53.6385579
+    latitude: -32.890183
+    longitude: -68.8440498
+    min_latitude: -33.0437567
+    min_longitude: -68.900637
+    max_latitude: -32.8091398
+    max_longitude: -68.7269211
+  name: Mendoza
+N:
+  unofficial_names: Misiones
   translations:
     en: Misiones
     ar: ميسيونس
@@ -934,27 +783,16 @@ N:
     uk: Місьйонес
     ur: صوبہ میسیونس
     vi: Misiones
-    cy: Talaith Misiones
-    ceb: Provincia de Misiones
-    sr_Latn: Misiones
-    zh: 米西奧內斯省
-    ccp: "\U0001111F\U0001112D\U00011125\U00011128\U00011120\U0001112E\U0001111A\U00011128\U0001110C\U00011134"
-    hy: Միսիոնես
-    hu: Misiones tartomány
-    mk: Мисионес
-    'no': Misiones
-  comments:
-P:
-  name: Formosa
-  code:
-  unofficial_names: Formosa
   geo:
-    latitude: -26.185201
-    longitude: -58.1753697
-    min_latitude: -26.2202789
-    min_longitude: -58.24794379999999
-    max_latitude: -26.124033
-    max_longitude: -58.1419959
+    latitude: -26.9377146
+    longitude: -54.4342138
+    min_latitude: -28.1633594
+    min_longitude: -56.0595043
+    max_latitude: -25.4954899
+    max_longitude: -53.6385579
+  name: Misiones
+P:
+  unofficial_names: Formosa
   translations:
     en: Formosa
     ar: فورموسا
@@ -1004,25 +842,16 @@ P:
     uk: Формоса
     ur: صوبہ فورموسا
     vi: Formosa
-    cy: Talaith Formosa
-    ceb: Provincia de Formosa
-    sr_Latn: Formosa
-    zh: 福爾摩沙省
-    ccp: "\U0001111C\U00011127\U00011122\U00011134\U0001111F\U00011127\U00011125"
-    mk: Формоза
-    'no': Formosa
-  comments:
-Q:
-  name: Neuquén
-  code:
-  unofficial_names: Neuquén
   geo:
-    latitude: -38.9524444
-    longitude: -68.0641389
-    min_latitude: -38.986537
-    min_longitude: -68.1929919
-    max_latitude: -38.893459
-    max_longitude: -68.0147382
+    latitude: -26.185201
+    longitude: -58.1753697
+    min_latitude: -26.2202789
+    min_longitude: -58.24794379999999
+    max_latitude: -26.124033
+    max_longitude: -58.1419959
+  name: Formosa
+Q:
+  unofficial_names: Neuquén
   translations:
     en: Neuquén
     ar: نيوكوين
@@ -1074,27 +903,16 @@ Q:
     uk: Неукен
     ur: صوبہ نیوکوین
     vi: Neuquén
-    cy: Talaith Neuquén
-    ceb: Provincia del Neuquén
-    sr_Latn: Neuken
-    zh: 内乌肯省
-    yue_Hans: 纽昆省
-    ccp: "\U0001111A\U00011128\U00011105\U0001112A\U00011107\U0001112A\U00011120\U0001112C\U0001111A\U00011134"
-    yue: 紐昆省
-    mk: Неуквен
-    'no': Neuquén
-  comments:
-R:
-  name: Río Negro
-  code:
-  unofficial_names: Río Negro
   geo:
-    latitude: -40.7344343
-    longitude: -66.6176455
-    min_latitude: -42.0024984
-    min_longitude: -71.902908
-    max_latitude: -37.5729141
-    max_longitude: -62.79108240000001
+    latitude: -38.9524444
+    longitude: -68.0641389
+    min_latitude: -38.986537
+    min_longitude: -68.1929919
+    max_latitude: -38.893459
+    max_longitude: -68.0147382
+  name: Neuquén
+R:
+  unofficial_names: Río Negro
   translations:
     en: Río Negro
     ar: ريو نيغرو
@@ -1144,26 +962,16 @@ R:
     uk: Ріо-Неґро
     ur: صوبہ ریو نیگرو
     vi: Río Negro
-    cy: Río Negro
-    ceb: Provincia de Río Negro
-    sr_Latn: Rio Negro
-    zh: 内格罗河省
-    ccp: "\U00011122\U00011128\U00011103\U0001112E \U0001111A\U0001112C\U00011109\U00011133\U00011122\U00011127\U0001112E"
-    hy: Ռիո Նեգրո պրովինցիա
-    mk: Рио Негро
-    'no': Río Negro
-  comments:
-S:
-  name: Santa Fe
-  code:
-  unofficial_names: Santa Fe
   geo:
-    latitude: -31.6323891
-    longitude: -60.6994591
-    min_latitude: -31.6730042
-    min_longitude: -60.73878
-    max_latitude: -31.5685461
-    max_longitude: -60.66380530000001
+    latitude: -40.7344343
+    longitude: -66.6176455
+    min_latitude: -42.0024984
+    min_longitude: -71.902908
+    max_latitude: -37.5729141
+    max_longitude: -62.79108240000001
+  name: Río Negro
+S:
+  unofficial_names: Santa Fe
   translations:
     en: Santa Fe
     ar: سانتا في
@@ -1212,27 +1020,16 @@ S:
     uk: Санта-Фе
     ur: صوبہ سانتا فے
     vi: Santa Fe
-    cy: Talaith Santa Fe
-    ceb: Provincia de Santa Fe
-    sr_Latn: Santa Fe
-    zh: 聖大非省
-    ccp: "\U00011125\U0001111A\U00011134\U00011111 \U0001111C\U0001112C"
-    hy: Սանտա Ֆե նահանգ
-    bs: Santa Fe
-    mk: Санта Фе
-    'no': Santa Fe
-  comments:
-T:
-  name: Tucumán
-  code:
-  unofficial_names: Tucumán
   geo:
-    latitude: -26.8082848
-    longitude: -65.2175903
-    min_latitude: -26.8935681
-    min_longitude: -65.3363281
-    max_latitude: -26.7636021
-    max_longitude: -65.16676939999999
+    latitude: -31.6323891
+    longitude: -60.6994591
+    min_latitude: -31.6730042
+    min_longitude: -60.73878
+    max_latitude: -31.5685461
+    max_longitude: -60.66380530000001
+  name: Santa Fe
+T:
+  unofficial_names: Tucumán
   translations:
     en: Tucumán
     ar: توكومان
@@ -1282,24 +1079,16 @@ T:
     uk: Тукуман
     ur: صوبہ توکومان
     vi: Tucumán
-    ceb: Provincia de Tucumán
-    sr_Latn: Tukuman
-    zh: 图库曼省
-    ccp: "\U00011111\U00011107\U00011128\U00011105\U0001112A\U0001111F\U00011133\U00011120\U0001111A\U00011134"
-    mk: Тукуман
-    'no': Tucumán
-  comments:
-U:
-  name: Chubut
-  code:
-  unofficial_names: Chubut
   geo:
-    latitude: -43.6846192
-    longitude: -69.2745537
-    min_latitude: -46.0022302
-    min_longitude: -72.1973387
-    max_latitude: -32.9517763
-    max_longitude: -58.0880073
+    latitude: -26.8082848
+    longitude: -65.2175903
+    min_latitude: -26.8935681
+    min_longitude: -65.3363281
+    max_latitude: -26.7636021
+    max_longitude: -65.16676939999999
+  name: Tucumán
+U:
+  unofficial_names: Chubut
   translations:
     en: Chubut
     af: Chubut
@@ -1353,27 +1142,16 @@ U:
     uk: Чубут
     ur: صوبہ چوبوت
     vi: Chubut
-    cy: Talaith Chubut
-    ceb: Provincia del Chubut
-    sr_Latn: Čubut
-    zh: 丘布特省
-    yue_Hans: 朱拔省
-    ccp: "\U0001110C\U0001112A\U0001111D\U00011116\U00011134"
-    yue: 朱拔省
-    mk: Чубут
-    'no': Chubut
-  comments:
-V:
-  name: Tierra del Fuego
-  code:
-  unofficial_names: Tierra del Fuego
   geo:
-    latitude: -54.3083548
-    longitude: -67.7451565
-    min_latitude: -55.05719070000001
-    min_longitude: -68.611864
-    max_latitude: -52.658766
-    max_longitude: -64.11057989999999
+    latitude: -43.6846192
+    longitude: -69.2745537
+    min_latitude: -46.0022302
+    min_longitude: -72.1973387
+    max_latitude: -32.9517763
+    max_longitude: -58.0880073
+  name: Chubut
+V:
+  unofficial_names: Tierra del Fuego
   translations:
     en: Tierra del Fuego
     ar: محافظة تييرا ديل فويغو
@@ -1425,26 +1203,16 @@ V:
     uk: Вогняна Земля, Антарктида та острови Південної Атлантики
     ur: صوبہ تیئرا دل فوئگو، ارجنٹائن
     vi: Tierra del Fuego
-    cy: Tierra del Fuego, Antarctica ac Ynysoedd De’r Iwerydd
-    ceb: Provincia de Tierra del Fuego (lalawigan)
-    sr_Latn: Ognjena Zemlja
-    zh: 火地岛省
-    ccp: "\U00011111\U0001112D\U00011122 \U00011113\U0001112C\U00011123\U00011134
-      \U0001111C\U00011128\U00011105\U0001112A\U00011109\U0001112E"
-    mk: Огнена Земја, Антарктика и Јужни Атлантски Острови
-    'no': Tierra del Fuego, Antártida e Islas del Atlántico Sur
-  comments:
-W:
-  name: Corrientes
-  code:
-  unofficial_names: Corrientes
   geo:
-    latitude: -27.4712257
-    longitude: -58.83958440000001
-    min_latitude: -27.5327967
-    min_longitude: -58.8572739
-    max_latitude: -27.4386008
-    max_longitude: -58.74749370000001
+    latitude: -54.3083548
+    longitude: -67.7451565
+    min_latitude: -55.05719070000001
+    min_longitude: -68.611864
+    max_latitude: -52.658766
+    max_longitude: -64.11057989999999
+  name: Tierra del Fuego
+W:
+  unofficial_names: Corrientes
   translations:
     en: Corrientes
     ar: كوريينتس
@@ -1494,25 +1262,16 @@ W:
     uk: Коррієнтес
     ur: صوبہ کورینتس
     vi: Corrientes
-    cy: Talaith Corrientes
-    ceb: Provincia de Corrientes
-    sr_Latn: Korijentes
-    zh: 科连特斯省
-    ccp: "\U00011107\U00011127\U00011122\U00011128\U00011120\U0001112C\U0001111A\U00011134\U00011111\U0001110C\U00011134"
-    mk: Кориентес
-    'no': Corrientes
-  comments:
-X:
-  name: Córdoba
-  code:
-  unofficial_names: Córdoba
   geo:
-    latitude: -31.3989296
-    longitude: -64.1821289
-    min_latitude: -31.4912166
-    min_longitude: -64.31158649999999
-    max_latitude: -31.3062938
-    max_longitude: -64.0621309
+    latitude: -27.4712257
+    longitude: -58.83958440000001
+    min_latitude: -27.5327967
+    min_longitude: -58.8572739
+    max_latitude: -27.4386008
+    max_longitude: -58.74749370000001
+  name: Corrientes
+X:
+  unofficial_names: Córdoba
   translations:
     en: Córdoba
     ar: كوردوبا
@@ -1563,28 +1322,16 @@ X:
     uk: Кордова
     ur: صوبہ کوردوبا، ارجنٹائن
     vi: Córdoba
-    cy: Talaith Córdoba
-    ceb: Provincia de Córdoba
-    sr_Latn: Kordoba
-    zh: 科尔多瓦省
-    yue_Hans: 哥多华省
-    ccp: "\U00011107\U00011127\U00011122\U00011134\U00011113\U0001112E\U0001111D"
-    hy: Կորդովա
-    yue: 哥多華省
-    mk: Кордоба
-    'no': Córdoba
-  comments:
-Y:
-  name: Jujuy
-  code:
-  unofficial_names: Jujuy
   geo:
-    latitude: -24.1857864
-    longitude: -65.2994767
-    min_latitude: -24.2557641
-    min_longitude: -65.37630039999999
-    max_latitude: -24.1502348
-    max_longitude: -65.2336132
+    latitude: -31.3989296
+    longitude: -64.1821289
+    min_latitude: -31.4912166
+    min_longitude: -64.31158649999999
+    max_latitude: -31.3062938
+    max_longitude: -64.0621309
+  name: Córdoba
+Y:
+  unofficial_names: Jujuy
   translations:
     en: Jujuy
     ar: خوخوي
@@ -1636,24 +1383,16 @@ Y:
     uk: Жужуй
     ur: صوبہ خوخوئی
     vi: Jujuy
-    ceb: Provincia de Jujuy
-    sr_Latn: Huhuj
-    zh: 胡胡伊省
-    ccp: "\U0001110E\U0001112A\U0001110E\U00011127\U00011120\U00011134"
-    mk: Хухуј
-    'no': Jujuy
-  comments:
-Z:
-  name: Santa Cruz
-  code:
-  unofficial_names: Santa Cruz
   geo:
-    latitude: -48.7736825
-    longitude: -69.1917167
-    min_latitude: -52.3975018
-    min_longitude: -73.5948315
-    max_latitude: -45.9915403
-    max_longitude: -65.7171603
+    latitude: -24.1857864
+    longitude: -65.2994767
+    min_latitude: -24.2557641
+    min_longitude: -65.37630039999999
+    max_latitude: -24.1502348
+    max_longitude: -65.2336132
+  name: Jujuy
+Z:
+  unofficial_names: Santa Cruz
   translations:
     en: Santa Cruz
     ar: سانتا كروز
@@ -1706,13 +1445,11 @@ Z:
     uk: Санта-Крус
     ur: صوبہ سانتا کروز، ارجنٹائن
     vi: Santa Cruz
-    cy: Talaith Santa Cruz
-    ceb: Provincia de Santa Cruz
-    sr_Latn: Santa Kruz
-    zh: 圣克鲁斯省
-    yue_Hans: 圣古丝省
-    ccp: "\U00011125\U0001111A\U00011134\U00011111 \U00011107\U00011133\U00011122\U0001112A\U0001110C\U00011134"
-    yue: 聖古絲省
-    mk: Санта Круз
-    'no': Santa Cruz
-  comments:
+  geo:
+    latitude: -48.7736825
+    longitude: -69.1917167
+    min_latitude: -52.3975018
+    min_longitude: -73.5948315
+    max_latitude: -45.9915403
+    max_longitude: -65.7171603
+  name: Santa Cruz

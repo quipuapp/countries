@@ -1,5 +1,4 @@
-# frozen_string_literal: true
-
+require 'unicode_utils/downcase'
 require 'sixarm_ruby_unaccent'
 
 require 'countries/version'

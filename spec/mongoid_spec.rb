@@ -1,7 +1,7 @@
-# frozen_string_literal: true
+# encoding: utf-8
 
 require 'spec_helper'
-require File.expand_path('../lib/countries/mongoid', __dir__)
+require File.expand_path('../../lib/countries/mongoid', __FILE__)
 
 describe 'Mongoid support' do
   let(:britain) { ISO3166::Country.new('GB') }
