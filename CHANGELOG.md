@@ -1,8 +1,217 @@
 # Change Log
-All notable changes to this project will be documented in this file.
-This project adheres to [Semantic Versioning](http://semver.org/).
 
-## [v3.0.1](https://github.com/hexorx/countries/tree/HEAD) (2020/02/11 00:04 +05:00)
+All notable changes to this project will be documented in this file.
+This project adheres to [Semantic Versioning](https://semver.org/).
+
+## [5.0.0] (https://github.com/countries/countries/releases/tag/v5.0.') (2022/04/03 17:44 +00:00)
+
+**Breaking Changes**
+
+- Drop support for Ruby 2.5 and 2.6. (EOL in 2021-03-31 and 2022-03-31, respectively)
+- Remove deprecated attributes and add new `#find_by_any_name` finder, see https://github.com/countries/countries#upgrading-to-42-and-5x for details
+
+**Merged pull requests:**
+
+- Drop support for Ruby 2.5 and 2.6 [\#708](https://github.com/countries/countries/pull/708) ([pmor](https://github.com/pmor))
+- Remove deprecated attributes; Add new `#find_by_any_name` finder [\#745](https://github.com/countries/countries/pull/708) ([pmor](https://github.com/pmor))
+
+## [4.2.3](https://github.com/countries/countries/releases/tag/v4.2.2) (2022/03/24 11:00 +00:00)
+
+**IMPORTANT NOTE: This will be be the last release of the 4.x series, and the last one to support Ruby 2.5 and 2.6**
+
+* Use bundle add instead [\#743](https://github.com/countries/countries/pull/743) ([glaucocustodio](https://github.com/glaucocustodio))
+* update i18n_data [\#742](https://github.com/countries/countries/pull/742) ([bonekost](https://github.com/bonekost))
+
+## [4.2.2](https://github.com/countries/countries/releases/tag/v4.2.2) (2022/02/17 13:52 +00:00)
+
+**Merged pull requests:**
+
+* http:// -> https:// [\#737](https://github.com/countries/countries/pull/737) ([biow0lf](https://github.com/biow0lf))
+* Update AE start_of_week to monday. [\#739](https://github.com/countries/countries/pull/739) ([pmor](https://github.com/pmor))
+* Fix Subdivision data by [\#740](https://github.com/countries/countries/pull/740) ([pmor](https://github.com/pmor))
+
+**Closed issues:**
+
+* Change on UAE Value.start_of_week [\#738](https://github.com/countries/countries/issues/738)
+
+
+**Full Changelog**: https://github.com/countries/countries/compare/v4.2.1...v4.2.2
+
+## [4.2.1](https://github.com/countries/countries/releases/tag/v4.2.1) (2022/01/11 12:39 +00:00)
+
+- Missing update to cache files on release 4.2.0
+- Update postal code regexes from rake task [\#734](https://github.com/countries/countries/pull/734 ) ([cover](https://github.com/cover))
+
+## [4.2.0](https://github.com/countries/countries/releases/tag/v4.2.0) (2022/01/11 11:04 +00:00)
+
+**Deprecations**
+
+- `Country#name`, `Country#names` and the finders using these attributes. See README ('Upgrading to 4.2 and 5.x')
+- `latitude_dec` and `longitude_dec` attributes
+
+**Merged pull requests:**
+
+* Name methods refactor [\#717](https://github.com/countries/countries/pull/717) ([pmor](https://github.com/pmor))
+* Remove non-ISO US subdivisions [\#720](https://github.com/countries/countries/pull/720) ([pmor](https://github.com/pmor))
+* Update MK subdivisions [\#721](https://github.com/countries/countries/pull/721) ([pmor](https://github.com/pmor))
+* Update Kenya subdivision data [\#722](https://github.com/countries/countries/pull/722) ([pmor](https://github.com/pmor))
+* Fix French Southern Territories continent and region data [\#725](https://github.com/countries/countries/pull/725) ([pmor](https://github.com/pmor))
+* Fix SG subdivision data [\#726](https://github.com/countries/countries/pull/726) ([pmor](https://github.com/pmor))
+* Remove FO subdivisions [\#727](https://github.com/countries/countries/pull/727) ([pmor](https://github.com/pmor))
+* JE and IM currencies should be GBP [\#728](https://github.com/countries/countries/pull/728) ([pmor](https://github.com/pmor))
+* Fix US translations in nb and no locales [\#729](https://github.com/countries/countries/pull/729) ([pmor](https://github.com/pmor))
+* Missing alternative names for GB and US [\#724](https://github.com/countries/countries/pull/#724) ([dima4p](https://github.com/dima4p))
+* Deprecate latitude_dec and longitude_dec, delegate to latitude [\#723](https://github.com/countries/countries/pull/#723) ([pmor](https://github.com/pmor)
+* add VAT for Israel and Saudi Arabia [\#730](https://github.com/countries/countries/pull/#723) ([Venca24](https://github.com/Venca24)
+* Remove non-ISO KY subdivisions [\#731](https://github.com/countries/countries/pull/731) ([pmor](https://github.com/pmor))
+* Fix duplicated translations of CZ-10 subdivision [\#733](https://github.com/countries/countries/pull/733) ([pmor](https://github.com/pmor))
+
+**Closed issues:**
+
+* Update Kenya subdivisions/states [\#318](https://github.com/countries/countries/issues/318)
+* North Macedonia updates (2020-03-02) [\#674](https://github.com/countries/countries/issues/674)
+* Singapore wrong subdivision codes (SG-SG-0x) [\#663](https://github.com/countries/countries/issues/663)
+* Remove Faroe Islands subdivisions [\#606](https://github.com/countries/countries/issues/606)
+* Jersey uses GBP instead of JEP currency [\#492](https://github.com/countries/countries/issues/492)
+* USA in Norwegian translation should be 'USA' instead of 'De forente stater' [\#564](https://github.com/countries/countries/issues/564)
+* Geographic bounds for UK includes all of Europe [\#535](https://github.com/countries/countries/issues/535)
+* Wrong min_longitude for United States of America? [\#698](https://github.com/countries/countries/issues/698)
+* Translations for CZ-10 are defined twice [\#732](https://github.com/countries/countries/issues/732)
+
+
+## [4.1.3](https://github.com/countries/countries/releases/tag/v4.1.2) (2022/01/03 12:16 +00:00)
+
+**Merged pull requests:**
+
+* Fix empty translations in LV subdivisions [\#719](https://github.com/countries/countries/pull/719) ([pmor](https://github.com/pmor))
+
+**Closed issues:**
+
+* Subdivision translations for some latvian subdivisions nil in countries 4.1.2 [\#718](https://github.com/countries/countries/issues/718)
+
+## [4.1.2](https://github.com/countries/countries/releases/tag/v4.1.2) (2021/12/20 17:06 +00:00)
+
+**Merged pull requests:**
+
+* Update subdivisions, fix #600 conflicts [\#710](https://github.com/countries/countries/pull/710) ([donnen](https://github.com/donnen), [pmor](https://github.com/pmor))
+* Fix conflicts in #605 and update those countries to the latest subdivision data [\#711](https://github.com/countries/countries/pull/711) ([jjamesjohnson](https://github.com/jjamesjohnson), [pmor](https://github.com/pmor))
+* Update NZ subdivision data and fix Chatham Island entry [\#712](https://github.com/countries/countries/pull/712) ([pmor](https://github.com/pmor))
+* Update translation corrections for Occitan.[\#713](https://github.com/countries/countries/pull/713) ([pmor](https://github.com/pmor))
+* Update i18n_data to 0.15.0 [\#715](https://github.com/countries/countries/pull/715) ([pmor](https://github.com/pmor))
+
+## [4.1.1](https://github.com/countries/countries/releases/tag/v4.1.1) (2021/12/06 13:31 +00:00)
+
+**Merged pull requests:**
+
+* Fix ISO3166::Country respond_to_missing? [\#625](https://github.com/countries/countries/pull/625) ([biinari](https://github.com/biinari))
+* Revert subdivision changes to NO.yaml [\#709](https://github.com/countries/countries/pull/709) ([pmor](https://github.com/pmor))
+
+## [4.1.0](https://github.com/countries/countries/releases/tag/v4.1.0) (2021/11/30 09:44 +00:00)
+
+**New features:**
+
+- `Country.pluck` [\#706](https://github.com/countries/countries/pull/706) ([dorianmariefr](https://github.com/dorianmariefr))
+
+**Closed issues:**
+
+ - Ensure Moscow Oblast translations reference the "province" [\#694](https://github.com/countries/countries/pull/694) ([carlesjove](https://github.com/carlesjove))
+ - Update NL reduced VAT rate [\#693](https://github.com/countries/countries/pull/693) ([oscaredel](https://github.com/oscaredel))
+ - Serbian translation for North Macedonia is incorrect [\#703](https://github.com/countries/countries/issues/703)
+
+**Merged pull requests:**
+
+- Set the code when creating subdivisions [\#658](https://github.com/countries/countries/pull/658) ([IamDavidovich](https://github.com/IamDavidovich))
+- Refresh subdivision data from CLDR  [\#704](https://github.com/countries/countries/pull/704) ([pmor](https://github.com/pmor))
+- Update I18nData gem to 0.13.1 and fix MK translation in `mk` locale [\#705](https://github.com/countries/countries/pull/705) ([pmor](https://github.com/pmor))
+
+## [4.0.1](https://github.com/countries/countries/releases/tag/v4.0.1) (2021/07/19 14:47 +01:00)
+
+**Closed issues:**
+
+- ISO Country Code for Czechia/Czech Republic should be updated. [\#688](https://github.com/countries/countries/issues/688)
+- Regression in 4.0.0: ISO3166::Country.translations(:en) with symbol arg raises [\#691](https://github.com/countries/countries/issues/691)
+
+**Merged pull requests:**
+
+ - Updating Norway subdivision codes to match late 2020 ISO change [\#666](https://github.com/countries/countries/pull/666) and [\#689](https://github.com/countries/countries/pull/689) ([thomascrumrine](https://github.com/thomascrumrine))
+- Update CZ.yaml: Czechia is the ISO short name for the Czech Republic [\#690](https://github.com/countries/countries/pull/690) ([pmor](https://github.com/pmor))
+- Fix regression in `ISO3166::Country.translations` with symbols [\#692](https://github.com/countries/countries/pull/692) ([pmor](https://github.com/pmor))
+
+
+## [4.0.0](https://github.com/countries/countries/releases/tag/v4.0.0) (2021/06/11 09:47 +01:00)
+
+[Full changelog](https://github.com/countries/countries/compare/v3.1.0...v4.0.0)
+
+**Breaking changes:**
+
+  - None
+
+**Closed issues:**
+
+  - update_cldr_subdivison_data Rake task broken due to CLDR repo change [\#633](https://github.com/countries/countries/issues/633)
+  - Fix ISO3166::Data.register loading of nested hashes (from https://github.com/countries/countries/pull/397#issuecomment-846543094)
+  - Angola's bounds is the same as Austria? [\#682](https://github.com/countries/countries/issues/682)
+
+**Merged pull requests:**
+
+ - `make_cache_thread_safe` ([factorialco](https://github.com/factorialco))
+ - Update i18n_data to 0.13.0 and drop support for rubies <2.5 [\#650](https://github.com/countries/countries/pull/650) ([pmor](https://github.com/pmor))
+ - Fixes [\#633] and updates geocoder searches [\#634](https://github.com/countries/countries/pull/634) ([mezza](https://github.com/mezza))
+ - `translation_corrections.yaml`: Fix broken link [\#664](https://github.com/countries/countries/pull/664) ([henrik](https://github.com/henrik))
+ - Correct Danish translation of CZ [\#661](https://github.com/countries/countries/pull/661) ([JanMSP](https://github.com/JanMSP))
+ - Swedish translation correction: RU = "Ryssland" [\#665](https://github.com/countries/countries/pull/665) ([henrik](https://github.com/henrik))
+ - Update gemspec metadata with new repo url [\#672](https://github.com/countries/countries/pull/672) ([pmor](https://github.com/pmor))
+ - Fix typo and lint in README.markdown [\#675](https://github.com/countries/countries/pull/675) ([DigiPie](https://github.com/DigiPie))
+ - Update CI to the latests ruby point versions [\#677](https://github.com/countries/countries/pull/677) ([pmor](https://github.com/pmor))
+ - Adds North Korea to list of unofficial names of KP [\#681](https://github.com/countries/countries/pull/681) ([talha-akram ](https://github.com/talha-akram ))
+ - Update Vietnam subdivisions with current ISO_3166-2:VN [\#673](https://github.com/countries/countries/pull/673) ([keymastervn](https://github.com/keymastervn))
+ - Add custom countries to translation lists [\#595](https://github.com/countries/countries/pull/595) ([phylor](https://github.com/phylor))
+ - Fix ISO3166::Data.register loading of nested hashes, eg: geo data. [\#683](https://github.com/countries/countries/pull/683) ([pmor](https://github.com/pmor))
+ - Remove Travis CI configuration. [\#685](https://github.com/countries/countries/pull/683) ([pmor](https://github.com/pmor))
+
+## [3.1.0](https://github.com/countries/countries/releases/tag/v3.1.0) (2021/03/24 00:01 +05:00)
+
+[Full Changelog](https://github.com/countries/countries/compare/v3.0.1...v3.1.0)
+
+**Closed issues:**
+
+- Add timezones to country data [\#669](https://github.com/countries/countries/issues/669)
+- The name for Vietnam is incorrect  [\#660](https://github.com/countries/countries/issues/660)
+- Missing address\_format for Vietnam [\#652](https://github.com/countries/countries/issues/652)
+- Temporary German VAT rate \(16%\) from July 1st to December 31st, 2020 [\#637](https://github.com/countries/countries/issues/637)
+- Armenian translations are incorrect [\#622](https://github.com/countries/countries/issues/622)
+- Please cut a release [\#610](https://github.com/countries/countries/issues/610)
+- Please update i18n\_data to 0.10.0 [\#607](https://github.com/countries/countries/issues/607)
+- Release '3.0.0' missing some commits [\#603](https://github.com/countries/countries/issues/603)
+- Please release a new version [\#591](https://github.com/countries/countries/issues/591)
+- 'Portugal' is misspelled in lib/countries/cache/locales/nn.json [\#583](https://github.com/countries/countries/issues/583)
+- Any interest in fiscal year data? [\#532](https://github.com/countries/countries/issues/532)
+- Kosovo independent from Serbia [\#511](https://github.com/countries/countries/issues/511)
+- Include country's postcode/zip format [\#366](https://github.com/countries/countries/issues/366)
+
+**Merged pull requests:**
+
+- add find\_all\_by example to readme [\#667](https://github.com/countries/countries/pull/667) ([glaucocustodio](https://github.com/glaucocustodio))
+- Add address\_format for Vietnam, fixes [\#652] [\#653](https://github.com/countries/countries/pull/653) ([pmor](https://github.com/pmor))
+- "The United Kingdom" is an unofficial name for Great Britain [\#651](https://github.com/countries/countries/pull/651) ([RogerPodacter](https://github.com/RogerPodacter))
+- UK is an unofficial name for Great Britain [\#648](https://github.com/countries/countries/pull/648) ([RogerPodacter](https://github.com/RogerPodacter))
+- \[French\] Bad encoding for new zealand [\#643](https://github.com/countries/countries/pull/643) ([waghanza](https://github.com/waghanza))
+- Update gemspec: i18n\_data 0.11.0 [\#640](https://github.com/countries/countries/pull/640) ([masawo](https://github.com/masawo))
+- Add missing Latvia address\_format template [\#639](https://github.com/countries/countries/pull/639) ([RogerPodacter](https://github.com/RogerPodacter))
+- Used the common name República Checa in PT [\#635](https://github.com/countries/countries/pull/635) ([basex](https://github.com/basex))
+- Fix China subdvivisions iso code see https://en.wikipedia.org/wiki/IS… [\#632](https://github.com/countries/countries/pull/632) ([daniel88m](https://github.com/daniel88m))
+- Use AUD currency for Tuvalu [\#629](https://github.com/countries/countries/pull/629) ([mayrsascha](https://github.com/mayrsascha))
+- Add country code 672 to HM [\#626](https://github.com/countries/countries/pull/626) ([wongyouth](https://github.com/wongyouth))
+- \[GB\] Add unofficial names for ERY [\#620](https://github.com/countries/countries/pull/620) ([carlesjove](https://github.com/carlesjove))
+- \[ES\] Add unofficial names + translations + remove weird characters [\#619](https://github.com/countries/countries/pull/619) ([carlesjove](https://github.com/carlesjove))
+- Add data & script to update postal code & format [\#618](https://github.com/countries/countries/pull/618) ([cover](https://github.com/cover))
+- Fixes failing rspec assertions after cache update [\#617](https://github.com/countries/countries/pull/617) ([rposborne](https://github.com/rposborne))
+- Potential solution for thread safety [\#608](https://github.com/countries/countries/pull/608) ([hammerdr](https://github.com/hammerdr))
+- Fix a typo in 'Portugal' [\#602](https://github.com/countries/countries/pull/602) ([mbirman](https://github.com/mbirman))
+- added CL standard VAT [\#578](https://github.com/countries/countries/pull/578) ([tiagomatos](https://github.com/tiagomatos))
+- Remove Puerto Rico subdivisions [\#539](https://github.com/countries/countries/pull/539) ([philipefarias](https://github.com/philipefarias))
+
+## [v3.0.1](https://github.com/countries/countries/releases/tag/v3.0.1) (2020/02/11 00:04 +05:00)
 
 [Full Changelog](https://github.com/hexorx/countries/compare/v3.0.0...v3.0.1)
 

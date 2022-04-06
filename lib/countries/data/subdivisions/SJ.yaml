@@ -1,8 +1,8 @@
 ---
 '21':
+  name: Svalbard
+  code:
   unofficial_names: Svalbard
-  translations:
-    en: Svalbard
   geo:
     latitude: 78.15706
     longitude: 15.86426
@@ -10,12 +10,13 @@
     min_longitude:
     max_latitude:
     max_longitude:
-  name: Svalbard
+  translations:
+    en: Svalbard
   comments:
 '22':
+  name: Jan Mayen
+  code:
   unofficial_names: Jan Mayen
-  translations:
-    en: Jan Mayen
   geo:
     latitude: 70.98333
     longitude: -8.5
@@ -23,5 +24,6 @@
     min_longitude:
     max_latitude:
     max_longitude:
-  name: Jan Mayen
+  translations:
+    en: Jan Mayen
   comments:

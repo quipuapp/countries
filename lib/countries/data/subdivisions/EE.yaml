@@ -1,16 +1,31 @@
 ---
 '37':
-  unofficial_names: Harjumaa
+  name: Harjumaa
+  code:
+  unofficial_names:
+  - Harjumaa
+  - Harju
+  geo:
+    latitude: 59.33342390000001
+    longitude: 25.2466973
+    min_latitude: 58.989357
+    min_longitude: 23.7301295
+    max_latitude: 59.68570260000001
+    max_longitude: 25.9551028
   translations:
-    en: Harju
+    'no': Harju
     ar: مقاطعة هاريو
     bg: Харю
     bn: হার্জু কাউন্টি
+    bs: Okrug Harjumaa
     ca: Comtat de Harju
+    ccp: "\U00011126\U00011122\U00011134\U0001110E\U0001112A"
+    ceb: Harjumaa
     cs: Harjumaa
     da: Harjumaa
     de: Kreis Harju
     el: Επαρχία Χάργιου
+    en: Harju County
     es: Condado de Harju
     et: Harju maakond
     eu: Harju konderria
@@ -32,6 +47,7 @@
     ko: 하리우 주
     lt: Harju apskritis
     lv: Harju apriņķis
+    mk: Харју
     mr: हरजू काउंटी
     ms: County Harju
     nb: Harju
@@ -42,6 +58,7 @@
     ru: Харьюмаа
     si: හර්ජු ප්‍රාන්තය
     sk: Harju maakond
+    sr_Latn: Harju
     sr: Харју
     sv: Harju län
     ta: அர்ஜு கவுண்டி
@@ -52,35 +69,44 @@
     ur: ہاریو کاؤنٹی
     vi: Harju
     zh: 哈留縣
-  geo:
-    latitude: 59.33342390000001
-    longitude: 25.2466973
-    min_latitude: 58.989357
-    min_longitude: 23.7301295
-    max_latitude: 59.68570260000001
-    max_longitude: 25.9551028
-  name: Harjumaa
+  comments:
 '39':
+  name: Hiiumaa
+  code:
   unofficial_names:
   - Dagden
   - Dagö
+  - Hiiu
+  - Hiiumaa
+  geo:
+    latitude: 58.9239553
+    longitude: 22.5919468
+    min_latitude: 58.6870921
+    min_longitude: 22.0388167
+    max_latitude: 59.09294079999999
+    max_longitude: 23.1801319
   translations:
-    en: Hiiu
+    'no': Hiiu
     ar: مقاطعة هيو
     be: Павет Хійу
     bg: Хииу
     bn: হিউ কাউন্টি
+    bs: Okrug Hiiumaa
     ca: Comtat de Hiiu
+    ccp: "\U00011126\U00011128\U00011105\U0001112A"
+    ceb: Hiiumaa
     cs: Hiiumaa
     da: Hiiu County
     de: Kreis Hiiu
     el: Επαρχία Χιίου
+    en: Hiiu County
     es: Condado de Hiiu
     et: Hiiu maakond
     eu: Hiiu konderria
     fa: شهرستان هیو
     fi: Hiidenmaa
     fr: Comté de Hiiu
+    ga: Hiiumaa
     gl: Condado de Hiiu
     gu: હીઉ કાઉન્ટી
     he: היו
@@ -96,6 +122,7 @@
     ko: 히우 주
     lt: Hyju apskritis
     lv: Hījumā apriņķis
+    mk: Хују
     mr: हायियू काउंटी
     ms: County Hiiu
     nb: Hiiu
@@ -105,6 +132,7 @@
     ro: Regiunea Hiiu
     ru: Хийумаа
     si: හියු ප්‍රාන්තය
+    sr_Latn: Hiju
     sr: Хију
     sv: Hiiu län
     ta: ஹியு கவுண்டி
@@ -114,18 +142,23 @@
     uk: Хіюмаа
     ur: ہییو کاؤنٹی
     vi: Hiiu
+    zh: 希尤縣
+  comments:
+'45':
+  name: Ida-Virumaa
+  code:
+  unofficial_names:
+  - Ida-Virumaa
+  - Ida-Viru
+  - И́да-Ви́руский уезд
   geo:
-    latitude: 58.9239553
-    longitude: 22.5919468
-    min_latitude: 58.6870921
-    min_longitude: 22.0388167
-    max_latitude: 59.09294079999999
-    max_longitude: 23.1801319
-  name: Hiiumaa
-'44':
-  unofficial_names: Ida-Virumaa
+    latitude: 59.25926629999999
+    longitude: 27.4136535
+    min_latitude: 58.86563799999999
+    min_longitude: 26.7023311
+    max_latitude: 59.5005651
+    max_longitude: 28.2090051
   translations:
-    en: Ida-Viru
     ar: مقاطعة إيدا فيرو
     be: павет Іда-Віру
     bg: Ида-Виру
@@ -135,6 +168,7 @@
     da: Ida-Virumaa
     de: Kreis Ida-Viru
     el: Επαρχία Ίντα-Βίρου
+    en: Ida-Viru County
     es: Condado de Ida-Viru
     et: Ida-Viru maakond
     eu: Ida-Viru konderria
@@ -162,7 +196,7 @@
     pl: Ida-Virumaa
     pt: Ida-Virumaa
     ro: Regiunea Ida-Viru
-    ru: Восточная Эстония
+    ru: И́да-Ви́румаа
     si: ඉඩා-විරු ප්‍රාන්තය
     sr: Ида-Виру
     sv: Ida-Viru län
@@ -173,19 +207,28 @@
     uk: Іда-Вірумаа
     ur: ایدا-ویرو کاؤنٹی
     vi: Hạt Ida-Viru
-  geo:
-    latitude: 59.25926629999999
-    longitude: 27.4136535
-    min_latitude: 58.86563799999999
-    min_longitude: 26.7023311
-    max_latitude: 59.5005651
-    max_longitude: 28.2090051
-  name: Ida-Virumaa
-'49':
+    ceb: Ida-Virumaa
+    sr_Latn: Ida-Viru
+    zh: 東維魯縣
+    ccp: "\U00011103\U00011128\U00011113-\U0001111E\U00011128\U00011122\U0001112A"
+    ga: Virumaa Thoir
+    bs: Okrug Ida-Virumaa
+    mk: Ида-Виру
+    'no': Ida-Viru
+  comments:
+'50':
+  name: Jõgevamaa
+  code:
   unofficial_names:
   - Jogevamaa
+  geo:
+    latitude: 58.6947229
+    longitude: 26.3902301
+    min_latitude: 58.4708678
+    min_longitude: 25.750229
+    max_latitude: 58.96892199999999
+    max_longitude: 27.1633907
   translations:
-    en: Jõgeva
     ar: مقاطعة يوجيفا
     be: Павет Йыгева
     bg: Йъгева
@@ -195,6 +238,7 @@
     da: Jõgevamaa
     de: Kreis Jõgeva
     el: Επαρχία Γιογκέβα
+    en: Jõgeva County
     es: Condado de Jõgeva
     et: Jõgeva maakond
     fa: شهرستان یوگوا
@@ -233,18 +277,30 @@
     uk: Йиґевамаа
     ur: یوگاوا کاؤنٹی
     vi: Hạt Jogeva
+    ceb: Jõgevamaa
+    sr_Latn: Jigeva
+    zh: 約格瓦縣
+    ccp: "\U0001110E\U0001112E\U00011109\U0001112C\U0001111E"
+    ga: Jõgevamaa
+    bs: Okrug Jõgevamaa
+    mk: Јигева
+    'no': Jõgeva
+  comments:
+'52':
+  name: Järvamaa
+  code:
+  unofficial_names:
+  - Järvamaa
+  - Järva
+  - Jerwen
   geo:
-    latitude: 58.6947229
-    longitude: 26.3902301
-    min_latitude: 58.4708678
-    min_longitude: 25.750229
-    max_latitude: 58.96892199999999
-    max_longitude: 27.1633907
-  name: Jõgevamaa
-'51':
-  unofficial_names: Järvamaa
+    latitude: 58.8866713
+    longitude: 25.5000625
+    min_latitude: 58.6061109
+    min_longitude: 25.1950171
+    max_latitude: 59.2696539
+    max_longitude: 26.1688011
   translations:
-    en: Järva
     ar: مقاطعة يارفا
     be: Павет Ярва
     bg: Ярва
@@ -254,6 +310,7 @@
     da: Järvamaa
     de: Kreis Järva
     el: Επαρχία Γιέρβα
+    en: Järva County
     es: Condado de Järva
     et: Järva maakond
     eu: Järva konderria
@@ -273,6 +330,7 @@
     ka: იარვამაა
     kn: ಜಾರ್ವಾ ಕೌಂಟಿ
     ko: 얘르바 주
+    la: Jervia
     lt: Jervos apskritis
     lv: Jervas apriņķis
     mr: ज्वाला काउंटी
@@ -293,18 +351,31 @@
     uk: Ярвамаа
     ur: جاروا کاؤنٹی
     vi: Hạt Jarva
+    ceb: Järvamaa
+    sr_Latn: Harva
+    zh: 耶爾瓦縣
+    ccp: "\U0001110E\U00011122\U00011134\U0001111E"
+    ga: Järvamaa
+    bs: Okrug Järvamaa
+    mk: Јерва
+    'no': Järva
+  comments:
+'56':
+  name: Läänemaa
+  code:
+  unofficial_names:
+  - Läänemaa
+  - Lääne
+  - Wiek
+  - Wieck
   geo:
-    latitude: 58.8866713
-    longitude: 25.5000625
-    min_latitude: 58.6061109
-    min_longitude: 25.1950171
-    max_latitude: 59.2696539
-    max_longitude: 26.1688011
-  name: Järvamaa
-'57':
-  unofficial_names: Läänemaa
+    latitude: 58.89071850000001
+    longitude: 23.7925806
+    min_latitude: 58.534504
+    min_longitude: 23.0778348
+    max_latitude: 59.304363
+    max_longitude: 24.1925961
   translations:
-    en: Lääne
     ar: مقاطعة لانا
     be: Павет Ляэнэ
     bg: Ляяне
@@ -314,6 +385,7 @@
     da: Läänemaa
     de: Kreis Lääne
     el: Επαρχία Λέενε
+    en: Lääne County
     es: Condado de Lääne
     et: Lääne maakond
     fa: شهرستان لنه
@@ -332,6 +404,7 @@
     ka: ლიაენემაა
     kn: ಲಾನ್ ಕೌಂಟಿ
     ko: 래네 주
+    la: Rotalia
     lt: Lenės apskritis
     lv: Lēnes apriņķis
     mr: लोन काउंटी
@@ -352,18 +425,29 @@
     uk: Ляянемаа
     ur: لانی کاؤنٹی
     vi: Hạt Laane
+    ceb: Läänemaa
+    sr_Latn: Lanema
+    zh: 萊內縣
+    ccp: "\U00011123\U0001111A\U0001112C"
+    ga: Läänemaa
+    bs: Okrug Läänemaa
+    mk: Лене
+    'no': Lääne
+  comments:
+'60':
+  name: Lääne-Virumaa
+  code:
+  unofficial_names:
+  - Lääne-Virumaa
+  - Lääne-Viru
   geo:
-    latitude: 58.89071850000001
-    longitude: 23.7925806
-    min_latitude: 58.534504
-    min_longitude: 23.0778348
-    max_latitude: 59.304363
-    max_longitude: 24.1925961
-  name: Läänemaa
-'59':
-  unofficial_names: Lääne-Virumaa
+    latitude: 59.30188159999999
+    longitude: 26.3280312
+    min_latitude: 58.8769299
+    min_longitude: 25.5363979
+    max_latitude: 59.822016
+    max_longitude: 26.9527359
   translations:
-    en: Lääne-Viru
     ar: مقاطعة لين-فيرو
     be: Павет Ляэнэ-Віру
     bg: Ляяне-Виру
@@ -373,6 +457,7 @@
     da: Lääne-Virumaa
     de: Kreis Lääne-Viru
     el: Επαρχία Λέενε-Βίρου
+    en: Lääne-Viru County
     es: Condado de Lääne-Viru
     et: Lääne-Viru maakond
     fa: شهرستان لنه-ویرو
@@ -410,19 +495,29 @@
     uk: Ляяне-Вірумаа
     ur: لانی-ویرو کاؤنٹی
     vi: Hạt Laane-Viru
-  geo:
-    latitude: 59.30188159999999
-    longitude: 26.3280312
-    min_latitude: 58.8769299
-    min_longitude: 25.5363979
-    max_latitude: 59.822016
-    max_longitude: 26.9527359
-  name: Lääne-Virumaa
-'65':
+    ceb: Lääne-Virumaa
+    sr_Latn: Ljaene-Viru
+    zh: 西維魯縣
+    ccp: "\U00011123\U0001111A\U0001112C-\U0001111E\U00011128\U00011122\U0001112A"
+    ga: Virumaa Thiar
+    bs: Okrug Lääne-Virumaa
+    mk: Лене-Виру
+    'no': Lääne-Viru
+  comments:
+'64':
+  name: Põlvamaa
+  code:
   unofficial_names:
   - Polvamaa
+  - Põlva County
+  geo:
+    latitude: 58.11606219999999
+    longitude: 27.2066395
+    min_latitude: 57.81740799999999
+    min_longitude: 26.566258
+    max_latitude: 58.2682399
+    max_longitude: 27.8189979
   translations:
-    en: Põlva
     ar: مقاطعة بولفا
     be: Павет Пылва
     bg: Пълва
@@ -432,6 +527,7 @@
     da: Põlvamaa
     de: Kreis Põlva
     el: Επαρχία Πόλβα
+    en: Põlva County
     es: Condado de Põlva
     et: Põlva maakond
     fa: شهرستان پولوا
@@ -470,18 +566,29 @@
     uk: Пилвамаа
     ur: پولوا کاؤنٹی
     vi: Hạt Polva
+    ceb: Põlvamaa
+    sr_Latn: Pilva
+    zh: 珀爾瓦縣
+    ccp: "\U0001111B\U0001112E\U00011123\U00011134\U0001111E"
+    ga: Põlvamaa
+    bs: Okrug Põlvamaa
+    mk: Пилва
+    'no': Põlva
+  comments:
+'68':
+  name: Pärnumaa
+  code:
+  unofficial_names:
+  - Pärnumaa
+  - Pärnu
   geo:
-    latitude: 58.11606219999999
-    longitude: 27.2066395
-    min_latitude: 57.81740799999999
-    min_longitude: 26.566258
-    max_latitude: 58.2682399
-    max_longitude: 27.8189979
-  name: Põlvamaa
-'67':
-  unofficial_names: Pärnumaa
+    latitude: 58.46634429999999
+    longitude: 24.69612
+    min_latitude: 57.8645448
+    min_longitude: 23.6090122
+    max_latitude: 58.7569807
+    max_longitude: 25.3071801
   translations:
-    en: Pärnu
     ar: مقاطعة بارنو
     be: Павет Пярну
     bg: Пярну
@@ -489,8 +596,9 @@
     ca: Comtat de Pärnu
     cs: Pärnumaa
     da: Pärnumaa
-    de: Kreis Pärnu
+    de: Kreis Pernau
     el: Επαρχία Πάρνου
+    en: Pärnu County
     es: Condado de Pärnu
     et: Pärnu maakond
     eu: Pärnu konderria
@@ -531,18 +639,29 @@
     uk: Пярнумаа
     ur: پارنو کاؤنٹی
     vi: Pärnu
+    ceb: Pärnumaa
+    sr_Latn: Parnuma
+    zh: 派爾努縣
+    ccp: "\U0001111B\U00011122\U00011134\U0001111A\U0001112A"
+    ga: Pärnumaa
+    bs: Okrug Pärnumaa
+    mk: Перну
+    'no': Pärnu
+  comments:
+'71':
+  name: Raplamaa
+  code:
+  unofficial_names:
+  - Raplamaa
+  - Rapla
   geo:
-    latitude: 58.46634429999999
-    longitude: 24.69612
-    min_latitude: 57.8645448
-    min_longitude: 23.6090122
-    max_latitude: 58.7569807
-    max_longitude: 25.3071801
-  name: Pärnumaa
-'70':
-  unofficial_names: Raplamaa
+    latitude: 58.8492625
+    longitude: 24.7346568
+    min_latitude: 58.65556099999999
+    min_longitude: 24.0706308
+    max_latitude: 59.22798409999999
+    max_longitude: 25.3339442
   translations:
-    en: Rapla
     ar: مقاطعة رابلا
     az: Raplamaa
     be: Павет Рапла
@@ -553,6 +672,7 @@
     da: Raplamaa
     de: Kreis Rapla
     el: Επαρχία Ράπλα
+    en: Rapla County
     es: Condado de Rapla
     et: Rapla maakond
     fa: شهرستان رپلا
@@ -591,27 +711,38 @@
     uk: Рапламаа
     ur: رپلا کاؤنٹی
     vi: Hạt Rapla
-  geo:
-    latitude: 58.8492625
-    longitude: 24.7346568
-    min_latitude: 58.65556099999999
-    min_longitude: 24.0706308
-    max_latitude: 59.22798409999999
-    max_longitude: 25.3339442
-  name: Raplamaa
+    ceb: Raplamaa
+    sr_Latn: Rapla
+    zh: 拉普拉縣
+    ccp: "\U00011122\U0001111B\U00011134\U00011123"
+    ga: Raplamaa
+    bs: Okrug Raplamaa
+    mk: Рапла
+    'no': Rapla
+  comments:
 '74':
+  name: Saaremaa
+  code:
   unofficial_names:
   - Saare
   - Ösel
+  - Oesel
+  geo:
+    latitude: 58.4849721
+    longitude: 22.6136407
+    min_latitude: 57.9044003
+    min_longitude: 21.8281004
+    max_latitude: 58.64212449999999
+    max_longitude: 23.328579
   translations:
-    en: Saare
     be: Павет Саарэ
     bg: Сааре
     ca: Comtat de Saare
     cs: Saaremaa
     da: Saare maakond
-    de: Kreis Saare
+    de: Kreis Ösel
     el: Επαρχία Σάαρε
+    en: Saare County
     es: Condado de Saare
     et: Saare maakond
     fa: شهرستان ساره
@@ -627,6 +758,7 @@
     ja: サーレ県
     ka: საარემაა
     ko: 사레 주
+    la: Oesel
     lt: Sarės apskritis
     lv: Sāremā apriņķis
     ms: County Saare
@@ -640,18 +772,30 @@
     tr: Saare ili
     uk: Сааремаа
     ur: سارے کاؤنٹی
+    ceb: Saaremaa
+    sr_Latn: Sare
+    vi: Saare
+    zh: 薩雷縣
+    ccp: "\U00011125\U00011122\U0001112C"
+    ga: Saaremaa
+    bs: Okrug Saaremaa
+    mk: Саре
+    'no': Saare
+  comments:
+'79':
+  name: Tartumaa
+  code:
+  unofficial_names:
+  - Tartumaa
+  - Tartu
   geo:
-    latitude: 58.4849721
-    longitude: 22.6136407
-    min_latitude: 57.9044003
-    min_longitude: 21.8281004
-    max_latitude: 58.64212449999999
-    max_longitude: 23.328579
-  name: Saaremaa
-'78':
-  unofficial_names: Tartumaa
+    latitude: 58.40571279999999
+    longitude: 26.8015761
+    min_latitude: 58.113041
+    min_longitude: 26.078548
+    max_latitude: 58.682793
+    max_longitude: 27.5323021
   translations:
-    en: Tartu
     ar: مقاطعة تارتو
     be: павет Тарту
     bg: Тарту
@@ -659,8 +803,9 @@
     ca: Comtat de Tartu
     cs: Tartumaa
     da: Tartumaa
-    de: Kreis Tartu
+    de: Kreis Dorpat
     el: Επαρχία Τάρτου
+    en: Tartu County
     es: Condado de Tartu
     et: Tartu maakond
     fa: شهرستان تارتو
@@ -698,18 +843,31 @@
     uk: Тартумаа
     ur: تارتو کاؤنٹی
     vi: Hạt Tartu
+    ceb: Tartumaa
+    sr_Latn: Tartu
+    zh: 塔爾圖縣
+    ccp: "\U00011111\U00011122\U00011134\U00011111\U0001112A"
+    ga: Tartumaa
+    hu: Tartumaa
+    kk: Тартумаа
+    bs: Okrug Tartumaa
+    mk: Тарту
+    'no': Tartu
+  comments:
+'81':
+  name: Valgamaa
+  code:
+  unofficial_names:
+  - Valgamaa
+  - Valga
   geo:
-    latitude: 58.40571279999999
-    longitude: 26.8015761
-    min_latitude: 58.113041
-    min_longitude: 26.078548
-    max_latitude: 58.682793
-    max_longitude: 27.5323021
-  name: Tartumaa
-'82':
-  unofficial_names: Valgamaa
+    latitude: 57.9103441
+    longitude: 26.1601819
+    min_latitude: 57.57223490000001
+    min_longitude: 25.5805171
+    max_latitude: 58.184323
+    max_longitude: 26.6250823
   translations:
-    en: Valga
     ar: مقاطعة فالغا
     be: Павет Валга
     bg: Валга
@@ -719,6 +877,7 @@
     da: Valgamaa
     de: Kreis Valga
     el: Επαρχία Βάλγκα
+    en: Valga County
     es: Condado de Valga
     et: Valga maakond
     fa: شهرستان والگا
@@ -757,18 +916,29 @@
     uk: Валгамаа
     ur: والگا کاؤنٹی
     vi: Hạt Valga
-  geo:
-    latitude: 57.9103441
-    longitude: 26.1601819
-    min_latitude: 57.57223490000001
-    min_longitude: 25.5805171
-    max_latitude: 58.184323
-    max_longitude: 26.6250823
-  name: Valgamaa
+    ceb: Valgamaa
+    sr_Latn: Valga
+    zh: 瓦爾加縣
+    ccp: "\U0001111E\U00011123\U00011134\U00011109"
+    ga: Valgamaa
+    bs: Okrug Valgamaa
+    mk: Валга
+    'no': Valga
+  comments:
 '84':
-  unofficial_names: Viljandimaa
+  name: Viljandimaa
+  code:
+  unofficial_names:
+  - Viljandimaa
+  - Viljandi
+  geo:
+    latitude: 58.2821746
+    longitude: 25.5752233
+    min_latitude: 57.9559418
+    min_longitude: 24.9719397
+    max_latitude: 58.69011700000001
+    max_longitude: 26.190842
   translations:
-    en: Viljandi
     ar: مقاطعة فيلياندي
     be: Павет Вільяндзі
     bg: Вилянди
@@ -778,6 +948,7 @@
     da: Viljandimaa
     de: Kreis Viljandi
     el: Επαρχία Βιλγιάντι
+    en: Viljandi County
     es: Condado de Viljandi
     et: Viljandi maakond
     fa: شهرستان ویلیاندی
@@ -816,19 +987,30 @@
     uk: Вільяндімаа
     ur: ویلیاندی کاؤنٹی
     vi: Hạt Viljandi
-  geo:
-    latitude: 58.2821746
-    longitude: 25.5752233
-    min_latitude: 57.9559418
-    min_longitude: 24.9719397
-    max_latitude: 58.69011700000001
-    max_longitude: 26.190842
-  name: Viljandimaa
-'86':
+    ceb: Viljandimaa
+    sr_Latn: Viljandi
+    zh: 維爾揚迪縣
+    ccp: "\U0001111E\U00011128\U00011123\U00011134\U0001110E\U0001111A\U00011134\U00011113\U00011128"
+    ga: Viljandimaa
+    kk: Вильяндимаа
+    bs: Okrug Viljandimaa
+    mk: Вилјанди
+    'no': Viljandi
+  comments:
+'87':
+  name: Võrumaa
+  code:
   unofficial_names:
-  - Vorumaa
+  - Võrumaa
+  - Võru
+  geo:
+    latitude: 57.80381070000001
+    longitude: 26.8524025
+    min_latitude: 57.50931600000001
+    min_longitude: 26.3708779
+    max_latitude: 57.9571869
+    max_longitude: 27.554923
   translations:
-    en: Võru
     ar: مقاطعة فورو
     be: Павет Выру
     bg: Въру
@@ -838,6 +1020,7 @@
     da: Võrumaa
     de: Kreis Võru
     el: Επαρχία Βόρου
+    en: Võru County
     es: Condado de Võru
     et: Võru maakond
     fa: شهرستان وورو
@@ -876,6 +1059,330 @@
     uk: Вирумаа
     ur: وورو کاؤنٹی
     vi: Hạt Voru
+    ceb: Võrumaa
+    sr_Latn: Viru
+    zh: 沃魯縣
+    ccp: "\U0001111E\U0001112E\U00011122\U0001112A"
+    ga: Võrumaa
+    bs: Okrug Võrumaa
+    mk: Виру
+    'no': Võru
+  comments:
+'130':
+  translations:
+    en: Alutaguse
+  name: Alutaguse
+'141':
+  translations:
+    en: Anija
+  name: Anija
+'142':
+  translations:
+    en: Antsla
+  name: Antsla
+'171':
+  translations:
+    en: Elva
+  name: Elva
+'184':
+  translations:
+    en: Haapsalu
+  name: Haapsalu
+'191':
+  translations:
+    en: Haljala
+  name: Haljala
+'198':
+  translations:
+    en: Harku
+  name: Harku
+'205':
+  translations:
+    en: Hiiumaa
+  name: Hiiumaa
+'214':
+  translations:
+    en: Häädemeeste
+  name: Häädemeeste
+'245':
+  translations:
+    en: Jõelähtme
+  name: Jõelähtme
+'247':
+  translations:
+    en: Jõgeva
+  name: Jõgeva
+'251':
+  translations:
+    en: Jõhvi
+  name: Jõhvi
+'255':
+  translations:
+    en: Järva
+  name: Järva
+'272':
+  translations:
+    en: Kadrina
+  name: Kadrina
+'283':
+  translations:
+    en: Kambja
+  name: Kambja
+'284':
+  translations:
+    en: Kanepi
+  name: Kanepi
+'291':
+  translations:
+    en: Kastre
+  name: Kastre
+'293':
+  translations:
+    en: Kehtna
+  name: Kehtna
+'296':
+  translations:
+    en: Keila
+  name: Keila
+'303':
+  translations:
+    en: Kihnu
+  name: Kihnu
+'305':
+  translations:
+    en: Kiili
+  name: Kiili
+'317':
+  translations:
+    en: Kohila
+  name: Kohila
+'321':
+  translations:
+    en: Kohtla-Järve
+  name: Kohtla-Järve
+'338':
+  translations:
+    en: Kose
+  name: Kose
+'353':
+  translations:
+    en: Kuusalu
+  name: Kuusalu
+'424':
+  translations:
+    en: Loksa
+  name: Loksa
+'430':
+  translations:
+    en: Lääneranna
+  name: Lääneranna
+'431':
+  translations:
+    en: Lääne-Harju
+  name: Lääne-Harju
+'432':
+  translations:
+    en: Luunja
+  name: Luunja
+'441':
+  translations:
+    en: Lääne-Nigula
+  name: Lääne-Nigula
+'442':
+  translations:
+    en: Lüganuse
+  name: Lüganuse
+'446':
+  translations:
+    en: Maardu
+  name: Maardu
+'478':
+  translations:
+    en: Muhu
+  name: Muhu
+'480':
+  translations:
+    en: Mulgi
+  name: Mulgi
+'486':
+  translations:
+    en: Mustvee
+  name: Mustvee
+'503':
+  translations:
+    en: Märjamaa
+  name: Märjamaa
+'511':
+  translations:
+    en: Narva
+  name: Narva
+'514':
+  translations:
+    en: Narva-Jõesuu
+  name: Narva-Jõesuu
+'528':
+  translations:
+    en: Nõo
+  name: Nõo
+'557':
+  translations:
+    en: Otepää
+  name: Otepää
+'567':
+  translations:
+    en: Paide
+  name: Paide
+'586':
+  translations:
+    en: Peipsiääre
+  name: Peipsiääre
+'615':
+  translations:
+    en: Põhja-Sakala
+  name: Põhja-Sakala
+'618':
+  translations:
+    en: Põltsamaa
+  name: Põltsamaa
+'622':
+  translations:
+    en: Põlva
+  name: Põlva
+'624':
+  translations:
+    en: Pärnu
+  name: Pärnu
+'638':
+  translations:
+    en: Põhja-Pärnumaa
+  name: Põhja-Pärnumaa
+'651':
+  translations:
+    en: Raasiku
+  name: Raasiku
+'653':
+  translations:
+    en: Rae
+  name: Rae
+'661':
+  translations:
+    en: Rakvere
+  name: Rakvere
+'663':
+  translations:
+    en: Rakvere
+  name: Rakvere
+'668':
+  translations:
+    en: Rapla
+  name: Rapla
+'689':
+  translations:
+    en: Ruhnu
+  name: Ruhnu
+'698':
+  translations:
+    en: Rõuge
+  name: Rõuge
+'708':
+  translations:
+    en: Räpina
+  name: Räpina
+'712':
+  translations:
+    en: Saarde
+  name: Saarde
+'714':
+  translations:
+    en: Saaremaa
+  name: Saaremaa
+'719':
+  translations:
+    en: Saku
+  name: Saku
+'726':
+  translations:
+    en: Saue
+  name: Saue
+'732':
+  translations:
+    en: Setomaa
+  name: Setomaa
+'735':
+  translations:
+    en: Sillamäe
+  name: Sillamäe
+'784':
+  translations:
+    en: Tallinn
+  name: Tallinn
+'792':
+  translations:
+    en: Tapa
+  name: Tapa
+'793':
+  translations:
+    en: Tartu
+  name: Tartu
+'796':
+  translations:
+    en: Tartu
+  name: Tartu
+'803':
+  translations:
+    en: Toila
+  name: Toila
+'809':
+  translations:
+    en: Tori
+  name: Tori
+'824':
+  translations:
+    en: Tõrva
+  name: Tõrva
+'834':
+  translations:
+    en: Türi
+  name: Türi
+'855':
+  translations:
+    en: Valga
+  name: Valga
+'890':
+  translations:
+    en: Viimsi
+  name: Viimsi
+'897':
+  translations:
+    en: Viljandi
+  name: Viljandi
+'899':
+  translations:
+    en: Viljandi
+  name: Viljandi
+'901':
+  translations:
+    en: Vinni
+  name: Vinni
+'903':
+  translations:
+    en: Viru-Nigula
+  name: Viru-Nigula
+'907':
+  translations:
+    en: Vormsi
+  name: Vormsi
+'917':
+  translations:
+    en: Võru
+  name: Võru
+'919':
+  name: Võru
+  translations:
+    en: Võru
+'928':
+  translations:
+    en: Väike-Maarja
   geo:
     latitude: 57.80381070000001
     longitude: 26.8524025
@@ -883,4 +1390,4 @@
     min_longitude: 26.3708779
     max_latitude: 57.9571869
     max_longitude: 27.554923
-  name: Võrumaa
+  name: Väike-Maarja
